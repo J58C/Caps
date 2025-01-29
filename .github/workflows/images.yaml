@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - '17048'
-    paths:
-      - 'Caps32Project.kicad_pcb'
+
 jobs:
   render-images:
     name: PCB Render
@@ -19,13 +18,13 @@ jobs:
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/images/17048
+          output_path: ${{ github.workspace }}/images
           
       - name: Render PCB GIF
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/images/17048
+          output_path: ${{ github.workspace }}/images
           animation: gif
 
       - name: Commit and Push Changes
@@ -35,4 +34,3 @@ jobs:
           git add images
           git commit -m "Update PCB render images"
           git push origin 17048
-        continue-on-error: true
