@@ -34,4 +34,3 @@ jobs:
           git add images
           git commit -m "Update PCB render images"
           git push origin 42
-        continue-on-error: true
