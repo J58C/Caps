@@ -3,8 +3,7 @@ on:
   push:
     branches:
       - '42'
-    paths:
-      - 'Caps32Project.kicad_pcb'
+
 jobs:
   render-images:
     name: PCB Render
