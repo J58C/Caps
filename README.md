@@ -1,3 +1,3 @@
-![animation](https://J58C.github.io/Caps32Project/rotating.gif)
-![top](https://J58C.github.io/Caps32Project/top.png)
-![bottom](https://J58C.github.io/Caps32Project/bottom.png)
+![animation](https://github.com/J58C/Caps32Project/tree/42/images/42/rotating.gif)
+![top](https://github.com/J58C/Caps32Project/tree/42/images/42/top.png)
+![bottom](https://github.com/J58C/Caps32Project/tree/42/images/42/bottom.png)
