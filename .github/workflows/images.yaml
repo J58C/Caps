@@ -20,62 +20,41 @@ jobs:
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/images
+          output_path: ${{ github.workspace }}/Images/42
           
       - name: Render PCB GIF
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/images
+          output_path: ${{ github.workspace }}/Images/42
           animation: gif
 
       - name: Commit and Push Branch 42
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add images
+          git add Images/42/*
           git commit -m "Update PCB render images"
           git push origin 42
 
-      - name: Copy Files from 42 to main/42
+      - name: Copy Files from 42 to origin/main
         run: |
-          # Checkout to the main branch
           git fetch origin main
           git checkout main
-
-          # Set git config again in case it's necessary for main branch operations
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Remove images folder if it exists in main branch
-          rm -rf images
-
-          # Create the target folder Images/42 in main branch
           mkdir -p Images/42
-
-          # Checkout images from branch 42
-          git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
-
-          # Move the files to the Images/42 directory
-          mv images/bottom.png images/rotating.gif images/top.png Images/42/
+          git checkout 42 -- Images/42/bottom.png Images/42/rotating.gif Images/42/top.png
+          mv Images/42/bottom.png Images/42/rotating.gif imageImages/42/top.png Images/42/
 
       - name: Commit and Push Changes to Main
         run: |
           git add Images/42/*
-          git commit -m "Move PCB render images from branch 42 to Images/42 and remove old images"
+          git commit -m "Move PCB render images from branch 42 to Images/42"
           git push origin main
 
       - name: Remove 'images' Folder from Branch 42
         run: |
-          # Checkout branch 42 again
           git checkout 42
-
-          # Set git config again in case it's necessary for branch 42 operations
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Remove the images folder in branch 42
-          rm -rf images
+          rm -rf Images
           git add .  # Stage the removal
           git commit -m "Remove images folder after moving to main"
           git push origin 42
