@@ -29,25 +29,29 @@ jobs:
           output_path: ${{ github.workspace }}/images
           animation: gif
 
+      - name: Stash Local Changes
+        run: |
+          git stash
+
       - name: Checkout Main Branch
         run: |
           git fetch origin main
           git checkout main
           git pull origin main
-
-      - name: Remove Old Rendered Images in "Images/42"
+          
+      - name: Remove Old Rendered Images in "Images/702"
         run: |
-          rm -rf Images/42/* || true
+          rm -rf Images/702/* || true
 
-      - name: Move New Images to "Images/42"
+      - name: Move New Images to "Images/702"
         run: |
-          mkdir -p Images/42
-          mv images/* Images/42/
+          mkdir -p Images/702
+          mv images/* Images/702/
 
       - name: Commit and Push Changes to Main Branch
         run: |
-          git add Images/42/
+          git add Images/702/
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update PCB render images for 42"
-          git push origin main
+          git commit -m "Update PCB render images for 702"
+          git push origin main  

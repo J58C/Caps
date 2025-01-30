@@ -10706,6 +10706,14 @@
 		(uuid "289a2c9f-05ab-4b2e-906a-dfc98eeed24c")
 	)
 	(segment
+		(start 34.8325 35.6)
+		(end 34 35.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "3819efb8-6d0d-4b76-bd64-9541ae49905e")
+	)
+	(segment
 		(start 39.08 52.415)
 		(end 39.08 50.875)
 		(width 0.2)
@@ -10882,7 +10890,7 @@
 		(uuid "59175503-f6cf-4bf4-a773-ce1c17e5878d")
 	)
 	(via
-		(at 34.8325 35.6)
+		(at 34 35.6)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
