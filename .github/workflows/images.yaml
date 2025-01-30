@@ -75,6 +75,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf images
+          rm -rf main-branch
           git add .
           git commit -m "Remove images folder after moving to main" || true
           git push origin 42
