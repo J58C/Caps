@@ -1,4 +1,5 @@
 name: Compress KiCad Files
+
 on:
   push:
     branches:
@@ -8,8 +9,9 @@ on:
       - 'Caps32Project.kicad_prl'
       - 'Caps32Project.kicad_pro'
       - 'Caps32Project.kicad_sch'
+
 jobs:
-  Compression:
+  Compressing:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,25 +25,24 @@ jobs:
         id: datetime
         run: echo "timestamp=42-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
 
-      - name: Create ZIP archive
-        run: |
-          mkdir -p Archive
-          zip "Archive/${{ env.timestamp }}.zip" Caps32Project.kicad_pcb Caps32Project.kicad_prl Caps32Project.kicad_pro Caps32Project.kicad_sch
+      - name: Create ZIP archive (outside Archive folder)
+        run: zip "${{ env.timestamp }}.zip" Caps32Project.kicad_pcb Caps32Project.kicad_prl Caps32Project.kicad_pro Caps32Project.kicad_sch
 
       - name: Checkout main branch
         run: |
           git fetch origin main
           git checkout main
+          git pull origin main
 
       - name: Move ZIP file to main branch
         run: |
           mkdir -p Archive
-          cp "Archive/${{ env.timestamp }}.zip" Archive/
+          mv "${{ env.timestamp }}.zip" Archive/
 
       - name: Commit and Push ZIP to main branch
         run: |
           git add Archive/${{ env.timestamp }}.zip
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Add ${GITHUB_ENV} to Archive from branch 42"
+          git commit -m "Add archive: ${{ env.timestamp }} from branch 42"
           git push origin main
