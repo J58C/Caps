@@ -178,6 +178,7 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -280,6 +281,8 @@
 				)
 			)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "Connector:USB_C_Plug_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -1397,6 +1400,226 @@
 							)
 						)
 					)
+<<<<<<< Updated upstream
+=======
+					(number "G"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Custom:MAX17048G_T10"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX17048G_T10"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MAX17048G_T10:SON50P200X200X80-9N"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Analog Devices"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge\n                        \n"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "TDFN-8 Maxim"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MAX17048G+T10"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda"
+				(at 6.858 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MAX17048G_T10_0_0"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -1.27 0)
+					(length 5.08)
+					(name "CTG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "CELL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 6.35 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+>>>>>>> Stashed changes
 					(number "4"
 						(effects
 							(font
@@ -1497,6 +1720,383 @@
 						)
 					)
 				)
+<<<<<<< Updated upstream
+=======
+			)
+		)
+		(symbol "Custom:SSSS811101"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SSSS811101"
+				(at -5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Custom:SW_SSSS811101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ALPS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.60 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SSSS811101/ALPS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSSS811101/ALPS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SSSS811101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Switch Slide SP Side Slide 0.3A 5VDC 10000Cycles Gull Wing SMD T/R\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "ALPS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SSSS811101_0_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.715) (xy 1.27 -4.445) (xy 0 -5.08) (xy 1.27 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.175) (xy 1.27 -1.905) (xy 0 -2.54) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 1.27 0.635) (xy 0 0) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.905) (xy 1.27 3.175) (xy 0 2.54) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 0 -5.715) (xy -1.27 -5.715) (xy -1.27 0.635) (xy 0 0.635) (xy 0 -0.635) (xy -0.635 -0.635)
+						(xy -0.635 -4.445) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+>>>>>>> Stashed changes
 			)
 		)
 		(symbol "Device:C"
@@ -3808,6 +4408,7 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(symbol "Switch:CK_KMS2xxGP"
 			(pin_names
 				(offset 1.016) hide)
@@ -4279,6 +4880,8 @@
 				)
 			)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "Transistor_FET:AO3401A"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5032,6 +5635,7 @@
 		)
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 49.53 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5077,6 +5681,23 @@
 		(at 152.4 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
+=======
+		(at 101.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3674578f-9535-42f4-bff7-8bd525333c84")
+	)
+	(junction
+		(at 109.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a517f83-c6db-42d3-a653-58811a2ce186")
+	)
+	(junction
+		(at 55.88 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+>>>>>>> Stashed changes
 		(uuid "59e095e2-873a-4e90-bdb3-d2ae9384b3b3")
 	)
 	(junction
@@ -5086,13 +5707,21 @@
 		(uuid "5d3f1073-c0f5-41a6-b5cd-175616bc62df")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 38.1 128.27)
+=======
+		(at 36.83 85.09)
+>>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7159ac76-399f-4678-a913-95e2ffead6f2")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 152.4 119.38)
+=======
+		(at 55.88 76.2)
+>>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb7fb90-7aec-4186-bcca-602bb963c60a")
@@ -5104,6 +5733,7 @@
 		(uuid "7e1d58a7-14fb-4843-a0fe-7943e8404a71")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 45.72 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5123,12 +5753,25 @@
 	)
 	(junction
 		(at 27.94 123.19)
+=======
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83509e25-e54e-4eb2-9bdb-e168e82ac33f")
+	)
+	(junction
+		(at 26.67 80.01)
+>>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6439f10-dbea-4b37-ac56-765e9b9f6446")
 	)
 	(junction
+<<<<<<< Updated upstream
 		(at 30.48 123.19)
+=======
+		(at 29.21 80.01)
+>>>>>>> Stashed changes
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d93f049b-a429-4d71-9ba9-5efab74989e9")
@@ -5142,8 +5785,17 @@
 		(uuid "0d4397c5-dc04-4c8c-8013-fd5bacf91acb")
 	)
 	(no_connect
+<<<<<<< Updated upstream
 		(at 105.41 67.31)
 		(uuid "1b617fcd-dc7e-4f81-8b95-4f725eec7460")
+=======
+		(at 168.91 19.05)
+		(uuid "1284930b-e7fd-4f53-98ce-9a484e2011f4")
+	)
+	(no_connect
+		(at 127 46.99)
+		(uuid "1af27e15-cad9-4a04-ab62-625914716086")
+>>>>>>> Stashed changes
 	)
 	(no_connect
 		(at 135.89 49.53)
@@ -5214,11 +5866,15 @@
 		(uuid "90cc439b-78d7-4068-a2d5-e7daf492974c")
 	)
 	(no_connect
+<<<<<<< Updated upstream
 		(at 74.93 67.31)
 		(uuid "94bf4d15-5b81-4b6b-92ea-42b5f2198f69")
 	)
 	(no_connect
 		(at 201.93 127)
+=======
+		(at 173.99 83.82)
+>>>>>>> Stashed changes
 		(uuid "a17e8510-f156-416a-b706-ebf25c2bd4be")
 	)
 	(no_connect
@@ -5226,6 +5882,7 @@
 		(uuid "a7d5795d-69e0-469a-b4a1-ea22843153a8")
 	)
 	(no_connect
+<<<<<<< Updated upstream
 		(at 177.8 119.38)
 		(uuid "ad6ab635-de38-4eb9-b08d-d07c58cc2a1e")
 	)
@@ -5251,6 +5908,13 @@
 	)
 	(no_connect
 		(at 50.8 34.29)
+=======
+		(at 81.28 76.2)
+		(uuid "ad6ab635-de38-4eb9-b08d-d07c58cc2a1e")
+	)
+	(no_connect
+		(at 113.03 34.29)
+>>>>>>> Stashed changes
 		(uuid "ba4c45b0-6590-49a8-8683-59ad6fb8f350")
 	)
 	(no_connect
@@ -5289,6 +5953,7 @@
 		(at 171.45 44.45)
 		(uuid "f5c4207e-4c99-4f70-9504-0d0e0104f2ac")
 	)
+<<<<<<< Updated upstream
 	(no_connect
 		(at 105.41 52.07)
 		(uuid "f633392c-7648-4846-9b23-51f0614b1ccc")
@@ -5296,6 +5961,11 @@
 	(wire
 		(pts
 			(xy 27.94 118.11) (xy 27.94 123.19)
+=======
+	(wire
+		(pts
+			(xy 26.67 74.93) (xy 26.67 80.01)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +5975,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 137.16 138.43) (xy 137.16 125.73)
+=======
+			(xy 151.13 96.52) (xy 151.13 83.82)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5315,7 +5989,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 30.48 123.19) (xy 30.48 128.27)
+=======
+			(xy 29.21 80.01) (xy 29.21 85.09)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5325,32 +6003,53 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 157.48 100.33) (xy 157.48 95.25)
+=======
+			(xy 109.22 88.9) (xy 109.22 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "18b7172b-4db4-45b6-9c9a-fd04e6879a7c")
 	)
 	(wire
 		(pts
 			(xy 95.25 130.81) (xy 95.25 135.89)
+=======
+		(uuid "1c2a955b-a046-404b-ab33-c4fde7e685f2")
+	)
+	(wire
+		(pts
+			(xy 135.89 81.28) (xy 144.78 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "1c2a955b-a046-404b-ab33-c4fde7e685f2")
 	)
 	(wire
 		(pts
 			(xy 121.92 123.19) (xy 130.81 123.19)
+=======
+		(uuid "1e0621ed-ba6d-4db8-82be-22fae5be4cf0")
+	)
+	(wire
+		(pts
+			(xy 68.58 95.25) (xy 68.58 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "1e0621ed-ba6d-4db8-82be-22fae5be4cf0")
 	)
 	(wire
@@ -5406,6 +6105,13 @@
 	(wire
 		(pts
 			(xy 196.85 132.08) (xy 196.85 138.43)
+=======
+		(uuid "22a32f8f-3c49-49ff-9cbc-710bae228460")
+	)
+	(wire
+		(pts
+			(xy 168.91 87.63) (xy 168.91 96.52)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5415,12 +6121,17 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 157.48 78.74) (xy 157.48 85.09)
+=======
+			(xy 113.03 50.8) (xy 113.03 57.15)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "2db42e08-67a8-4092-9fe9-874ffd6f875e")
 	)
 	(wire
@@ -5436,6 +6147,13 @@
 	(wire
 		(pts
 			(xy 27.94 125.73) (xy 27.94 123.19)
+=======
+		(uuid "3352c73b-2071-4c95-a3ce-7305e78f2397")
+	)
+	(wire
+		(pts
+			(xy 26.67 82.55) (xy 26.67 80.01)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5445,7 +6163,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 187.96 119.38) (xy 187.96 124.46)
+=======
+			(xy 91.44 76.2) (xy 91.44 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5455,7 +6177,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 27.94 138.43) (xy 27.94 133.35)
+=======
+			(xy 26.67 95.25) (xy 26.67 90.17)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5465,52 +6191,89 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 123.19 78.74) (xy 123.19 81.28)
+=======
+			(xy 101.6 81.28) (xy 101.6 76.2)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "50ca4f54-857c-4ea5-8b75-473fe0f03001")
 	)
 	(wire
 		(pts
 			(xy 50.8 128.27) (xy 45.72 128.27)
+=======
+		(uuid "5662eb14-c3d1-4477-978e-016c152cbebf")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 144.78 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "50d2c939-f241-457e-abe9-dae05b5fd83b")
 	)
 	(wire
 		(pts
 			(xy 87.63 123.19) (xy 87.63 118.11)
+=======
+		(uuid "60d94e1d-8133-4747-8f5f-f849db5ec9aa")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 91.44 95.25)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "5662eb14-c3d1-4477-978e-016c152cbebf")
 	)
 	(wire
 		(pts
 			(xy 140.97 100.33) (xy 140.97 95.25)
+=======
+		(uuid "60f5106a-9e99-4e9d-b0da-e146c687d5c1")
+	)
+	(wire
+		(pts
+			(xy 162.56 26.67) (xy 168.91 26.67)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "5a04d6a3-0eb9-4815-850c-bc509a15cc20")
 	)
 	(wire
 		(pts
 			(xy 130.81 128.27) (xy 130.81 123.19)
+=======
+		(uuid "6b218b51-846c-470d-a52a-2718077b392c")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 101.6 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "60d94e1d-8133-4747-8f5f-f849db5ec9aa")
 	)
 	(wire
@@ -5552,6 +6315,9 @@
 			(type default)
 		)
 		(uuid "72253213-7d51-490a-b934-d2a73a7f7620")
+=======
+		(uuid "7a950003-47a3-4b64-8010-8d049cf239f7")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -5565,6 +6331,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 49.53 69.85) (xy 49.53 77.47)
 		)
 		(stroke
@@ -5576,6 +6343,9 @@
 	(wire
 		(pts
 			(xy 123.19 26.67) (xy 123.19 38.1)
+=======
+			(xy 26.67 21.59) (xy 26.67 33.02)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5585,13 +6355,30 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 121.92 138.43) (xy 121.92 128.27)
+=======
+			(xy 135.89 96.52) (xy 135.89 86.36)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86175083-a26f-464e-9541-ce1249ba0e84")
+<<<<<<< Updated upstream
+=======
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879db144-6333-447c-9362-2f8e9adf463c")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -5615,7 +6402,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 209.55 134.62) (xy 209.55 138.43)
+=======
+			(xy 181.61 91.44) (xy 181.61 96.52)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5625,13 +6416,18 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 152.4 118.11) (xy 152.4 119.38)
+=======
+			(xy 55.88 74.93) (xy 55.88 76.2)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a1dd744-63d9-4037-a84e-8e98e9edb5a3")
+<<<<<<< Updated upstream
 	)
 	(wire
 		(pts
@@ -5642,6 +6438,8 @@
 			(type default)
 		)
 		(uuid "8a507be7-d008-4315-a772-5181b9b1f6ce")
+=======
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -5665,7 +6463,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 196.85 119.38) (xy 196.85 124.46)
+=======
+			(xy 168.91 76.2) (xy 168.91 80.01)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5675,6 +6477,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 68.58 118.11) (xy 68.58 128.27)
 		)
 		(stroke
@@ -5716,6 +6519,9 @@
 	(wire
 		(pts
 			(xy 27.94 123.19) (xy 30.48 123.19)
+=======
+			(xy 26.67 80.01) (xy 29.21 80.01)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +6531,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 40.64 138.43) (xy 40.64 135.89)
+=======
+			(xy 118.11 43.18) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe45824-7e35-4af3-abe7-b2a96421bc74")
+	)
+	(wire
+		(pts
+			(xy 39.37 95.25) (xy 39.37 92.71)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5745,7 +6565,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 95.25 123.19) (xy 101.6 123.19)
+=======
+			(xy 109.22 81.28) (xy 115.57 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5755,7 +6579,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 177.8 49.53) (xy 171.45 49.53)
+=======
+			(xy 81.28 44.45) (xy 74.93 44.45)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5775,6 +6603,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 49.53 69.85) (xy 53.34 69.85)
 		)
 		(stroke
@@ -5786,6 +6615,9 @@
 	(wire
 		(pts
 			(xy 177.8 62.23) (xy 177.8 57.15)
+=======
+			(xy 81.28 57.15) (xy 81.28 52.07)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5795,7 +6627,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 152.4 138.43) (xy 152.4 130.81)
+=======
+			(xy 55.88 95.25) (xy 55.88 87.63)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +6641,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 130.81 123.19) (xy 137.16 123.19)
+=======
+			(xy 144.78 81.28) (xy 151.13 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5815,72 +6655,125 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 50.8 123.19) (xy 50.8 128.27)
+=======
+			(xy 81.28 95.25) (xy 81.28 87.63)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "b5f9a498-6328-4ef3-a731-bf0e86362a08")
 	)
 	(wire
 		(pts
 			(xy 177.8 138.43) (xy 177.8 130.81)
+=======
+		(uuid "b6e0b113-77e4-4f91-b91c-006c3ccf6d60")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 109.22 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "b6e0b113-77e4-4f91-b91c-006c3ccf6d60")
 	)
 	(wire
 		(pts
 			(xy 87.63 123.19) (xy 95.25 123.19)
+=======
+		(uuid "b8b2eeed-57cc-4b9b-a873-3a077dc38fab")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 144.78 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "b8b2eeed-57cc-4b9b-a873-3a077dc38fab")
 	)
 	(wire
 		(pts
 			(xy 130.81 138.43) (xy 130.81 135.89)
+=======
+		(uuid "bfa06ac2-e55c-46ea-9a1c-e7b5816b9e91")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 139.7 91.44)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "bfa06ac2-e55c-46ea-9a1c-e7b5816b9e91")
 	)
 	(wire
 		(pts
 			(xy 50.8 82.55) (xy 50.8 74.93)
+=======
+		(uuid "d05ebcda-025b-409c-b84e-c2874487dc92")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 55.88 80.01)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "c744cca8-2f4f-48ea-aa69-49a9e322b778")
 	)
 	(wire
 		(pts
 			(xy 125.73 138.43) (xy 125.73 133.35)
+=======
+		(uuid "d1c6d7c6-2b4c-4d90-b7ab-b62bd3192f37")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 81.28)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "d05ebcda-025b-409c-b84e-c2874487dc92")
 	)
 	(wire
 		(pts
 			(xy 152.4 119.38) (xy 152.4 123.19)
+=======
+		(uuid "dd480a20-adb2-4855-b8f5-edbcd6354c17")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 55.88 87.63)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "d1c6d7c6-2b4c-4d90-b7ab-b62bd3192f37")
 	)
 	(wire
@@ -5916,6 +6809,13 @@
 	(wire
 		(pts
 			(xy 53.34 128.27) (xy 50.8 128.27)
+=======
+		(uuid "ea938a22-c1e2-4442-abb4-dbeb3837dc10")
+	)
+	(wire
+		(pts
+			(xy 45.72 85.09) (xy 39.37 85.09)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5925,7 +6825,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 121.92 125.73) (xy 125.73 125.73)
+=======
+			(xy 135.89 83.82) (xy 139.7 83.82)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5935,6 +6839,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 45.72 128.27) (xy 40.64 128.27)
 		)
 		(stroke
@@ -5946,6 +6851,9 @@
 	(wire
 		(pts
 			(xy 171.45 62.23) (xy 171.45 59.69)
+=======
+			(xy 74.93 57.15) (xy 74.93 54.61)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -5955,13 +6863,18 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 95.25 135.89) (xy 101.6 135.89)
+=======
+			(xy 109.22 93.98) (xy 115.57 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fba020ac-8359-49b2-8f97-660d31d706b3")
+<<<<<<< Updated upstream
 	)
 	(wire
 		(pts
@@ -5976,6 +6889,12 @@
 	(text_box "0x57"
 		(exclude_from_sim no)
 		(at 59.69 93.98 0)
+=======
+	)
+	(text_box "0x57"
+		(exclude_from_sim no)
+		(at 184.15 33.02 0)
+>>>>>>> Stashed changes
 		(size 0 0)
 		(stroke
 			(width 0)
@@ -5994,7 +6913,11 @@
 	)
 	(text_box "0x36\n"
 		(exclude_from_sim no)
+<<<<<<< Updated upstream
 		(at 166.37 134.62 0)
+=======
+		(at 69.85 91.44 0)
+>>>>>>> Stashed changes
 		(size 0 0)
 		(stroke
 			(width 0)
@@ -6208,7 +7131,33 @@
 	)
 	(global_label "SDA"
 		(shape input)
+<<<<<<< Updated upstream
 		(at 177.8 123.19 0)
+=======
+		(at 81.28 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a01886d-dcfb-4b7b-b78b-513240daadb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8333 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 162.56 36.83 0)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6295,8 +7244,12 @@
 		)
 	)
 	(global_label "SCL"
+<<<<<<< Updated upstream
 		(shape input)
 		(at 177.8 127 0)
+=======
+		(shape input)
+		(at 81.28 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6306,7 +7259,34 @@
 		)
 		(uuid "73679133-f0fb-4380-9fc4-1ce7a4cc00ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7728 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 189.23 83.82 0)
+>>>>>>> Stashed changes
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73679133-f0fb-4380-9fc4-1ce7a4cc00ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< Updated upstream
 			(at 184.2928 127 0)
+=======
+			(at 196.0252 83.82 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,6 +7538,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "SDA"
 		(shape input)
 		(at 105.41 72.39 0)
@@ -6602,6 +7583,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(symbol
 		(lib_id "power:VBUS")
 		(at 50.8 31.75 270)
@@ -6670,6 +7653,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Switch:CK_KMS2xxGP")
 		(at 157.48 90.17 270)
 		(unit 1)
@@ -6741,6 +7725,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Sensor_Motion:MPU-6050")
 		(at 153.67 44.45 0)
 		(unit 1)
@@ -6878,7 +7864,279 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 177.8 138.43 0)
+=======
+		(at 81.28 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b78403-0f92-48c3-b394-104a0820b51f")
+		(property "Reference" "#PWR010"
+			(at 81.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68a4056-b66e-4df1-b5ef-a5b448213fbe")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071d22d7-2417-4fc0-8b18-e1b9c9a75c5a")
+		(property "Reference" "#PWR013"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe7d3e8-bd38-4ad7-a0f7-e7bdfcd6a4f1")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 45.72 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b958a4e-e4ea-4f48-98d8-c2cee083a14a")
+		(property "Reference" "#PWR038"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d136c58-c0b8-4ee3-92b4-a36838c31ebd")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "100bff16-8187-42ab-b447-20b61db5a056")
+		(property "Reference" "R3"
+			(at 141.732 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K"
+			(at 139.7 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 137.922 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01331632-6e3f-473c-8d8f-4712ec8e8864")
+		)
+		(pin "2"
+			(uuid "e6f01505-729b-4ce1-8bde-241db461210c")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 57.15 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7145,7 +8403,11 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 130.81 138.43 0)
+=======
+		(at 144.78 96.52 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7154,7 +8416,11 @@
 		(fields_autoplaced yes)
 		(uuid "1ab7203a-3515-4423-be2c-739adacbb2c3")
 		(property "Reference" "#PWR033"
+<<<<<<< Updated upstream
 			(at 130.81 144.78 0)
+=======
+			(at 144.78 102.87 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +8429,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 130.81 143.51 0)
+=======
+			(at 144.78 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7171,7 +8441,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 130.81 138.43 0)
+=======
+			(at 144.78 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +8454,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 130.81 138.43 0)
+=======
+			(at 144.78 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +8467,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 130.81 138.43 0)
+=======
+			(at 144.78 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,6 +8493,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 74.93 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7459,6 +8742,9 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 152.4 138.43 0)
+=======
+		(at 55.88 95.25 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7467,7 +8753,11 @@
 		(fields_autoplaced yes)
 		(uuid "2814bec9-11c3-4a8a-b71c-c85a1da39dc7")
 		(property "Reference" "#PWR04"
+<<<<<<< Updated upstream
 			(at 152.4 144.78 0)
+=======
+			(at 55.88 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +8766,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 152.4 143.51 0)
+=======
+			(at 55.88 100.33 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,7 +8778,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 152.4 138.43 0)
+=======
+			(at 55.88 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +8791,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 152.4 138.43 0)
+=======
+			(at 55.88 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +8804,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 152.4 138.43 0)
+=======
+			(at 55.88 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +8830,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 130.81 132.08 0)
+=======
+		(at 144.78 90.17 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7532,7 +8842,11 @@
 		(dnp no)
 		(uuid "298fcbdf-4397-426f-8073-282dc83117d7")
 		(property "Reference" "C5"
+<<<<<<< Updated upstream
 			(at 130.81 130.048 0)
+=======
+			(at 144.78 88.138 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +8855,11 @@
 			)
 		)
 		(property "Value" "4.7uF"
+<<<<<<< Updated upstream
 			(at 131.064 134.62 0)
+=======
+			(at 145.034 92.71 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +8868,11 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+<<<<<<< Updated upstream
 			(at 131.7752 135.89 0)
+=======
+			(at 145.7452 93.98 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +8881,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 130.81 132.08 0)
+=======
+			(at 144.78 90.17 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +8894,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< Updated upstream
 			(at 130.81 132.08 0)
+=======
+			(at 144.78 90.17 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7669,7 +8999,11 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+<<<<<<< Updated upstream
 		(at 187.96 119.38 0)
+=======
+		(at 91.44 76.2 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7678,7 +9012,11 @@
 		(fields_autoplaced yes)
 		(uuid "2c466569-5700-4111-b45e-4022ac8a220a")
 		(property "Reference" "#PWR011"
+<<<<<<< Updated upstream
 			(at 187.96 123.19 0)
+=======
+			(at 91.44 80.01 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +9025,11 @@
 			)
 		)
 		(property "Value" "+BATT"
+<<<<<<< Updated upstream
 			(at 187.96 114.3 0)
+=======
+			(at 91.44 71.12 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +9037,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 187.96 119.38 0)
+=======
+			(at 91.44 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +9050,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 187.96 119.38 0)
+=======
+			(at 91.44 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +9063,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+<<<<<<< Updated upstream
 			(at 187.96 119.38 0)
+=======
+			(at 91.44 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,6 +9082,7 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR011")
+<<<<<<< Updated upstream
 					(unit 1)
 				)
 			)
@@ -7811,6 +9166,8 @@
 			(project ""
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "Q2")
+=======
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -7886,6 +9243,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:R")
 		(at 45.72 82.55 270)
 		(mirror x)
@@ -8098,15 +9456,25 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 123.19 100.33 0)
+=======
+		(lib_id "power:GND")
+		(at 168.91 96.52 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "36b2215b-061c-4d4e-b00e-bc915f20c652")
 		(property "Reference" "#PWR016"
 			(at 123.19 106.68 0)
+=======
+		(uuid "385a76eb-2f85-436e-8d6b-e5549dd396f6")
+		(property "Reference" "#PWR037"
+			(at 168.91 102.87 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +9483,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 123.19 105.41 0)
+=======
+			(at 168.91 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +9495,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 123.19 100.33 0)
+=======
+			(at 168.91 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +9508,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 123.19 100.33 0)
+=======
+			(at 168.91 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,6 +9521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -8208,6 +9589,9 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 196.85 138.43 0)
+=======
+			(at 168.91 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +9682,11 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+<<<<<<< Updated upstream
 		(at 196.85 119.38 0)
+=======
+		(at 168.91 76.2 0)
+>>>>>>> Stashed changes
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8308,7 +9696,11 @@
 		(fields_autoplaced yes)
 		(uuid "3bc4aa88-8d15-49de-be26-22a25d8e592f")
 		(property "Reference" "#PWR036"
+<<<<<<< Updated upstream
 			(at 196.85 123.19 0)
+=======
+			(at 168.91 80.01 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +9709,11 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< Updated upstream
 			(at 196.85 114.3 0)
+=======
+			(at 168.91 71.12 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +9721,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 196.85 119.38 0)
+=======
+			(at 168.91 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +9734,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 196.85 119.38 0)
+=======
+			(at 168.91 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +9747,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< Updated upstream
 			(at 196.85 119.38 0)
+=======
+			(at 168.91 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,13 +9772,19 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:C")
 		(at 68.58 132.08 0)
+=======
+		(lib_id "power:+3V3")
+		(at 162.56 29.21 270)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "4c485791-8754-408c-a82f-74fd1971e949")
 		(property "Reference" "C7"
 			(at 68.58 130.048 0)
@@ -8392,6 +9806,12 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 69.5452 135.89 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "3f66f83b-6a6f-462b-9f35-14dc74189b98")
+		(property "Reference" "#PWR016"
+			(at 158.75 29.21 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,8 +9819,22 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 68.58 132.08 0)
+=======
+		(property "Value" "+3V3"
+			(at 166.37 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 29.21 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,8 +9842,22 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Unpolarized capacitor"
 			(at 68.58 132.08 0)
+=======
+		(property "Datasheet" ""
+			(at 162.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 162.56 29.21 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,6 +9866,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "29b6f047-b057-4b87-a221-bb1cd1fcbe79")
 		)
 		(pin "2"
@@ -8427,6 +9876,83 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "C7")
+=======
+			(uuid "93af97e1-de88-4392-b555-6a9c9e6573ea")
+		)
+		(instances
+			(project "Caps"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4462892c-8a0b-40d5-9e2d-35fd9b212d68")
+		(property "Reference" "R7"
+			(at 116.078 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 118.364 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 116.332 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a761f8f-bc72-41bf-bac3-15abbedae54d")
+		)
+		(pin "2"
+			(uuid "2ed8f365-21f9-426f-a9e8-c112559cb2fd")
+		)
+		(instances
+			(project "Caps"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "R7")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -8434,7 +9960,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 171.45 55.88 180)
+=======
+		(at 74.93 50.8 180)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8501,7 +10031,11 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+<<<<<<< Updated upstream
 		(at 152.4 118.11 0)
+=======
+		(at 55.88 74.93 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8510,7 +10044,11 @@
 		(fields_autoplaced yes)
 		(uuid "4d2ee61e-424c-4f39-98e0-0585c19c485c")
 		(property "Reference" "#PWR03"
+<<<<<<< Updated upstream
 			(at 152.4 121.92 0)
+=======
+			(at 55.88 78.74 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +10057,11 @@
 			)
 		)
 		(property "Value" "+BATT"
+<<<<<<< Updated upstream
 			(at 152.4 113.03 0)
+=======
+			(at 55.88 69.85 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +10069,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 152.4 118.11 0)
+=======
+			(at 55.88 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +10082,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 152.4 118.11 0)
+=======
+			(at 55.88 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +10095,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+<<<<<<< Updated upstream
 			(at 152.4 118.11 0)
+=======
+			(at 55.88 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,6 +10114,75 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR03")
+<<<<<<< Updated upstream
+=======
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df1f959-0719-4f24-aade-0043d6dbff61")
+		(property "Reference" "#PWR012"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "819b0a9e-95dc-4efc-8343-afebb80bd79d")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR012")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -8763,6 +10386,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 90.17 100.33 0)
 		(unit 1)
@@ -8829,6 +10453,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Diode:SS34")
 		(at 34.29 128.27 180)
 		(unit 1)
@@ -8838,7 +10464,11 @@
 		(dnp no)
 		(uuid "611ccef8-04eb-41e0-9c55-ac52ca790d59")
 		(property "Reference" "D4"
+<<<<<<< Updated upstream
 			(at 33.274 125.984 0)
+=======
+			(at 32.004 82.804 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +10476,11 @@
 			)
 		)
 		(property "Value" "SS34"
+<<<<<<< Updated upstream
 			(at 34.29 130.81 0)
+=======
+			(at 33.02 87.63 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +10531,11 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
+<<<<<<< Updated upstream
 		(at 209.55 127 0)
+=======
+		(at 181.61 83.82 0)
+>>>>>>> Stashed changes
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8906,7 +10544,11 @@
 		(dnp no)
 		(uuid "64f1b762-1b05-41b1-839a-9dc05fccc482")
 		(property "Reference" "D3"
+<<<<<<< Updated upstream
 			(at 207.01 120.142 0)
+=======
+			(at 179.07 76.962 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +10556,11 @@
 			)
 		)
 		(property "Value" "WS2812B"
+<<<<<<< Updated upstream
 			(at 198.12 123.2214 0)
+=======
+			(at 170.18 80.0414 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +10569,11 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+<<<<<<< Updated upstream
 			(at 208.28 134.62 0)
+=======
+			(at 180.34 91.44 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +10583,11 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+<<<<<<< Updated upstream
 			(at 207.01 136.525 0)
+=======
+			(at 179.07 93.345 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +10597,11 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+<<<<<<< Updated upstream
 			(at 209.55 127 0)
+=======
+			(at 181.61 83.82 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,17 +10697,222 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 140.97 100.33 0)
+=======
+		(lib_id "Custom:SSSS811101")
+		(at 179.07 24.13 180)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "6edb0e3b-f291-43c4-8bdf-00935ce06abf")
 		(property "Reference" "#PWR017"
 			(at 140.97 106.68 0)
+=======
+		(uuid "6ee3987c-a097-4b1a-ad05-d04d8e75f012")
+		(property "Reference" "S1"
+			(at 185.42 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SSSS811101"
+			(at 185.42 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom:SW_SSSS811101"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ALPS"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.60 mm"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SSSS811101/ALPS/view-part/?ref=eda"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSSS811101/ALPS/view-part/?ref=snap"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SSSS811101"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Switch Slide SP Side Slide 0.3A 5VDC 10000Cycles Gull Wing SMD T/R\n                        \n"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ALPS"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed5d032c-c86b-4b95-bf11-083558947fe7")
+		)
+		(pin "3"
+			(uuid "42475ba8-ee67-4ee7-8256-23f88d215bc9")
+		)
+		(pin "2"
+			(uuid "68fc6bc2-adb2-4a53-ad68-75a1bf6a6f29")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734bd158-f3c4-4bcb-80de-5bfb91825c0b")
+		(property "Reference" "#PWR026"
+			(at 135.89 102.87 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +10921,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 140.9701 104.14 90)
+=======
+			(at 135.89 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +10934,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 140.97 100.33 0)
+=======
+			(at 135.89 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +10947,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 140.97 100.33 0)
+=======
+			(at 135.89 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +10960,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 140.97 100.33 0)
+=======
+			(at 135.89 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,6 +10973,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "f8c0f710-b239-432c-9a3b-f4c66af956c4")
 		)
 		(instances
@@ -9230,11 +11110,18 @@
 		)
 		(pin "2"
 			(uuid "c28589e4-871e-433f-a2ad-c430f189e5cd")
+=======
+			(uuid "4d62bcd5-6bb5-4da6-8797-97367ff53ab6")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+<<<<<<< Updated upstream
 					(reference "R6")
+=======
+					(reference "#PWR026")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -9242,7 +11129,11 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 27.94 138.43 0)
+=======
+		(at 26.67 95.25 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9374,7 +11265,11 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 87.63 138.43 0)
+=======
+		(at 101.6 95.25 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9383,7 +11278,11 @@
 		(fields_autoplaced yes)
 		(uuid "77040d72-b427-49f4-919a-5999a4190d3a")
 		(property "Reference" "#PWR020"
+<<<<<<< Updated upstream
 			(at 87.63 144.78 0)
+=======
+			(at 101.6 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +11291,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 87.63 143.51 0)
+=======
+			(at 101.6 100.33 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +11303,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 87.63 138.43 0)
+=======
+			(at 101.6 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +11316,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 87.63 138.43 0)
+=======
+			(at 101.6 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +11329,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 87.63 138.43 0)
+=======
+			(at 101.6 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9428,6 +11343,7 @@
 		)
 		(pin "1"
 			(uuid "a2d777b5-f227-45c1-85e0-d3f78e2b7699")
+<<<<<<< Updated upstream
 		)
 		(instances
 			(project "Caps32Project"
@@ -9636,11 +11552,83 @@
 		)
 		(pin "2"
 			(uuid "658c31bb-e2fc-4738-a1ce-db5c77039487")
+=======
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C8")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 115.57 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a32d918-9a89-49b6-94c7-107ebeacb2e9")
+		(property "Reference" "D2"
+			(at 111.76 89.8526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 113.284 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23db4a59-c367-48ee-b366-e05b6954305b")
+		)
+		(pin "2"
+			(uuid "5ffa819f-7088-4b69-bfad-bb2a91768765")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9655,9 +11643,82 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "8806e285-ccd3-4ae9-85f2-54b6f3405401")
 		(property "Reference" "J1"
 			(at 144.78 123.1899 0)
+=======
+		(uuid "7d612ddc-3144-4e7d-8dd4-a97c5f0ca031")
+		(property "Reference" "#PWR017"
+			(at 168.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837fb7e4-0c70-4443-8df1-06aae6d2d855")
+		)
+		(instances
+			(project "Caps"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 156.21 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8806e285-ccd3-4ae9-85f2-54b6f3405401")
+		(property "Reference" "J1"
+			(at 158.75 81.2799 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +11727,11 @@
 			)
 		)
 		(property "Value" "Ph 2.0"
+<<<<<<< Updated upstream
 			(at 144.78 125.7299 0)
+=======
+			(at 158.75 83.8199 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +11740,11 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+<<<<<<< Updated upstream
 			(at 142.24 123.19 0)
+=======
+			(at 156.21 81.28 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +11753,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 142.24 123.19 0)
+=======
+			(at 156.21 81.28 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +11766,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+<<<<<<< Updated upstream
 			(at 142.24 123.19 0)
+=======
+			(at 156.21 81.28 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,6 +11788,7 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "J1")
+<<<<<<< Updated upstream
 					(unit 1)
 				)
 			)
@@ -9778,6 +11856,8 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR038")
+=======
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -9785,7 +11865,11 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 209.55 138.43 0)
+=======
+		(at 181.61 96.52 0)
+>>>>>>> Stashed changes
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9795,7 +11879,11 @@
 		(fields_autoplaced yes)
 		(uuid "8c0d49cd-e576-445b-bc7e-4b35b1a5a059")
 		(property "Reference" "#PWR021"
+<<<<<<< Updated upstream
 			(at 209.55 144.78 0)
+=======
+			(at 181.61 102.87 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,7 +11892,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 209.55 143.51 0)
+=======
+			(at 181.61 101.6 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +11904,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 209.55 138.43 0)
+=======
+			(at 181.61 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9821,7 +11917,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 209.55 138.43 0)
+=======
+			(at 181.61 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,7 +11930,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 209.55 138.43 0)
+=======
+			(at 181.61 96.52 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,16 +12225,26 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 60.96 138.43 0)
+=======
+		(at 177.8 41.91 270)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(fields_autoplaced yes)
 		(uuid "9aa79631-3ce2-4e0e-a3bd-27abcf8699f6")
 		(property "Reference" "#PWR022"
 			(at 60.96 144.78 0)
+=======
+		(uuid "9c325ebe-ccaa-4037-8924-621a121e4c15")
+		(property "Reference" "#PWR019"
+			(at 171.45 41.91 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,6 +12716,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 101.6 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af9e6139-458c-47ee-a7de-2f11c0ba5112")
+		(property "Reference" "C2"
+			(at 101.6 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 101.854 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 102.5652 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89836c65-fa15-46c4-ba13-99a029e148cd")
+		)
+		(pin "2"
+			(uuid "df62a0c0-7bbd-46ac-8f32-d0eb34a3a11f")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a8aed7-4493-4456-899c-c9d7ff33b88c")
+		(property "Reference" "#PWR034"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e9b7439-5477-47da-bff1-13b27d78b80b")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 138.43 0)
 		(unit 1)
@@ -10669,7 +12918,11 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
+<<<<<<< Updated upstream
 		(at 27.94 118.11 0)
+=======
+		(at 26.67 74.93 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10678,7 +12931,11 @@
 		(fields_autoplaced yes)
 		(uuid "bae4c157-6754-4cd3-84a5-17b7c43870f5")
 		(property "Reference" "#PWR023"
+<<<<<<< Updated upstream
 			(at 27.94 121.92 0)
+=======
+			(at 26.67 78.74 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10687,7 +12944,11 @@
 			)
 		)
 		(property "Value" "VBUS"
+<<<<<<< Updated upstream
 			(at 27.94 113.03 0)
+=======
+			(at 26.67 69.85 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +12956,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 27.94 118.11 0)
+=======
+			(at 26.67 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +12969,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 27.94 118.11 0)
+=======
+			(at 26.67 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,7 +12982,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+<<<<<<< Updated upstream
 			(at 27.94 118.11 0)
+=======
+			(at 26.67 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,8 +13007,183 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 60.96 130.81 0)
+=======
+		(lib_id "Custom:MAX17048G_T10")
+		(at 68.58 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bff881a3-6b25-4c97-91c2-d1eac1b9c781")
+		(property "Reference" "U2"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX17048G_T10"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom:SON50P200X200X80-9N"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge\n                        \n"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TDFN-8 Maxim"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MAX17048G+T10"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda"
+			(at 75.438 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ee961911-d2a5-4849-9500-2b93908aa74e")
+		)
+		(pin "2"
+			(uuid "c61709f9-47b0-4cc5-b5f4-4b7bd564f1a5")
+		)
+		(pin "4"
+			(uuid "6bf902de-0bb5-4245-a2d3-e0915ef82420")
+		)
+		(pin "5"
+			(uuid "2f40edd7-805b-4624-9ec7-6851058eea15")
+		)
+		(pin "6"
+			(uuid "ede723ec-8da5-4f57-8941-913237d5a08f")
+		)
+		(pin "3"
+			(uuid "74c93404-c95c-486a-a1c3-15d2e62e9543")
+		)
+		(pin "8"
+			(uuid "a5b2f05f-be6b-44a8-a010-bf13e27986ef")
+		)
+		(pin "9"
+			(uuid "d5aec566-accc-4a7e-8aa5-fddfd20aebfd")
+		)
+		(pin "1"
+			(uuid "92f3dafd-9e63-4eff-b924-df4e65131086")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom:ESP32C3_SuperMini")
+		(at 144.78 39.37 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10759,6 +13207,7 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 60.96 122.555 0)
 			(effects
@@ -10838,6 +13287,10 @@
 		)
 		(property "Footprint" "Custom:SON50P200X200X80-9N"
 			(at 171.958 125.984 0)
+=======
+		(property "Footprint" "Custom:ESP32C3_Supermini_SMD"
+			(at 144.78 39.37 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +13435,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 187.96 128.27 0)
+=======
+		(at 91.44 85.09 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10990,7 +13447,11 @@
 		(dnp no)
 		(uuid "c8cf6cad-3e1e-4271-bca1-29f79c467cf5")
 		(property "Reference" "C1"
+<<<<<<< Updated upstream
 			(at 187.96 126.238 0)
+=======
+			(at 91.44 83.058 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +13460,11 @@
 			)
 		)
 		(property "Value" "1.0uF"
+<<<<<<< Updated upstream
 			(at 188.214 130.81 0)
+=======
+			(at 91.694 87.63 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +13473,11 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+<<<<<<< Updated upstream
 			(at 188.9252 132.08 0)
+=======
+			(at 92.4052 88.9 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,6 +13486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 187.96 128.27 0)
 			(effects
 				(font
@@ -11087,6 +13557,93 @@
 		)
 		(property "Datasheet" "~"
 			(at 95.25 127 0)
+=======
+			(at 91.44 85.09 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+<<<<<<< Updated upstream
+		(property "Description" "Resistor"
+			(at 95.25 127 0)
+=======
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 85.09 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+<<<<<<< Updated upstream
+			(uuid "1569e51b-4996-4289-8d08-d837481d10c3")
+		)
+		(pin "2"
+			(uuid "e36cf95d-b5c1-4b28-9122-750989318a79")
+=======
+			(uuid "8956e0b9-d79d-4545-9ac1-833d75bed956")
+		)
+		(pin "2"
+			(uuid "b85d1162-a7fd-4cb4-94e5-6695ba699fe9")
+>>>>>>> Stashed changes
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+<<<<<<< Updated upstream
+					(reference "R2")
+=======
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb10e5bb-d946-4314-8a8c-b5e7dc39bb26")
+		(property "Reference" "R2"
+			(at 111.252 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 109.22 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 107.442 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +13652,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 127 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,17 +13676,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 138.43 0)
+		(lib_id "power:+5V")
+		(at 168.91 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cea86d9f-a232-4598-93e7-f2c07c454fc3")
-		(property "Reference" "#PWR09"
-			(at 165.1 144.78 0)
+		(uuid "cc4075b6-5815-4896-ab73-87f8d64864c4")
+		(property "Reference" "#PWR015"
+			(at 172.72 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,16 +13694,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 143.51 0)
+		(property "Value" "+5V"
+			(at 165.1 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 138.43 0)
+			(at 168.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +13713,94 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 168.91 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf648d1f-cc59-49a8-8c62-584844d73e44")
+		)
+		(instances
+			(project ""
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR015")
+>>>>>>> Stashed changes
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+<<<<<<< Updated upstream
+		(at 165.1 138.43 0)
+=======
+		(at 68.58 95.25 0)
+>>>>>>> Stashed changes
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea86d9f-a232-4598-93e7-f2c07c454fc3")
+		(property "Reference" "#PWR09"
+<<<<<<< Updated upstream
+			(at 165.1 144.78 0)
+=======
+			(at 68.58 101.6 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+<<<<<<< Updated upstream
+			(at 165.1 143.51 0)
+=======
+			(at 68.58 100.33 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 165.1 138.43 0)
+=======
+			(at 68.58 95.25 0)
+>>>>>>> Stashed changes
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+<<<<<<< Updated upstream
+			(at 165.1 138.43 0)
+=======
+			(at 68.58 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +13809,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< Updated upstream
 			(at 165.1 138.43 0)
+=======
+			(at 68.58 95.25 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +13835,11 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+<<<<<<< Updated upstream
 		(at 38.1 118.11 0)
+=======
+		(at 36.83 74.93 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11195,7 +13848,11 @@
 		(fields_autoplaced yes)
 		(uuid "cf3a881f-b7e5-4fb4-8c4a-8fec7d313bd5")
 		(property "Reference" "#PWR014"
+<<<<<<< Updated upstream
 			(at 38.1 121.92 0)
+=======
+			(at 36.83 78.74 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +13861,11 @@
 			)
 		)
 		(property "Value" "+BATT"
+<<<<<<< Updated upstream
 			(at 38.1 113.03 0)
+=======
+			(at 36.83 69.85 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +13873,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 38.1 118.11 0)
+=======
+			(at 36.83 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +13886,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 38.1 118.11 0)
+=======
+			(at 36.83 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +13899,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+<<<<<<< Updated upstream
 			(at 38.1 118.11 0)
+=======
+			(at 36.83 74.93 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +14066,11 @@
 	)
 	(symbol
 		(lib_id "Battery_Management:MCP73831-5-OT")
+<<<<<<< Updated upstream
 		(at 111.76 125.73 0)
+=======
+		(at 125.73 83.82 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11401,7 +14078,11 @@
 		(dnp no)
 		(uuid "daa71f61-e63b-4e1c-812c-9cfd49f33692")
 		(property "Reference" "U4"
+<<<<<<< Updated upstream
 			(at 111.76 119.634 0)
+=======
+			(at 125.73 77.724 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +14090,11 @@
 			)
 		)
 		(property "Value" "MCP73831-2-OT"
+<<<<<<< Updated upstream
 			(at 111.76 132.334 0)
+=======
+			(at 125.73 90.424 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,7 +14102,11 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+<<<<<<< Updated upstream
 			(at 113.03 132.08 0)
+=======
+			(at 127 90.17 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +14117,11 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+<<<<<<< Updated upstream
 			(at 107.95 127 0)
+=======
+			(at 121.92 85.09 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +14130,11 @@
 			)
 		)
 		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.50V, Tri-State Status Output, in SOT23-5 package"
+<<<<<<< Updated upstream
 			(at 111.76 125.73 0)
+=======
+			(at 125.73 83.82 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11471,7 +14168,11 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+<<<<<<< Updated upstream
 		(at 209.55 119.38 0)
+=======
+		(at 181.61 76.2 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11480,7 +14181,11 @@
 		(fields_autoplaced yes)
 		(uuid "e521c065-3501-46f0-94e8-637cb2275e71")
 		(property "Reference" "#PWR035"
+<<<<<<< Updated upstream
 			(at 209.55 123.19 0)
+=======
+			(at 181.61 80.01 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,7 +14194,11 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< Updated upstream
 			(at 209.55 114.3 0)
+=======
+			(at 181.61 71.12 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,7 +14206,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 209.55 119.38 0)
+=======
+			(at 181.61 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11506,7 +14219,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 209.55 119.38 0)
+=======
+			(at 181.61 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11515,7 +14232,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< Updated upstream
 			(at 209.55 119.38 0)
+=======
+			(at 181.61 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +14258,11 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+<<<<<<< Updated upstream
 		(at 130.81 118.11 0)
+=======
+		(at 144.78 76.2 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11546,7 +14271,11 @@
 		(fields_autoplaced yes)
 		(uuid "e60f3250-b26d-4389-863b-ba93bdb7dc7d")
 		(property "Reference" "#PWR032"
+<<<<<<< Updated upstream
 			(at 130.81 121.92 0)
+=======
+			(at 144.78 80.01 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +14284,11 @@
 			)
 		)
 		(property "Value" "+BATT"
+<<<<<<< Updated upstream
 			(at 130.81 113.03 0)
+=======
+			(at 144.78 71.12 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11563,7 +14296,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< Updated upstream
 			(at 130.81 118.11 0)
+=======
+			(at 144.78 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11572,7 +14309,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 130.81 118.11 0)
+=======
+			(at 144.78 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +14322,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+<<<<<<< Updated upstream
 			(at 130.81 118.11 0)
+=======
+			(at 144.78 76.2 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,6 +14341,7 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR032")
+<<<<<<< Updated upstream
 					(unit 1)
 				)
 			)
@@ -11814,6 +14560,8 @@
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR029")
+=======
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -11846,7 +14594,11 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
+<<<<<<< Updated upstream
 			(at 39.37 34.29 0)
+=======
+			(at 101.6 34.29 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +14674,11 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< Updated upstream
 		(at 196.85 128.27 0)
+=======
+		(at 168.91 83.82 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11930,7 +14686,11 @@
 		(dnp no)
 		(uuid "f2f44399-f3ed-48f8-9b47-60f494d53a1a")
 		(property "Reference" "C6"
+<<<<<<< Updated upstream
 			(at 196.85 126.238 0)
+=======
+			(at 168.91 81.788 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,7 +14699,11 @@
 			)
 		)
 		(property "Value" "1.0uF"
+<<<<<<< Updated upstream
 			(at 197.104 130.81 0)
+=======
+			(at 169.164 86.36 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11948,7 +14712,11 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+<<<<<<< Updated upstream
 			(at 197.8152 132.08 0)
+=======
+			(at 169.8752 87.63 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +14725,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 196.85 128.27 0)
+=======
+			(at 168.91 83.82 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11966,7 +14738,11 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< Updated upstream
 			(at 196.85 128.27 0)
+=======
+			(at 168.91 83.82 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +14767,77 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< Updated upstream
 		(at 125.73 138.43 0)
+=======
+		(at 139.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a412ec-1510-4f5d-aaea-d69cac1dbb8c")
+		(property "Reference" "#PWR028"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c38199f4-59cd-499b-888e-9782f6dd7600")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 57.15 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12121,6 +14967,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(symbol
 		(lib_id "power:GND")
 		(at 157.48 100.33 0)
@@ -12188,6 +15035,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(sheet_instances
 		(path "/"
 			(page "1")
