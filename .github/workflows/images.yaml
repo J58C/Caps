@@ -2,7 +2,7 @@ name: images
 on:
   push:
     branches:
-      - '340'
+      - '702'
     paths:
       - 'Caps32Project.kicad_pcb'
 jobs:
@@ -34,4 +34,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add images
           git commit -m "Update PCB render images"
-          git push origin 340
+          git push origin 702
