@@ -39,16 +39,12 @@ jobs:
 
       - name: Copy Files from 42 to main/42
         run: |
-          # Checkout to the main branch
           git fetch origin main
           git checkout main
-
-          # Create the target folder Images/42 in main branch
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p Images/42
-
-          # Move rendered images from branch 42 to the Images/42 folder in main branch
           git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
-
           mv images/bottom.png images/rotating.gif images/top.png Images/42/
 
       - name: Commit and Push Changes to Main
@@ -59,10 +55,9 @@ jobs:
 
       - name: Remove 'images' Folder from Branch 42
         run: |
-          # Checkout branch 42 again
           git checkout 42
-          
-          # Remove the images folder in branch 42
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           rm -rf images
           git add .  # Stage the removal
           git commit -m "Remove images folder after moving to main"
