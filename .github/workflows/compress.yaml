@@ -1,5 +1,4 @@
 name: Compress KiCad Files
-
 on:
   push:
     branches:
@@ -9,11 +8,9 @@ on:
       - 'Caps32Project.kicad_prl'
       - 'Caps32Project.kicad_pro'
       - 'Caps32Project.kicad_sch'
-
 jobs:
   Compressing:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository (branch 702)
         uses: actions/checkout@v4
