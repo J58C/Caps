@@ -5,7 +5,6 @@ on:
       - '42'
     paths:
       - 'Caps32Project.kicad_pcb'
-  workflow_dispatch:
 jobs:
   render-images:
     name: PCB Render
@@ -43,12 +42,14 @@ jobs:
           git fetch origin main
           git checkout main
 
+          # Delete existing 'images' folder in branch main to avoid conflicts
+          rm -rf Images/42  # Delete existing folder Images/42 if any
+          
           # Create the target folder Images/42 in main branch
           mkdir -p Images/42
 
           # Move rendered images from branch 42 to the Images/42 folder in main branch
           git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
-
           mv images/bottom.png images/rotating.gif images/top.png Images/42/
 
       - name: Commit and Push Changes to Main
