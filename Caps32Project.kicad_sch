@@ -5871,10 +5871,14 @@
 		(uuid "94bf4d15-5b81-4b6b-92ea-42b5f2198f69")
 	)
 	(no_connect
+<<<<<<< HEAD
 		(at 201.93 127)
 =======
 		(at 173.99 83.82)
 >>>>>>> Stashed changes
+=======
+		(at 177.8 90.17)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(uuid "a17e8510-f156-416a-b706-ebf25c2bd4be")
 	)
 	(no_connect
@@ -6094,6 +6098,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 81.28) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e48370-cfd8-4587-92e0-f6660ad95aff")
+	)
+	(wire
+		(pts
 			(xy 74.93 26.67) (xy 74.93 31.75)
 		)
 		(stroke
@@ -6104,6 +6118,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 			(xy 196.85 132.08) (xy 196.85 138.43)
 =======
 		(uuid "22a32f8f-3c49-49ff-9cbc-710bae228460")
@@ -6112,6 +6127,9 @@
 		(pts
 			(xy 168.91 87.63) (xy 168.91 96.52)
 >>>>>>> Stashed changes
+=======
+			(xy 172.72 95.25) (xy 172.72 101.6)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		)
 		(stroke
 			(width 0)
@@ -6402,11 +6420,15 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(xy 209.55 134.62) (xy 209.55 138.43)
 =======
 			(xy 181.61 91.44) (xy 181.61 96.52)
 >>>>>>> Stashed changes
+=======
+			(xy 185.42 97.79) (xy 185.42 101.6)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		)
 		(stroke
 			(width 0)
@@ -6463,11 +6485,15 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(xy 196.85 119.38) (xy 196.85 124.46)
 =======
 			(xy 168.91 76.2) (xy 168.91 80.01)
 >>>>>>> Stashed changes
+=======
+			(xy 172.72 81.28) (xy 172.72 87.63)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7456,7 @@
 	)
 	(global_label "RGB_DI"
 		(shape input)
-		(at 217.17 127 0)
+		(at 193.04 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7440,7 +7466,7 @@
 		)
 		(uuid "cf0b2f96-e393-42bf-8698-5ccb5e525b91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.8076 127 0)
+			(at 202.6776 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 138.43 0)
+		(at 172.72 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9553,7 +9579,7 @@
 		(fields_autoplaced yes)
 		(uuid "385a76eb-2f85-436e-8d6b-e5549dd396f6")
 		(property "Reference" "#PWR037"
-			(at 196.85 144.78 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 143.51 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,7 +9596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 138.43 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 138.43 0)
+			(at 172.72 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,10 +9614,14 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< HEAD
 			(at 196.85 138.43 0)
 =======
 			(at 168.91 96.52 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 101.6 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,11 +9712,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		(at 196.85 119.38 0)
 =======
 		(at 168.91 76.2 0)
 >>>>>>> Stashed changes
+=======
+		(at 172.72 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9696,11 +9730,15 @@
 		(fields_autoplaced yes)
 		(uuid "3bc4aa88-8d15-49de-be26-22a25d8e592f")
 		(property "Reference" "#PWR036"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 123.19 0)
 =======
 			(at 168.91 80.01 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 85.09 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,11 +9747,15 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 114.3 0)
 =======
 			(at 168.91 71.12 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 76.2 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,11 +9763,15 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 119.38 0)
 =======
 			(at 168.91 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,11 +9780,15 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 119.38 0)
 =======
 			(at 168.91 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9747,11 +9797,15 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 119.38 0)
 =======
 			(at 168.91 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10531,11 +10585,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		(at 209.55 127 0)
 =======
 		(at 181.61 83.82 0)
 >>>>>>> Stashed changes
+=======
+		(at 185.42 90.17 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10544,11 +10602,15 @@
 		(dnp no)
 		(uuid "64f1b762-1b05-41b1-839a-9dc05fccc482")
 		(property "Reference" "D3"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 207.01 120.142 0)
 =======
 			(at 179.07 76.962 0)
 >>>>>>> Stashed changes
+=======
+			(at 182.88 83.312 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,11 +10618,15 @@
 			)
 		)
 		(property "Value" "WS2812B"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 198.12 123.2214 0)
 =======
 			(at 170.18 80.0414 0)
 >>>>>>> Stashed changes
+=======
+			(at 173.99 86.3914 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,11 +10635,15 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 208.28 134.62 0)
 =======
 			(at 180.34 91.44 0)
 >>>>>>> Stashed changes
+=======
+			(at 184.15 97.79 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,11 +10653,15 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 207.01 136.525 0)
 =======
 			(at 179.07 93.345 0)
 >>>>>>> Stashed changes
+=======
+			(at 182.88 99.695 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,11 +10671,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 127 0)
 =======
 			(at 181.61 83.82 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 90.17 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,11 +11943,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		(at 209.55 138.43 0)
 =======
 		(at 181.61 96.52 0)
 >>>>>>> Stashed changes
+=======
+		(at 185.42 101.6 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11879,11 +11961,15 @@
 		(fields_autoplaced yes)
 		(uuid "8c0d49cd-e576-445b-bc7e-4b35b1a5a059")
 		(property "Reference" "#PWR021"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 144.78 0)
 =======
 			(at 181.61 102.87 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 107.95 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,11 +11978,15 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 143.51 0)
 =======
 			(at 181.61 101.6 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 106.68 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11904,11 +11994,15 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 138.43 0)
 =======
 			(at 181.61 96.52 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 101.6 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,11 +12011,15 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 138.43 0)
 =======
 			(at 181.61 96.52 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 101.6 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11930,11 +12028,15 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 138.43 0)
 =======
 			(at 181.61 96.52 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 101.6 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,11 +14270,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		(at 209.55 119.38 0)
 =======
 		(at 181.61 76.2 0)
 >>>>>>> Stashed changes
+=======
+		(at 185.42 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14181,11 +14287,15 @@
 		(fields_autoplaced yes)
 		(uuid "e521c065-3501-46f0-94e8-637cb2275e71")
 		(property "Reference" "#PWR035"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 123.19 0)
 =======
 			(at 181.61 80.01 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 85.09 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,11 +14304,15 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 114.3 0)
 =======
 			(at 181.61 71.12 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 76.2 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14206,11 +14320,15 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 119.38 0)
 =======
 			(at 181.61 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,11 +14337,15 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 119.38 0)
 =======
 			(at 181.61 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,11 +14354,15 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 209.55 119.38 0)
 =======
 			(at 181.61 76.2 0)
 >>>>>>> Stashed changes
+=======
+			(at 185.42 81.28 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14674,11 +14800,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		(at 196.85 128.27 0)
 =======
 		(at 168.91 83.82 0)
 >>>>>>> Stashed changes
+=======
+		(at 172.72 91.44 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14686,11 +14816,15 @@
 		(dnp no)
 		(uuid "f2f44399-f3ed-48f8-9b47-60f494d53a1a")
 		(property "Reference" "C6"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 126.238 0)
 =======
 			(at 168.91 81.788 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 89.408 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14699,11 +14833,15 @@
 			)
 		)
 		(property "Value" "1.0uF"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 197.104 130.81 0)
 =======
 			(at 169.164 86.36 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.974 93.98 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,11 +14850,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 197.8152 132.08 0)
 =======
 			(at 169.8752 87.63 0)
 >>>>>>> Stashed changes
+=======
+			(at 173.6852 95.25 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,11 +14867,15 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 128.27 0)
 =======
 			(at 168.91 83.82 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 91.44 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,11 +14884,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			(at 196.85 128.27 0)
 =======
 			(at 168.91 83.82 0)
 >>>>>>> Stashed changes
+=======
+			(at 172.72 91.44 0)
+>>>>>>> 126f25c275a1888dd8716d6c51d5fc194c6f2be9
 			(effects
 				(font
 					(size 1.27 1.27)
