@@ -66,7 +66,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Images/42
-          git commit -m "Move rendered images from branch 42 to main"
+          git commit -m "Update images: Rendered files"
           git push origin main
 
       - name: Delete images folder from branch 42
