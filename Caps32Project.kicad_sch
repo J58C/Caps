@@ -10415,7 +10415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Sh 2.0"
+		(property "Value" "Sh 1.0"
 			(at 39.37 100.3299 0)
 			(effects
 				(font
