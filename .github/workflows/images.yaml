@@ -1,4 +1,4 @@
-name: Images Render
+name: Images Rendering
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
     paths:
       - 'Caps32Project.kicad_pcb'
 jobs:
-  render-images:
+  Render-Images:
     name: PCB Render
     runs-on: ubuntu-latest
     steps:
