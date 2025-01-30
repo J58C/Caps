@@ -36,7 +36,7 @@ jobs:
       - name: Move ZIP file to main branch
         run: |
           mkdir -p Archive
-          mv Archive/${{ env.timestamp }}.zip Archive/
+          cp "Archive/${{ env.timestamp }}.zip" Archive/
 
       - name: Commit and Push ZIP to main branch
         run: |
