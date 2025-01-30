@@ -4117,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 36.83) (xy 125.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f667761-b193-48fc-9bf1-4af82b6587c6")
+	)
+	(wire
+		(pts
 			(xy 166.37 24.13) (xy 166.37 26.67)
 		)
 		(stroke
@@ -4497,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 34.29) (xy 121.92 34.29)
+			(xy 115.57 34.29) (xy 125.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4527,7 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 46.99) (xy 121.92 36.83)
+			(xy 121.92 36.83) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5789,7 +5799,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 127 34.29 0)
+		(at 130.81 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5798,7 +5808,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eca1f72-692c-46f4-b6b4-ae738ca54326")
 		(property "Reference" "J3"
-			(at 129.54 34.2899 0)
+			(at 133.35 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5817,7 @@
 			)
 		)
 		(property "Value" "Ph 2.0"
-			(at 129.54 36.8299 0)
+			(at 133.35 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5826,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 127 34.29 0)
+			(at 130.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 34.29 0)
+			(at 130.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5844,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 34.29 0)
+			(at 130.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
