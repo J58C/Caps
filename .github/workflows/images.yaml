@@ -2,9 +2,10 @@ name: Images Rendering
 on:
   push:
     branches:
-      - '42'
+      - "42"
     paths:
-      - 'Caps32Project.kicad_pcb'
+      - "Caps32Project.kicad_pcb"
+
 jobs:
   Render-Images:
     name: PCB Render
@@ -28,10 +29,51 @@ jobs:
           output_path: ${{ github.workspace }}/images
           animation: gif
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Rendered Images
         run: |
-          git config --global user.name "[bot]Capt."
+          git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images
           git commit -m "Update PCB render images"
+          git push origin 42
+
+  Move-Files:
+    name: Move Rendered Images to Main
+    runs-on: ubuntu-latest
+    needs: Render-Images
+    steps:
+      - name: Checkout branch 42
+        uses: actions/checkout@v4
+        with:
+          ref: "42"
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: "main"
+          path: main-branch
+
+      - name: Move images to main branch
+        run: |
+          mkdir -p main-branch/Images/42
+          mv images/bottom.png main-branch/Images/42/ 2>/dev/null || true
+          mv images/rotating.gif main-branch/Images/42/ 2>/dev/null || true
+          mv images/top.png main-branch/Images/42/ 2>/dev/null || true
+
+      - name: Commit and push changes to main
+        run: |
+          cd main-branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Images/42
+          git commit -m "Update images: Rendered files"
+          git push origin main
+
+      - name: Delete images folder from branch 42
+        run: |
+          rm -rf images
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove images folder after moving to main" || true
           git push origin 42
