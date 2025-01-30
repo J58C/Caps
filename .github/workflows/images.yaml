@@ -5,7 +5,7 @@ on:
       - '42'
     paths:
       - 'Caps32Project.kicad_pcb'
-  workflow_dispatch:
+
 jobs:
   render-images:
     name: PCB Render
@@ -39,24 +39,23 @@ jobs:
 
       - name: Copy Files from 42 to main/42
         run: |
-          git checkout 42 -- \
-            bottom.png \
-            rotating.gif \
-            top.png || echo "Warning: Some files might not exist in branch 42"
-  
-          mv checkout 42 -- \
-             bottom.png \
-             rotating.gif \
-             main_branch/Images/42/ || echo "Warning: Some files might not exist, skipping move."
+          # Checkout to the main branch
+          git fetch origin main
+          git checkout main
+
+          # Create the target folder Images/42 in main branch
+          mkdir -p Images/42
+
+          # Move rendered images from branch 42 to the Images/42 folder in main branch
+          git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
+
+          mv images/bottom.png images/rotating.gif images/top.png Images/42/
 
       - name: Commit and Push Changes to Main
         run: |
-          cd main_branch
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-          git add .
-          git diff --staged --quiet || git commit -m "Sync from 42 to main/42"
+          git add Images/42/*
+          git commit -m "Move PCB render images from branch 42 to Images/42"
+          git push origin main
 
       - name: Remove 'images' Folder from Branch 42
         run: |
