@@ -71,6 +71,7 @@ jobs:
 
       - name: Delete images folder from branch 42
         run: |
+          git checkout 42
           rm -rf images
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
