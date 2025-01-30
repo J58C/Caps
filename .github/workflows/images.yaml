@@ -20,41 +20,49 @@ jobs:
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/Images/42
+          output_path: ${{ github.workspace }}/images
           
       - name: Render PCB GIF
         uses: linalinn/kicad-render@main
         with:
           pcb_file: Caps32Project.kicad_pcb
-          output_path: ${{ github.workspace }}/Images/42
+          output_path: ${{ github.workspace }}/images
           animation: gif
 
       - name: Commit and Push Branch 42
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add Images/42/*
+          git add images
           git commit -m "Update PCB render images"
           git push origin 42
 
-      - name: Copy Files from 42 to origin/main
+      - name: Copy Files from 42 to main/42
         run: |
           git fetch origin main
           git checkout main
           mkdir -p Images/42
-          git checkout 42 -- Images/42/bottom.png Images/42/rotating.gif Images/42/top.png
-          mv Images/42/bottom.png Images/42/rotating.gif imageImages/42/top.png Images/42/
+          git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
+          mv images/bottom.png images/rotating.gif images/top.png Images/42/
 
       - name: Commit and Push Changes to Main
         run: |
           git add Images/42/*
-          git commit -m "Move PCB render images from branch 42 to Images/42"
+          git commit -m "PCB render from branch 42"
           git push origin main
 
       - name: Remove 'images' Folder from Branch 42
         run: |
           git checkout 42
-          rm -rf Images
-          git add .  # Stage the removal
-          git commit -m "Remove images folder after moving to main"
+          rm -rf images
+          git add .
+          git commit -m
           git push origin 42
+
+      - name: Remove 'images' Folder from Branch main
+        run: |
+          git checkout main
+          rm -rf images
+          git add .
+          git commit -m "Remove images"
+          git push origin main
