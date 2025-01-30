@@ -3,7 +3,7 @@ name: Compress KiCad Files
 on:
   push:
     branches:
-      - '42'
+      - '17048'
     paths:
       - 'Caps32Project.kicad_pcb'
       - 'Caps32Project.kicad_prl'
@@ -15,15 +15,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository (branch 42)
+      - name: Checkout repository (branch 17048)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: 42
+          ref: 17048
 
       - name: Get current date and time
         id: datetime
-        run: echo "timestamp=42-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
+        run: echo "timestamp=17048-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
 
       - name: Create ZIP archive (outside Archive folder)
         run: zip "Caps32Project-${{ env.timestamp }}.zip" Caps32Project.kicad_pcb Caps32Project.kicad_prl Caps32Project.kicad_pro Caps32Project.kicad_sch
@@ -36,7 +36,7 @@ jobs:
 
       - name: Remove old ZIP file
         run: |
-          rm -f Archive/Caps32Project-42-*.zip || true
+          rm -f Archive/Caps32Project-17048-*.zip || true
 
       - name: Move ZIP file to main branch
         run: |
@@ -48,5 +48,5 @@ jobs:
           git add Archive/
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update archive: Caps32Project-${{ env.timestamp }} from branch 42"
+          git commit -m "Update archive: Caps32Project-${{ env.timestamp }} from branch 17048"
           git push origin main

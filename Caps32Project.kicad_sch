@@ -4986,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 31.75) (xy 113.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc625e55-7c7c-4505-9da0-135abef3eae0")
+	)
+	(wire
+		(pts
 			(xy 144.78 96.52) (xy 144.78 93.98)
 		)
 		(stroke
@@ -5353,7 +5363,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 113.03 31.75 270)
+		(at 115.57 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5362,7 +5372,7 @@
 		(fields_autoplaced yes)
 		(uuid "0320d1b0-a85e-4b98-a7be-7fb1e309f01d")
 		(property "Reference" "#PWR031"
-			(at 109.22 31.75 0)
+			(at 111.76 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5381,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 116.84 31.7499 90)
+			(at 119.38 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 31.75 0)
+			(at 115.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 31.75 0)
+			(at 115.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 113.03 31.75 0)
+			(at 115.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
