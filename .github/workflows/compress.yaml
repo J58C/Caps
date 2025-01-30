@@ -1,0 +1,47 @@
+name: Compress KiCad Files
+on:
+  push:
+    branches:
+      - '42'
+    paths:
+      - 'Caps32Project.kicad_pcb'
+      - 'Caps32Project.kicad_prl'
+      - 'Caps32Project.kicad_pro'
+      - 'Caps32Project.kicad_sch'
+jobs:
+  Compression:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository (branch 42)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: 42
+
+      - name: Get current date and time
+        id: datetime
+        run: echo "timestamp=42-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
+
+      - name: Create ZIP archive
+        run: |
+          mkdir -p Archive
+          zip "Archive/${{ env.timestamp }}.zip" Caps32Project.kicad_pcb Caps32Project.kicad_prl Caps32Project.kicad_pro Caps32Project.kicad_sch
+
+      - name: Checkout main branch
+        run: |
+          git fetch origin main
+          git checkout main
+
+      - name: Move ZIP file to main branch
+        run: |
+          mkdir -p Archive
+          mv Archive/${{ env.timestamp }}.zip Archive/
+
+      - name: Commit and Push ZIP to main branch
+        run: |
+          git add Archive/${{ env.timestamp }}.zip
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add ${GITHUB_ENV} to Archive from branch 42"
+          git push origin main
