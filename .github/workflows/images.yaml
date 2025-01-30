@@ -5,16 +5,16 @@ on:
       - '42'
     paths:
       - 'Caps32Project.kicad_pcb'
+  workflow_dispatch:
 jobs:
   render-images:
     name: PCB Render
     runs-on: ubuntu-latest
     steps:
-      - name: Check Out the Repo (Branch 42)
+      - name: Check Out the Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: '42'  # Checkout branch 42
 
       - name: Render PCB Images
         uses: linalinn/kicad-render@main
@@ -29,35 +29,41 @@ jobs:
           output_path: ${{ github.workspace }}/images
           animation: gif
 
-      - name: Commit and Push Rendered Images to Branch 42
+      - name: Commit and Push Branch 42
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add images/*  # Staging images for commit in branch 42
+          git add images
           git commit -m "Update PCB render images"
-          git push origin 42  # Push changes to branch 42
+          git push origin 42
 
-      - name: Check Out Branch Main
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: 'main'  # Checkout branch main
-
-      - name: Create Folder and Move Images to "Images/42" in Branch Main
+      - name: Copy Files from 42 to main/42
         run: |
-          mkdir -p ${{ github.workspace }}/Images/42
-          mv ${{ github.workspace }}/images/* ${{ github.workspace }}/Images/42/
+          # Checkout to the main branch
+          git fetch origin main
+          git checkout main
 
-      - name: Commit and Push Images to Branch Main
+          # Create the target folder Images/42 in main branch
+          mkdir -p Images/42
+
+          # Move rendered images from branch 42 to the Images/42 folder in main branch
+          git checkout 42 -- images/bottom.png images/rotating.gif images/top.png
+
+          mv images/bottom.png images/rotating.gif images/top.png Images/42/
+
+      - name: Commit and Push Changes to Main
         run: |
-          git add Images/42/*  # Staging the images in Images/42 folder
+          git add Images/42/*
           git commit -m "Move PCB render images from branch 42 to Images/42"
-          git push origin main  # Push changes to branch main
+          git push origin main
 
       - name: Remove 'images' Folder from Branch 42
         run: |
-          git checkout 42  # Make sure we're on branch 42 again
-          rm -rf ${{ github.workspace }}/images  # Remove the images folder
-          git add .  # Stage the removal of the images folder
+          # Checkout branch 42 again
+          git checkout 42
+          
+          # Remove the images folder in branch 42
+          rm -rf images
+          git add .  # Stage the removal
           git commit -m "Remove images folder after moving to main"
-          git push origin 42  # Push the removal to branch 42
+          git push origin 42
