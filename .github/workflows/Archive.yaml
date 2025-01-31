@@ -12,9 +12,10 @@ on:
 
 jobs:
   Check-Files:
+    name: Check Files
     runs-on: ubuntu-latest
     outputs:
-      run_render: ${{ steps.check_files.outputs.run_render }}
+      pcb_change: ${{ steps.check_files.outputs.pcb_change }}
     steps:
       - name: Checkout repository (branch 17048)
         uses: actions/checkout@v4
@@ -28,15 +29,17 @@ jobs:
           CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
           echo "Changed files: $CHANGED_FILES"
           if echo "$CHANGED_FILES" | grep -q "^Caps32Project.kicad_pcb$"; then
-            echo "run_render=true" >> $GITHUB_ENV
-            echo "::set-output name=run_render::true"
+            echo "pcb_change=true" >> $GITHUB_ENV
+            echo "::set-output name=pcb_change::true"
           else
-            echo "run_render=false" >> $GITHUB_ENV
-            echo "::set-output name=run_render::false"
+            echo "pcb_change=false" >> $GITHUB_ENV
+            echo "::set-output name=pcb_change::false"
           fi
 
   Compressing:
+    name: Compress Files
     runs-on: ubuntu-latest
+    needs: [Check-Files]
     steps:
       - name: Checkout repository (branch 17048)
         uses: actions/checkout@v4
@@ -77,8 +80,8 @@ jobs:
   Render-Images:
     name: PCB Render
     runs-on: ubuntu-latest
-    needs: [Check-Files, Compressing]
-    if: needs.Check-Files.outputs.run_render == 'true'
+    needs: [Check-Files]
+    if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
       - name: Checkout branch 17048
         uses: actions/checkout@v4
@@ -111,7 +114,7 @@ jobs:
     name: Move to Main
     runs-on: ubuntu-latest
     needs: [Render-Images]
-    if: needs.Check-Files.outputs.run_render == 'true'
+    if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
       - name: Checkout branch 17048
         uses: actions/checkout@v4
