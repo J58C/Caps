@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 2
           ref: 17048
 
-      - name: Check if only kicad_pcb was modified
+      - name: Check if kicad_pcb was modified
         id: check_files
         run: |
           CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
