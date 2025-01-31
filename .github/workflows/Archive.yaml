@@ -60,10 +60,12 @@ jobs:
           fetch-depth: 2
           ref: "17048"
 
-      - name: Check modified files
+      - name: Check if only kicad_pcb was modified
         id: check_files
         run: |
-          if git diff --name-only HEAD^ HEAD | grep -q "Caps32Project.kicad_pcb"; then
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          echo "Changed files: $CHANGED_FILES"
+          if echo "$CHANGED_FILES" | grep -q "^Caps32Project.kicad_pcb$"; then
             echo "run_render=true" >> $GITHUB_ENV
           else
             echo "run_render=false" >> $GITHUB_ENV
@@ -101,12 +103,15 @@ jobs:
       - name: Checkout branch 17048
         uses: actions/checkout@v4
         with:
+          fetch-depth: 2
           ref: "17048"
 
-      - name: Check modified files
+      - name: Check if only kicad_pcb was modified
         id: check_files
         run: |
-          if git diff --name-only HEAD^ HEAD | grep -q "Caps32Project.kicad_pcb"; then
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          echo "Changed files: $CHANGED_FILES"
+          if echo "$CHANGED_FILES" | grep -q "^Caps32Project.kicad_pcb$"; then
             echo "run_move=true" >> $GITHUB_ENV
           else
             echo "run_move=false" >> $GITHUB_ENV
