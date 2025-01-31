@@ -37,7 +37,7 @@ jobs:
           git push origin 17048
 
   Move-Files:
-    name: Move Rendered Images to Main
+    name: Move Rendered Images
     runs-on: ubuntu-latest
     needs: Render-Images
     steps:
@@ -50,18 +50,18 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: "main"
-          path: images
+          path: main-branch
 
       - name: Move images to main branch
         run: |
-          mkdir -p images/Images/17048
-          mv images/bottom.png images/Images/17048/ 2>/dev/null || true
-          mv images/rotating.gif images/Images/17048/ 2>/dev/null || true
-          mv images/top.png images/Images/17048/ 2>/dev/null || true
+          mkdir -p main-branch/Images/17048
+          mv images/bottom.png main-branch/Images/17048/ 2>/dev/null || true
+          mv images/rotating.gif main-branch/Images/17048/ 2>/dev/null || true
+          mv images/top.png main-branch/Images/17048/ 2>/dev/null || true
 
       - name: Commit and push changes to main
         run: |
-          cd images
+          cd main-branch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Images/17048
@@ -74,6 +74,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf images
+          rm -rf main-branch
           git add .
           git commit -m "Remove images folder after moving to main" || true
           git push origin 17048
