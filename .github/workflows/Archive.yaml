@@ -30,10 +30,10 @@ jobs:
           echo "Changed files: $CHANGED_FILES"
           if echo "$CHANGED_FILES" | grep -q "^Caps32Project.kicad_pcb$"; then
             echo "pcb_change=true" >> $GITHUB_ENV
-            echo "::set-output name=pcb_change::true"
+            echo "pcb_change=true" >> $GITHUB_OUTPUT
           else
             echo "pcb_change=false" >> $GITHUB_ENV
-            echo "::set-output name=pcb_change::false"
+            echo "pcb_change=false" >> $GITHUB_OUTPUT
           fi
 
   Compressing:
