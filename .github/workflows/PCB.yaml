@@ -1,5 +1,9 @@
 name: Images Rendering
 on:
+  workflow_run:
+    workflows: ["Compress KiCad Files"]
+    types:
+      - completed
   push:
     branches:
       - "17048"
@@ -37,7 +41,7 @@ jobs:
           git push origin 17048
 
   Move-Files:
-    name: Move Rendered Images
+    name: Move to Main
     runs-on: ubuntu-latest
     needs: Render-Images
     steps:
@@ -65,7 +69,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Images/17048
-          git commit -m "Update images: Rendered files"
+          git commit -m "Update images: Rendered files 17048"
           git push origin main
 
       - name: Delete images folder from branch 17048
