@@ -1,11 +1,14 @@
 name: Images Rendering
 on:
+  workflow_run:
+    workflows: ["Compress KiCad Files"]
+    types:
+      - completed
   push:
     branches:
       - "42"
     paths:
       - "Caps32Project.kicad_pcb"
-
 jobs:
   Render-Images:
     name: PCB Render
@@ -38,7 +41,7 @@ jobs:
           git push origin 42
 
   Move-Files:
-    name: Move Rendered Images to Main
+    name: Move to Main
     runs-on: ubuntu-latest
     needs: Render-Images
     steps:
