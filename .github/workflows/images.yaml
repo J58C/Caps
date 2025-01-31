@@ -2,9 +2,9 @@ name: Images Rendering
 on:
   push:
     branches:
-      - '17048'
+      - "17048"
     paths:
-      - 'Caps32Project.kicad_pcb'
+      - "Caps32Project.kicad_pcb"
 jobs:
   Render-Images:
     name: PCB Render
@@ -28,10 +28,52 @@ jobs:
           output_path: ${{ github.workspace }}/images
           animation: gif
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Rendered Images
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images
           git commit -m "Update PCB render images"
+          git push origin 17048
+
+  Move-Files:
+    name: Move Rendered Images to Main
+    runs-on: ubuntu-latest
+    needs: Render-Images
+    steps:
+      - name: Checkout branch 17048
+        uses: actions/checkout@v4
+        with:
+          ref: "17048"
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: "main"
+          path: images
+
+      - name: Move images to main branch
+        run: |
+          mkdir -p images/Images/17048
+          mv images/bottom.png images/Images/17048/ 2>/dev/null || true
+          mv images/rotating.gif images/Images/17048/ 2>/dev/null || true
+          mv images/top.png images/Images/17048/ 2>/dev/null || true
+
+      - name: Commit and push changes to main
+        run: |
+          cd images
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Images/17048
+          git commit -m "Update images: Rendered files"
+          git push origin main
+
+      - name: Delete images folder from branch 17048
+        run: |
+          git checkout 17048
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf images
+          git add .
+          git commit -m "Remove images folder after moving to main" || true
           git push origin 17048
