@@ -178,7 +178,7 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_Small"
+		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -186,15 +186,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 3.81 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -246,10 +246,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_Small_0_1"
+			(symbol "TestPoint_0_1"
 				(circle
-					(center 0 0)
-					(radius 0.508)
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -259,10 +259,10 @@
 					)
 				)
 			)
-			(symbol "TestPoint_Small_1_1"
+			(symbol "TestPoint_1_1"
 				(pin passive line
 					(at 0 0 90)
-					(length 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -280,31 +280,33 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_PowerOnly_6P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P1"
-				(at 0 14.732 0)
+			(property "Reference" "J"
+				(at 0 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 0 12.192 0)
+			(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 3.81 0 0)
+				(at 3.81 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -313,15 +315,6 @@
 				)
 			)
 			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -330,7 +323,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+			(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -339,7 +332,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_keywords" "usb universal serial bus type-C power-only charging-only 6P 6C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -348,10 +341,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_0"
 				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
+					(start -0.254 -12.7)
+					(end 0.254 -11.684)
 					(stroke
 						(width 0)
 						(type default)
@@ -361,8 +363,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -8.636)
-					(end 9.144 -9.144)
+					(start 10.16 -7.366)
+					(end 9.144 -7.874)
 					(stroke
 						(width 0)
 						(type default)
@@ -372,8 +374,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -6.096)
-					(end 9.144 -6.604)
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
 					(stroke
 						(width 0)
 						(type default)
@@ -383,30 +385,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
+					(start 10.16 7.874)
+					(end 9.144 7.366)
 					(stroke
 						(width 0)
 						(type default)
@@ -416,10 +396,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_PowerOnly_6P_0_1"
 				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -17.78)
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -429,9 +409,9 @@
 					)
 				)
 				(arc
-					(start -8.89 -3.81)
-					(mid -6.985 -5.7067)
-					(end -5.08 -3.81)
+					(start -8.89 -1.27)
+					(mid -6.985 -3.1667)
+					(end -5.08 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -441,9 +421,9 @@
 					)
 				)
 				(arc
-					(start -7.62 -3.81)
-					(mid -6.985 -4.4423)
-					(end -6.35 -3.81)
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -453,9 +433,9 @@
 					)
 				)
 				(arc
-					(start -7.62 -3.81)
-					(mid -6.985 -4.4423)
-					(end -6.35 -3.81)
+					(start -7.62 -1.27)
+					(mid -6.985 -1.9023)
+					(end -6.35 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -465,8 +445,8 @@
 					)
 				)
 				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
+					(start -7.62 -1.27)
+					(end -6.35 6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -476,9 +456,9 @@
 					)
 				)
 				(arc
-					(start -6.35 3.81)
-					(mid -6.985 4.4423)
-					(end -7.62 3.81)
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -488,9 +468,9 @@
 					)
 				)
 				(arc
-					(start -6.35 3.81)
-					(mid -6.985 4.4423)
-					(end -7.62 3.81)
+					(start -6.35 6.35)
+					(mid -6.985 6.9823)
+					(end -7.62 6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -500,9 +480,9 @@
 					)
 				)
 				(arc
-					(start -5.08 3.81)
-					(mid -6.985 5.7067)
-					(end -8.89 3.81)
+					(start -5.08 6.35)
+					(mid -6.985 8.2467)
+					(end -8.89 6.35)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -512,7 +492,7 @@
 					)
 				)
 				(circle
-					(center -2.54 1.143)
+					(center -2.54 3.683)
 					(radius 0.635)
 					(stroke
 						(width 0.254)
@@ -523,7 +503,7 @@
 					)
 				)
 				(circle
-					(center 0 -5.842)
+					(center 0 -3.302)
 					(radius 1.27)
 					(stroke
 						(width 0)
@@ -535,7 +515,7 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
+						(xy -8.89 -1.27) (xy -8.89 6.35)
 					)
 					(stroke
 						(width 0.508)
@@ -547,7 +527,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
+						(xy -5.08 6.35) (xy -5.08 -1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -559,7 +539,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.842) (xy 0 4.318)
+						(xy 0 -3.302) (xy 0 6.858)
 					)
 					(stroke
 						(width 0.508)
@@ -571,7 +551,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+						(xy 0 -0.762) (xy -2.54 1.778) (xy -2.54 3.048)
 					)
 					(stroke
 						(width 0.508)
@@ -583,7 +563,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+						(xy 0 0.508) (xy 2.54 3.048) (xy 2.54 4.318)
 					)
 					(stroke
 						(width 0.508)
@@ -595,7 +575,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+						(xy -1.27 6.858) (xy 0 9.398) (xy 1.27 6.858) (xy -1.27 6.858)
 					)
 					(stroke
 						(width 0.254)
@@ -606,8 +586,8 @@
 					)
 				)
 				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
+					(start 1.905 4.318)
+					(end 3.175 5.588)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -617,28 +597,10 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_PowerOnly_6P_1_1"
 				(pin passive line
-					(at 0 -22.86 90)
+					(at 0 -17.78 90)
 					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
 					(name "GND"
 						(effects
 							(font
@@ -654,26 +616,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 15.24 -6.35 180)
+					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -690,45 +634,9 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08) hide
+					(at 15.24 7.62 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -745,25 +653,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
+					(at 0 -17.78 90)
 					(length 5.08) hide
 					(name "GND"
 						(effects
@@ -780,26 +670,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 15.24 -8.89 180)
+					(at 15.24 -7.62 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -817,7 +689,7 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 2.54 180)
+					(at 15.24 7.62 180)
 					(length 5.08) hide
 					(name "VBUS"
 						(effects
@@ -835,7 +707,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -22.86 90)
+					(at -7.62 -17.78 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -845,145 +717,6 @@
 						)
 					)
 					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2070,7 +1803,7 @@
 				)
 			)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:WS2812B-2020"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2086,7 +1819,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "WS2812B-2020"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -2095,7 +1828,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -2105,7 +1838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -2115,7 +1848,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED with integrated controller"
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2124,7 +1857,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2133,7 +1866,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2142,7 +1875,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "WS2812B-2020_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -2152,7 +1885,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "WS2812B-2020_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -2249,25 +1982,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "WS2812B-2020_1_1"
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
@@ -2278,7 +1993,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2296,7 +2011,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2314,6 +2029,24 @@
 							)
 						)
 					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
 						(effects
 							(font
@@ -2324,7 +2057,7 @@
 				)
 			)
 		)
-		(symbol "RF_Module:ESP32-WROOM-32D"
+		(symbol "RF_Module:ESP32-WROOM-32U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2337,7 +2070,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROOM-32D"
+			(property "Value" "ESP32-WROOM-32U"
 				(at 1.27 34.29 0)
 				(effects
 					(font
@@ -2346,8 +2079,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-				(at 16.51 -34.29 0)
+			(property "Footprint" "RF_Module:ESP32-WROOM-32U"
+				(at 0 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2364,7 +2097,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2373,7 +2106,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RF Radio BT ESP ESP32 Espressif onboard PCB antenna"
+			(property "ki_keywords" "RF Radio BT ESP ESP32 Espressif external U.FL antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2382,7 +2115,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ESP32?WROOM?32D*"
+			(property "ki_fp_filters" "ESP32?WROOM?32U*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2391,7 +2124,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_0_1"
+			(symbol "ESP32-WROOM-32U_0_1"
 				(rectangle
 					(start -12.7 33.02)
 					(end 12.7 -33.02)
@@ -2404,7 +2137,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32D_1_1"
+			(symbol "ESP32-WROOM-32U_1_1"
 				(pin power_in line
 					(at 0 -35.56 90)
 					(length 2.54)
@@ -5038,16 +4771,10 @@
 		(uuid "0d188852-4da3-435a-8619-66433b2abb7a")
 	)
 	(junction
-		(at 50.8 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2777c30d-db9b-4773-aab7-16469fbd091f")
-	)
-	(junction
 		(at 90.17 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2af99a66-7887-4e9c-b1ba-e9386165cb0d")
+		(uuid "1583fd80-25db-4284-b5a7-811075f30578")
 	)
 	(junction
 		(at 74.93 135.89)
@@ -5138,10 +4865,6 @@
 		(uuid "0ad2f03b-5e96-4a31-b31a-9aa8a8d6c017")
 	)
 	(no_connect
-		(at 50.8 36.83)
-		(uuid "0d4397c5-dc04-4c8c-8013-fd5bacf91acb")
-	)
-	(no_connect
 		(at 105.41 67.31)
 		(uuid "1b617fcd-dc7e-4f81-8b95-4f725eec7460")
 	)
@@ -5170,7 +4893,7 @@
 		(uuid "546b1d07-710b-488c-b27f-eb2d0c11c866")
 	)
 	(no_connect
-		(at 50.8 43.18)
+		(at 50.8 46.99)
 		(uuid "627e4b31-1cc5-46b4-a42b-ebd842daaa4e")
 	)
 	(no_connect
@@ -5186,7 +4909,7 @@
 		(uuid "70047c12-00e2-4fe5-bd36-124ecf2831b0")
 	)
 	(no_connect
-		(at 50.8 40.64)
+		(at 50.8 44.45)
 		(uuid "770d9817-c768-41f5-8560-5c6854cc5ce4")
 	)
 	(no_connect
@@ -5248,10 +4971,6 @@
 	(no_connect
 		(at 105.41 80.01)
 		(uuid "b953acc6-a528-4f49-858f-666fcbb0017b")
-	)
-	(no_connect
-		(at 50.8 34.29)
-		(uuid "ba4c45b0-6590-49a8-8683-59ad6fb8f350")
 	)
 	(no_connect
 		(at 105.41 57.15)
@@ -5355,6 +5074,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 125.73) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea08297-ad64-4e12-aa70-09544d40d834")
+	)
+	(wire
+		(pts
 			(xy 50.8 82.55) (xy 49.53 82.55)
 		)
 		(stroke
@@ -5455,6 +5184,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 123.19) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e3e76d-10bd-482c-920f-d68b7d910d96")
+	)
+	(wire
+		(pts
 			(xy 187.96 119.38) (xy 187.96 124.46)
 		)
 		(stroke
@@ -5482,16 +5221,6 @@
 			(type default)
 		)
 		(uuid "50ca4f54-857c-4ea5-8b75-473fe0f03001")
-	)
-	(wire
-		(pts
-			(xy 50.8 128.27) (xy 45.72 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50d2c939-f241-457e-abe9-dae05b5fd83b")
 	)
 	(wire
 		(pts
@@ -5825,16 +5554,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 123.19) (xy 50.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f9a498-6328-4ef3-a731-bf0e86362a08")
-	)
-	(wire
-		(pts
 			(xy 177.8 138.43) (xy 177.8 130.81)
 		)
 		(stroke
@@ -5925,7 +5644,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 128.27) (xy 50.8 128.27)
+			(xy 45.72 128.27) (xy 53.34 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6622,7 +6341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0320d1b0-a85e-4b98-a7be-7fb1e309f01d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR06"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -6673,7 +6392,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR031")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0320f58d-9162-4c68-9971-6d38c4fb64aa")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -6744,7 +6463,7 @@
 		(instances
 			(project ""
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6760,7 +6479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053200ed-7075-4877-879d-3073c4932cb0")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 155.8641 60.96 0)
 			(effects
 				(font
@@ -6778,7 +6497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm_NoMask"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -6880,7 +6599,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6896,7 +6615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b78403-0f92-48c3-b394-104a0820b51f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 177.8 144.78 0)
 			(effects
 				(font
@@ -6946,7 +6665,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6962,7 +6681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071d22d7-2417-4fc0-8b18-e1b9c9a75c5a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 87.63 121.92 0)
 			(effects
 				(font
@@ -7012,7 +6731,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7027,7 +6746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "100bff16-8187-42ab-b447-20b61db5a056")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 127.762 130.81 90)
 			(effects
 				(font
@@ -7045,7 +6764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.952 129.54 90)
 			(effects
 				(font
@@ -7081,7 +6800,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7097,7 +6816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "103be283-11b3-4abc-9ea0-52678902f5e4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR018"
 			(at 123.19 68.58 0)
 			(effects
 				(font
@@ -7147,7 +6866,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR02")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7163,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab7203a-3515-4423-be2c-739adacbb2c3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR022"
 			(at 130.81 144.78 0)
 			(effects
 				(font
@@ -7213,7 +6932,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR033")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7229,7 +6948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7e04f1-8555-40ec-a435-ce12fbfe68d6")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR011"
 			(at 74.93 144.78 0)
 			(effects
 				(font
@@ -7279,188 +6998,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Module:ESP32-WROOM-32D")
-		(at 90.17 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20b8a2a1-ab53-42d6-8d8c-9ba07acc4eed")
-		(property "Reference" "U6"
-			(at 92.3641 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32D"
-			(at 92.3641 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "97206bb6-01f2-4c55-8680-9d2158ab2340")
-		)
-		(pin "10"
-			(uuid "d13e8eff-675a-46fb-90fb-9ef113d8e441")
-		)
-		(pin "17"
-			(uuid "fc45b06b-a830-481c-b6b4-64d0a2812f28")
-		)
-		(pin "23"
-			(uuid "27925d7e-da0a-45b5-86a7-4d5df9191b5e")
-		)
-		(pin "12"
-			(uuid "cc87f093-0ddd-4e22-9c41-afc951e72131")
-		)
-		(pin "27"
-			(uuid "5d3c9698-b6a3-43b0-9aa1-20672f6a3b10")
-		)
-		(pin "32"
-			(uuid "a21387c1-db4a-416e-8980-be81c2b112ec")
-		)
-		(pin "5"
-			(uuid "a74b8e81-bf26-4f57-9aca-1cd8b3070508")
-		)
-		(pin "34"
-			(uuid "a9a56bf6-e385-4eb2-8d08-a298cae08ff6")
-		)
-		(pin "14"
-			(uuid "e4f32df3-cc01-4cdb-a854-14004820df1f")
-		)
-		(pin "39"
-			(uuid "1e102395-6e7a-4779-9434-32d36136f640")
-		)
-		(pin "22"
-			(uuid "cf0c5e6c-6773-4d94-b505-37ff6e4c6653")
-		)
-		(pin "36"
-			(uuid "cd91b0cc-a23e-4a4c-b957-51e759ee1514")
-		)
-		(pin "37"
-			(uuid "690bf813-d087-4e1f-bf4d-8aa19ade0c6f")
-		)
-		(pin "8"
-			(uuid "ff50f8f2-7061-4caa-9311-03e61b2d7beb")
-		)
-		(pin "24"
-			(uuid "0e4fa8ff-bdd9-4f0a-89d9-34c5689879e2")
-		)
-		(pin "30"
-			(uuid "55c91963-3990-473e-8995-ffabbb06823f")
-		)
-		(pin "9"
-			(uuid "8498d42d-c6bd-4e8e-9156-439b6fbe559d")
-		)
-		(pin "15"
-			(uuid "3e560c62-bb18-4dbb-bb13-953b881ca9cf")
-		)
-		(pin "1"
-			(uuid "72c97e68-e5d0-425f-85ff-1f14984e0bc1")
-		)
-		(pin "18"
-			(uuid "52a8b8cd-3919-45a1-8784-3182b1098cda")
-		)
-		(pin "2"
-			(uuid "792f5aa0-163e-4167-b226-b94a8c80fd5f")
-		)
-		(pin "13"
-			(uuid "7839e8a4-5b5c-4546-9f76-1d8d945230ea")
-		)
-		(pin "25"
-			(uuid "08696831-0b58-4c0f-aefa-a34bc51b08cf")
-		)
-		(pin "31"
-			(uuid "fc609c0b-0a90-4728-a470-8cba6f28a9be")
-		)
-		(pin "28"
-			(uuid "0907eec3-66eb-4685-b92b-89c819a2d0b9")
-		)
-		(pin "38"
-			(uuid "5a2189bd-c7ec-4779-83ad-e9c2eefa6f8f")
-		)
-		(pin "4"
-			(uuid "7fbdf20f-fd67-4eab-a0c5-5ed3075f88a6")
-		)
-		(pin "33"
-			(uuid "7d1e7a40-1ab3-4469-ac75-599996c97e84")
-		)
-		(pin "29"
-			(uuid "d8dfb573-7bf4-43a0-aa85-3700a43e27a5")
-		)
-		(pin "7"
-			(uuid "fb255b5f-d261-4203-8d08-f3b4abecba20")
-		)
-		(pin "21"
-			(uuid "8738ff90-7526-4216-bfb8-33683a480e72")
-		)
-		(pin "6"
-			(uuid "70006f33-ba4e-41a7-b467-faab8d1ebdfe")
-		)
-		(pin "20"
-			(uuid "3c7d6c55-a060-4887-8689-a344d244dff3")
-		)
-		(pin "3"
-			(uuid "9d697eb5-ea92-49ce-b0c5-d425f8b4ba52")
-		)
-		(pin "26"
-			(uuid "c0b5940c-448e-4a3d-ae61-a34bfb756291")
-		)
-		(pin "16"
-			(uuid "0e62ff62-8e12-4b6b-9de6-62e80a654307")
-		)
-		(pin "19"
-			(uuid "dd0cb7d8-9da8-4e77-b21b-ac8460d1ba42")
-		)
-		(pin "35"
-			(uuid "53cb2860-5b9d-4997-a6fb-d50879ce1270")
-		)
-		(instances
-			(project ""
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "U6")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2814bec9-11c3-4a8a-b71c-c85a1da39dc7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR026"
 			(at 152.4 144.78 0)
 			(effects
 				(font
@@ -7526,7 +7064,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR04")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7559,7 +7097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 135.89 0)
 			(effects
 				(font
@@ -7687,7 +7225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c466569-5700-4111-b45e-4022ac8a220a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR038"
 			(at 187.96 123.19 0)
 			(effects
 				(font
@@ -7737,7 +7275,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR011")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7835,7 +7373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30e6d476-3de7-490a-bd1e-d21ef7666109")
-		(property "Reference" "C13"
+		(property "Reference" "C1"
 			(at 40.64 130.048 0)
 			(effects
 				(font
@@ -7853,7 +7391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 41.6052 135.89 0)
 			(effects
 				(font
@@ -7889,7 +7427,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C13")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31013bb2-e951-47c6-8eed-926a383f7980")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 44.704 84.836 90)
 			(effects
 				(font
@@ -7923,7 +7461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.72 84.328 90)
 			(effects
 				(font
@@ -7959,7 +7497,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3473c116-6dfc-433a-a97f-f13b8d120e3a")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -8030,7 +7568,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8063,7 +7601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 49.53 132.588 90)
 			(effects
 				(font
@@ -8115,7 +7653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36b2215b-061c-4d4e-b00e-bc915f20c652")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 123.19 106.68 0)
 			(effects
 				(font
@@ -8165,7 +7703,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8181,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "385a76eb-2f85-436e-8d6b-e5549dd396f6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 172.72 107.95 0)
 			(effects
 				(font
@@ -8231,7 +7769,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8246,7 +7784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bb23462-3856-4c3b-a4fa-e916fb4887b1")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 125.222 43.18 90)
 			(effects
 				(font
@@ -8264,7 +7802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 121.412 41.91 90)
 			(effects
 				(font
@@ -8300,7 +7838,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8317,7 +7855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc4aa88-8d15-49de-be26-22a25d8e592f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 172.72 85.09 0)
 			(effects
 				(font
@@ -8367,7 +7905,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8382,7 +7920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c485791-8754-408c-a82f-74fd1971e949")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 68.58 130.048 0)
 			(effects
 				(font
@@ -8400,7 +7938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 69.5452 135.89 0)
 			(effects
 				(font
@@ -8436,7 +7974,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8451,7 +7989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c88bd3d-02b3-4cfc-a7b8-8be57e9fd349")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 172.72 53.848 0)
 			(effects
 				(font
@@ -8467,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.4848 52.07 0)
 			(effects
 				(font
@@ -8503,7 +8041,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8519,7 +8057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2ee61e-424c-4f39-98e0-0585c19c485c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR025"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -8569,7 +8107,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR03")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df1f959-0719-4f24-aade-0043d6dbff61")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR039"
 			(at 187.96 144.78 0)
 			(effects
 				(font
@@ -8635,72 +8173,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 50.8 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eff62f4-7d3f-460c-ba49-988087a64276")
-		(property "Reference" "TP4"
-			(at 50.8 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb793062-df28-40fe-9d3a-41016f437e79")
-		)
-		(instances
-			(project "Caps32Project"
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "TP4")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8716,7 +8189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587a70e7-a50a-46f2-bebf-2faf14f32af0")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR05"
 			(at 40.64 144.78 0)
 			(effects
 				(font
@@ -8766,7 +8239,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR025")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8782,7 +8255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b2d3617-43d4-4d97-a44a-78198400bc1a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR015"
 			(at 90.17 106.68 0)
 			(effects
 				(font
@@ -8832,7 +8305,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR030")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8847,7 +8320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611ccef8-04eb-41e0-9c55-ac52ca790d59")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 33.274 125.984 0)
 			(effects
 				(font
@@ -8899,84 +8372,7 @@
 		(instances
 			(project ""
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 185.42 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64f1b762-1b05-41b1-839a-9dc05fccc482")
-		(property "Reference" "D3"
-			(at 182.88 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 173.99 86.3914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 184.15 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 182.88 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 185.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5f0348f-dcf4-462d-b1be-f4540019375f")
-		)
-		(pin "4"
-			(uuid "72a39cb8-26a0-4f95-aa34-d76d8b998552")
-		)
-		(pin "1"
-			(uuid "0cb4098c-380a-4b72-9997-177d4b4d1614")
-		)
-		(pin "3"
-			(uuid "b6795324-0535-41d1-83fb-17a104f1fa8b")
-		)
-		(instances
-			(project ""
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8992,7 +8388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6276c9-1d00-43d5-b436-48451fc734a8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR028"
 			(at 156.21 30.48 0)
 			(effects
 				(font
@@ -9042,7 +8438,90 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR06")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_PowerOnly_6P")
+		(at 35.56 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da44936-37b0-4f1d-b2c8-cfbc15a83845")
+		(property "Reference" "J3"
+			(at 35.56 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A12"
+			(uuid "6c301285-d48b-4cab-921c-7bdbc531936b")
+		)
+		(pin "A9"
+			(uuid "b2ee1e6c-bcbd-4e1e-b55b-760700d1523e")
+		)
+		(pin "B12"
+			(uuid "419a7497-3e19-4800-bb4e-5385f3dad736")
+		)
+		(pin "B5"
+			(uuid "dc561dc7-6863-4946-8454-8baeaa9effb5")
+		)
+		(pin "B9"
+			(uuid "08dbdaa7-e87c-4cd8-acb0-7d8034c8ccb4")
+		)
+		(pin "S1"
+			(uuid "7d8065cd-15b4-4912-83be-e14d93cbe75e")
+		)
+		(pin "A5"
+			(uuid "d289e192-5fe9-4eff-b6d2-ddaec754dba7")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9058,7 +8537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6edb0e3b-f291-43c4-8bdf-00935ce06abf")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 140.97 106.68 0)
 			(effects
 				(font
@@ -9109,7 +8588,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9125,7 +8604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "734bd158-f3c4-4bcb-80de-5bfb91825c0b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR016"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -9175,7 +8654,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9190,7 +8669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7382d06b-afc4-4ee9-8cc9-eee9c5cdf1c7")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 81.534 24.384 90)
 			(effects
 				(font
@@ -9208,7 +8687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 82.55 24.892 90)
 			(effects
 				(font
@@ -9244,7 +8723,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9260,7 +8739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e26496-fd8d-4677-8de0-25cf77bd3338")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 27.94 144.78 0)
 			(effects
 				(font
@@ -9310,7 +8789,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9326,7 +8805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7612c612-4c07-4451-b827-86863373be7e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR031"
 			(at 171.45 68.58 0)
 			(effects
 				(font
@@ -9376,7 +8855,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR07")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9392,7 +8871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77040d72-b427-49f4-919a-5999a4190d3a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR013"
 			(at 87.63 144.78 0)
 			(effects
 				(font
@@ -9442,7 +8921,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR020")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9476,7 +8955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 132.08 0)
 			(effects
 				(font
@@ -9527,7 +9006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "809b7b4d-a081-48d5-8dd5-85c87c2d14e9")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 125.222 86.36 90)
 			(effects
 				(font
@@ -9545,7 +9024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 121.412 85.09 90)
 			(effects
 				(font
@@ -9581,7 +9060,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9596,7 +9075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8797f9e5-8131-47c5-9536-c7cbe966356b")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 74.93 130.048 0)
 			(effects
 				(font
@@ -9614,7 +9093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 75.8952 135.89 0)
 			(effects
 				(font
@@ -9650,77 +9129,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 142.24 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8806e285-ccd3-4ae9-85f2-54b6f3405401")
-		(property "Reference" "J1"
-			(at 144.78 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ph 2.0"
-			(at 144.78 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6cc0fda5-7744-4429-9b09-35656025414a")
-		)
-		(pin "1"
-			(uuid "fd0b9be2-6aae-4fa6-8533-3596fceea851")
-		)
-		(instances
-			(project "Caps32Project"
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "J1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9737,7 +9146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "896fe060-4a17-4853-9f97-6f4eabaa598d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR010"
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -9787,7 +9196,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR038")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c0d49cd-e576-445b-bc7e-4b35b1a5a059")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 185.42 107.95 0)
 			(effects
 				(font
@@ -9854,7 +9263,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90a4e8a5-ff63-45e7-8ef9-9310a468eccd")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 44.704 72.136 90)
 			(effects
 				(font
@@ -9888,7 +9297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.72 71.628 90)
 			(effects
 				(font
@@ -9924,7 +9333,74 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R7")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93db0776-b1e9-4bd4-b729-4e1dd28d4531")
+		(property "Reference" "Bat-1"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.78 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd4de12-58f4-48f4-aa53-7431dea42239")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "Bat-1")
 					(unit 1)
 				)
 			)
@@ -9941,7 +9417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94be98c0-a9e3-4f2f-afaa-7aa0e8812a12")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 57.15 95.25 0)
 			(effects
 				(font
@@ -9991,7 +9467,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10007,7 +9483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98aaa4e9-48aa-48cc-a8fb-7e5cd902ed80")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -10057,7 +9533,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10073,7 +9549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "992feb9e-08dd-4a5e-ac56-ceec1a440d2d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR03"
 			(at 35.56 63.5 0)
 			(effects
 				(font
@@ -10123,7 +9599,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR027")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10139,7 +9615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa79631-3ce2-4e0e-a3bd-27abcf8699f6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR09"
 			(at 60.96 144.78 0)
 			(effects
 				(font
@@ -10189,7 +9665,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR022")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10204,7 +9680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c325ebe-ccaa-4037-8924-621a121e4c15")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR08"
 			(at 46.99 102.87 0)
 			(effects
 				(font
@@ -10254,7 +9730,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR019")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10269,7 +9745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d72a097-7ded-4cc0-8ece-997192e4e535")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 25.654 130.556 90)
 			(effects
 				(font
@@ -10287,7 +9763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 26.162 129.54 90)
 			(effects
 				(font
@@ -10323,7 +9799,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10338,7 +9814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e95fa78-f75e-4878-9a48-f59c7c9b3b05")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 179.324 55.372 0)
 			(effects
 				(font
@@ -10354,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 178.7652 57.15 0)
 			(effects
 				(font
@@ -10390,7 +9866,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10406,7 +9882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3cac3e5-2535-4384-a362-8fc06326d085")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 39.37 97.7899 0)
 			(effects
 				(font
@@ -10415,7 +9891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Sh 2.0"
+		(property "Value" "Sh 1.0"
 			(at 39.37 100.3299 0)
 			(effects
 				(font
@@ -10466,7 +9942,7 @@
 		(instances
 			(project ""
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10481,7 +9957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3faa167-f5e1-4e5b-b27d-600c95067f6e")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 127 49.8474 90)
 			(effects
 				(font
@@ -10500,7 +9976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 123.19 49.53 0)
 			(effects
 				(font
@@ -10536,7 +10012,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10551,7 +10027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af9e6139-458c-47ee-a7de-2f11c0ba5112")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 87.63 130.048 0)
 			(effects
 				(font
@@ -10569,7 +10045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.5952 135.89 0)
 			(effects
 				(font
@@ -10605,7 +10081,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10621,7 +10097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a8aed7-4493-4456-899c-c9d7ff33b88c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR023"
 			(at 137.16 144.78 0)
 			(effects
 				(font
@@ -10671,7 +10147,188 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR034")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:ESP32-WROOM-32U")
+		(at 90.17 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5163b20-b893-490a-beaf-2d1ae991ebdf")
+		(property "Reference" "U2"
+			(at 92.3641 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32U"
+			(at 92.3641 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-WROOM-32U"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "17"
+			(uuid "0aaac545-26ac-4870-a8b1-cf151c109e8a")
+		)
+		(pin "4"
+			(uuid "d074c99c-3a77-451a-83f8-3456123c7c48")
+		)
+		(pin "14"
+			(uuid "9c2cf90b-558a-4049-8aab-0cd038ce90a5")
+		)
+		(pin "13"
+			(uuid "dcbce09f-c423-47fb-a1c2-d8a5678feace")
+		)
+		(pin "18"
+			(uuid "d5b647a9-7541-4e4f-aeac-201bb5e33bce")
+		)
+		(pin "19"
+			(uuid "f8f35748-34c8-4e44-8a6c-26ececb83de6")
+		)
+		(pin "25"
+			(uuid "901055f8-4bbb-4bb5-83c5-4883c318d577")
+		)
+		(pin "11"
+			(uuid "cab04eb0-b60d-432c-9ff9-a15f0679997f")
+		)
+		(pin "37"
+			(uuid "b00713f1-596c-4c4e-8bdb-aff2427b6244")
+		)
+		(pin "20"
+			(uuid "65cd6c24-096c-46c4-98f1-d9d51510757a")
+		)
+		(pin "38"
+			(uuid "f0f4682f-5aba-4548-b2d3-86e27e9a46b5")
+		)
+		(pin "21"
+			(uuid "b2059a8d-b8b0-4c42-a565-99334915b6c5")
+		)
+		(pin "6"
+			(uuid "1ffd4f73-0afa-4188-8c45-4b327058fa7c")
+		)
+		(pin "5"
+			(uuid "c09e4ba3-38ee-4cd1-af77-6a884ffadf8b")
+		)
+		(pin "29"
+			(uuid "52f89238-8762-4523-a0e9-dcb1f26df783")
+		)
+		(pin "15"
+			(uuid "32cbba5a-7aff-436a-ba89-c934dd3565f1")
+		)
+		(pin "31"
+			(uuid "96a5a342-04f9-4c03-912d-0f0638f64170")
+		)
+		(pin "2"
+			(uuid "bafab301-424e-440e-a2a3-4f082d960531")
+		)
+		(pin "1"
+			(uuid "e206bac2-1ef5-4560-ba7e-7d04bc0bcbe2")
+		)
+		(pin "36"
+			(uuid "8740067f-784b-41e1-befc-e1061db05c75")
+		)
+		(pin "39"
+			(uuid "302ba9d4-7ab4-4380-81ff-9069d6dd37ff")
+		)
+		(pin "32"
+			(uuid "d48f0264-ee3e-4661-892a-a821f6bb1e22")
+		)
+		(pin "8"
+			(uuid "36436fa5-0793-475e-afdb-1254e0dc4a69")
+		)
+		(pin "24"
+			(uuid "6bbf016d-6dec-4b5e-8b97-11f241f710b0")
+		)
+		(pin "16"
+			(uuid "7e6d25a8-40ae-48d0-b727-12e563c6edcb")
+		)
+		(pin "3"
+			(uuid "0b524575-70f7-4093-9190-54c3872a1e8c")
+		)
+		(pin "33"
+			(uuid "4126b8b9-cf0e-4169-b474-a85c291e515b")
+		)
+		(pin "34"
+			(uuid "e2f9b272-552c-4a6e-a54d-c2eadeee92ad")
+		)
+		(pin "12"
+			(uuid "2c301bde-a798-4cb4-b6db-317759464fd7")
+		)
+		(pin "10"
+			(uuid "53e33a2c-3724-48ce-9020-d8cdfd33e451")
+		)
+		(pin "22"
+			(uuid "9d350cc0-4692-43d7-9ab5-0c95d69f5190")
+		)
+		(pin "23"
+			(uuid "c4df0c17-ae8e-477e-9d87-ed1e8a5cc4e9")
+		)
+		(pin "30"
+			(uuid "41f53f08-7ef0-4d3c-8aa0-797bdc33e0ed")
+		)
+		(pin "35"
+			(uuid "bb0bd774-5d9e-4c10-8bfe-a4b6eb1fd592")
+		)
+		(pin "28"
+			(uuid "87b93c98-08e8-4ad3-b98f-7b97d8f61e31")
+		)
+		(pin "7"
+			(uuid "d201504c-dd01-4e8a-817f-4e73496e250e")
+		)
+		(pin "27"
+			(uuid "87aa143a-a1e0-4508-b973-16e5d087790c")
+		)
+		(pin "26"
+			(uuid "45a0277c-b6ae-4c62-ac15-e8590d15f224")
+		)
+		(pin "9"
+			(uuid "9b982a9e-7574-45f7-96c1-55ca4101195b")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae4c157-6754-4cd3-84a5-17b7c43870f5")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR01"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -10737,7 +10394,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR023")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10753,7 +10410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfe08af8-c0b3-44bf-ac13-148f6b912b33")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -10814,7 +10471,7 @@
 		(instances
 			(project ""
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10830,7 +10487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff881a3-6b25-4c97-91c2-d1eac1b9c781")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -10984,7 +10641,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10999,7 +10656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8cf6cad-3e1e-4271-bca1-29f79c467cf5")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 187.96 126.238 0)
 			(effects
 				(font
@@ -11017,7 +10674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 188.9252 132.08 0)
 			(effects
 				(font
@@ -11053,7 +10710,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11068,7 +10725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb10e5bb-d946-4314-8a8c-b5e7dc39bb26")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 97.282 128.27 90)
 			(effects
 				(font
@@ -11086,7 +10743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 93.472 127 90)
 			(effects
 				(font
@@ -11122,7 +10779,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11138,7 +10795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea86d9f-a232-4598-93e7-f2c07c454fc3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR030"
 			(at 165.1 144.78 0)
 			(effects
 				(font
@@ -11188,7 +10845,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR09")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11204,7 +10861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf3a881f-b7e5-4fb4-8c4a-8fec7d313bd5")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 38.1 121.92 0)
 			(effects
 				(font
@@ -11254,7 +10911,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11270,7 +10927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf63fd88-cb8b-4006-870d-e8306fe690dd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR027"
 			(at 153.67 68.58 0)
 			(effects
 				(font
@@ -11320,7 +10977,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR05")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11410,7 +11067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "daa71f61-e63b-4e1c-812c-9cfd49f33692")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 111.76 119.634 0)
 			(effects
 				(font
@@ -11473,7 +11130,74 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "U4")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0cc485a-de5d-4670-95c8-b4e25686539a")
+		(property "Reference" "Bat+1"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 139.7 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34cf6e3-49a5-4820-b39a-13f149e41ec0")
+		)
+		(instances
+			(project ""
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "Bat+1")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e521c065-3501-46f0-94e8-637cb2275e71")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 185.42 85.09 0)
 			(effects
 				(font
@@ -11539,7 +11263,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11555,7 +11279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60f3250-b26d-4389-863b-ba93bdb7dc7d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR021"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -11605,7 +11329,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR032")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11701,7 +11425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeecdcd1-2289-4673-9ce1-58dbeba9caf9")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 127 93.0274 90)
 			(effects
 				(font
@@ -11720,7 +11444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -11756,6 +11480,82 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 185.42 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "effc04e5-6e41-4960-8f9d-5e1cfb4d735e")
+		(property "Reference" "D5"
+			(at 199.39 83.8514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 199.39 86.3914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+			(at 182.88 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad6e3346-2d5c-4d96-8462-bc7a91e1b2e5")
+		)
+		(pin "3"
+			(uuid "3212b28b-e680-4060-a18a-85b5d1f4fb99")
+		)
+		(pin "4"
+			(uuid "9648b510-866c-40ce-911e-e852defb5bc3")
+		)
+		(pin "1"
+			(uuid "aad65117-7747-4102-b76a-9373835fc44f")
+		)
+		(instances
+			(project ""
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "D5")
 					(unit 1)
 				)
@@ -11773,7 +11573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f07397b6-667e-4589-b6b5-9568c44785d4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR014"
 			(at 90.17 30.48 0)
 			(effects
 				(font
@@ -11823,108 +11623,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 35.56 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0cdd728-da20-44f7-8c6f-28c27184dbbb")
-		(property "Reference" "P1"
-			(at 35.56 19.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 35.56 22.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 39.37 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 35.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B12"
-			(uuid "1620c157-b764-4b2e-bc67-3c99343635f6")
-		)
-		(pin "A1"
-			(uuid "5fea014d-5981-4577-9599-178ffc65a388")
-		)
-		(pin "S1"
-			(uuid "6e1c044d-a696-4296-9371-eb1b549baf02")
-		)
-		(pin "A4"
-			(uuid "e68ad492-3bf6-4359-a203-da845b27acb1")
-		)
-		(pin "A12"
-			(uuid "9cddbb54-9dd5-4572-ba75-105a8ee108d7")
-		)
-		(pin "A7"
-			(uuid "71e84abd-0574-4d27-9a1d-8f82e389b096")
-		)
-		(pin "A5"
-			(uuid "37aa74e6-c6e1-4d0f-ad0c-b0d4dc9788cd")
-		)
-		(pin "B1"
-			(uuid "98e88498-089e-4c6b-896b-797681792016")
-		)
-		(pin "A9"
-			(uuid "56e8d943-c653-4e62-9f7c-6ca9d5ab9497")
-		)
-		(pin "B5"
-			(uuid "7f965475-a0c5-485c-a1fe-73d41251e8df")
-		)
-		(pin "A6"
-			(uuid "c8edd547-6027-4668-bc47-361e114ea24a")
-		)
-		(pin "B9"
-			(uuid "93a1b6dc-1c85-4f7e-86d4-0b9c7bfd6895")
-		)
-		(pin "B4"
-			(uuid "cc07ce5f-df82-4c88-b818-c02dee0b9365")
-		)
-		(instances
-			(project ""
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "P1")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11939,7 +11638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2f44399-f3ed-48f8-9b47-60f494d53a1a")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 172.72 89.408 0)
 			(effects
 				(font
@@ -11957,7 +11656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.6852 95.25 0)
 			(effects
 				(font
@@ -11993,7 +11692,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12009,7 +11708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6a412ec-1510-4f5d-aaea-d69cac1dbb8c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR020"
 			(at 125.73 144.78 0)
 			(effects
 				(font
@@ -12059,7 +11758,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR028")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12075,7 +11774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85d47d7-d1ba-450d-8145-42cde521f2aa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR034"
 			(at 177.8 68.58 0)
 			(effects
 				(font
@@ -12125,7 +11824,7 @@
 		(instances
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR08")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12141,7 +11840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d8126f-768f-448e-a88d-f7ad1c9820db")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR029"
 			(at 157.48 106.68 0)
 			(effects
 				(font
@@ -12192,7 +11891,7 @@
 		(instances
 			(project "Caps32Project"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR015")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
