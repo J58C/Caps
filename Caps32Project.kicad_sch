@@ -5044,6 +5044,10 @@
 		(uuid "6c1921f9-130b-4f82-9a38-6976e50965a4")
 	)
 	(no_connect
+		(at 130.81 52.07)
+		(uuid "6c23ee3d-932e-43f8-b0e6-4263297d00bf")
+	)
+	(no_connect
 		(at 71.12 34.29)
 		(uuid "7c07998e-1dc9-4cc6-a3d2-5c558b219661")
 	)
@@ -5762,28 +5766,6 @@
 		(uuid "1b27c834-0d04-47fb-bfc8-56f4caf8a456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.6972 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SP_USB"
-		(shape input)
-		(at 130.81 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32b62fb3-f74a-4bf0-ba14-0d05c7db2da6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5677 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6746,8 +6728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 67.31 270)
-		(mirror x)
+		(at 31.75 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6756,7 +6737,7 @@
 		(fields_autoplaced yes)
 		(uuid "218f2210-5bfd-41e4-b2c5-e07ec4b3bb2e")
 		(property "Reference" "#PWR01"
-			(at 12.7 67.31 0)
+			(at 31.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,16 +6746,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 15.24 67.3099 90)
+			(at 31.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 67.31 0)
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +6763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 67.31 0)
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 67.31 0)
+			(at 31.75 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm_NoMask"
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -9902,73 +9882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b788c4bb-05c5-49eb-9fcf-17d1143ea071")
-		(property "Reference" "#PWR032"
-			(at 123.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e685acf9-4bcd-40d1-83b3-fd759cd89c93")
-		)
-		(instances
-			(project "Caps32Project"
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 142.24 80.01 0)
 		(unit 1)
@@ -10515,6 +10428,72 @@
 			(project "Caps"
 				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 119.38 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3a0991a-d007-4275-b488-c91d26e39315")
+		(property "Reference" "#PWR019"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0399dbcf-7783-4869-a576-88d6ab4309ad")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11128,73 +11107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1bfab1c-0489-45d3-bbee-0941ccbfdb89")
-		(property "Reference" "#PWR031"
-			(at 119.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62d4172a-ac9b-45b2-97f5-5495934a5f4a")
-		)
-		(instances
-			(project "Caps32Project"
-				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 25.4 38.1 0)
 		(mirror y)
@@ -11398,9 +11310,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 123.19 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9cab6f0-c0a6-4a9a-b83b-ed5021c0564e")
+		(property "Reference" "#PWR018"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a8c59f6-a3cf-4e29-a446-707591f1c7fd")
+		)
+		(instances
+			(project "Caps32Project"
+				(path "/c1972a26-8b03-42e6-af88-e08ef9733d83"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 26.67 67.31 270)
-		(mirror x)
+		(at 24.13 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11408,7 +11385,7 @@
 		(dnp no)
 		(uuid "fb826933-1731-4605-aaf3-91798627f934")
 		(property "Reference" "J1"
-			(at 22.86 61.976 90)
+			(at 27.94 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11417,7 +11394,7 @@
 			)
 		)
 		(property "Value" "PH2.0"
-			(at 22.86 64.516 90)
+			(at 27.94 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11403,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 26.67 67.31 0)
+			(at 24.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 67.31 0)
+			(at 24.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11444,7 +11421,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 67.31 0)
+			(at 24.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
