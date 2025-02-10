@@ -1,4 +1,4 @@
-24754079388361480
+24762270842852093
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87163,6 +87163,41 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization Pretty
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+Panelization Pretty
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+Panelization Pretty
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+Panelization Pretty
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+Panelization Pretty
+mouse-bite-5mm-slot
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
