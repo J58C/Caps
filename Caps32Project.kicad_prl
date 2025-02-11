@@ -18,9 +18,9 @@
       "dimensions": true,
       "footprints": true,
       "graphics": true,
-      "keepouts": false,
+      "keepouts": true,
       "lockedItems": true,
-      "otherItems": false,
+      "otherItems": true,
       "pads": true,
       "text": true,
       "tracks": true,
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "000d0b0_ffffffff",
+    "visible_layers": "000d030_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
