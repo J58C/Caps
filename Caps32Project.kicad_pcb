@@ -179,7 +179,7 @@
 		(uuid "0051d7af-a741-43c1-b163-1e03e2650c93")
 		(at 59.5 45.61 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0475ee6d-7bf1-461f-bccf-422cc3fb25c8")
@@ -191,7 +191,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fc160dac-848f-478f-a142-403fda462889")
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff3bd03f-b43b-4323-820a-69793721c83e")
@@ -215,7 +215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98c27c9b-ad07-4c9a-a030-9f9a812d13a0")
@@ -227,7 +227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "99e62a94-d515-4ae4-ba58-d2e524db6a40")
@@ -9692,6 +9692,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d65a8a2d-5ae7-4944-b744-a438993c17a8")
+	)
+	(gr_text "+"
+		(at 64.16 46.18 0)
+		(layer "F.SilkS")
+		(uuid "4dc583bd-8ab2-4cdd-80ed-c9254ce24dff")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 70.44 46.19 0)
+		(layer "F.SilkS")
+		(uuid "deee23ec-b7ae-437d-b7fd-56e8fc685822")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 68.210265 31.464735)
