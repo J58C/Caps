@@ -3,7 +3,7 @@ name: KiCad Project Automation
 on:
   push:
     branches:
-      - '1702'
+      - '6206'
     paths:
       - 'Caps32Project.kicad_pcb'
       - 'Caps32Project.kicad_prl'
@@ -17,11 +17,11 @@ jobs:
     outputs:
       pcb_change: ${{ steps.check_files.outputs.pcb_change }}
     steps:
-      - name: Checkout repository (branch 1702)
+      - name: Checkout repository (branch 6206)
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
-          ref: 1702
+          ref: 6206
 
       - name: Check if kicad_pcb was modified
         id: check_files
@@ -41,15 +41,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: [Check-Files]
     steps:
-      - name: Checkout repository (branch 1702)
+      - name: Checkout repository (branch 6206)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: 1702
+          ref: 6206
 
       - name: Get current date and time
         id: datetime
-        run: echo "timestamp=1702-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
+        run: echo "timestamp=6206-$(date +'%d%m%y%H%M')" >> $GITHUB_ENV
 
       - name: Create ZIP archive (outside Archive folder)
         run: zip "Caps32Project-${{ env.timestamp }}.zip" Caps32Project.kicad_pcb Caps32Project.kicad_prl Caps32Project.kicad_pro Caps32Project.kicad_sch
@@ -62,7 +62,7 @@ jobs:
 
       - name: Remove old ZIP file
         run: |
-          rm -f Archive/Caps32Project-1702-*.zip || true
+          rm -f Archive/Caps32Project-6206-*.zip || true
 
       - name: Move ZIP file to main branch
         run: |
@@ -74,7 +74,7 @@ jobs:
           git add Archive/
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update archive: Caps32Project-${{ env.timestamp }} from branch 1702"
+          git commit -m "Update archive: Caps32Project-${{ env.timestamp }} from branch 6206"
           git push origin main
 
   Render-Images:
@@ -83,11 +83,11 @@ jobs:
     needs: [Check-Files]
     if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
-      - name: Checkout branch 1702
+      - name: Checkout branch 6206
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: "1702"
+          ref: "6206"
 
       - name: Render PCB Images
         uses: linalinn/kicad-render@main
@@ -108,7 +108,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images
           git commit -m "Update PCB render images"
-          git push origin 1702
+          git push origin 6206
 
   Move-Files:
     name: Move to Main
@@ -116,10 +116,10 @@ jobs:
     needs: [Render-Images]
     if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
-      - name: Checkout branch 1702
+      - name: Checkout branch 6206
         uses: actions/checkout@v4
         with:
-          ref: "1702"
+          ref: "6206"
 
       - name: Checkout main branch
         uses: actions/checkout@v4
@@ -129,27 +129,27 @@ jobs:
 
       - name: Move images to main branch
         run: |
-          mkdir -p main-branch/Images/1702
-          mv images/bottom.png main-branch/Images/1702/ 2>/dev/null || true
-          mv images/rotating.gif main-branch/Images/1702/ 2>/dev/null || true
-          mv images/top.png main-branch/Images/1702/ 2>/dev/null || true
+          mkdir -p main-branch/Images/6206
+          mv images/bottom.png main-branch/Images/6206/ 2>/dev/null || true
+          mv images/rotating.gif main-branch/Images/6206/ 2>/dev/null || true
+          mv images/top.png main-branch/Images/6206/ 2>/dev/null || true
 
       - name: Commit and push changes to main
         run: |
           cd main-branch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Images/1702
-          git commit -m "Update images: Rendered files 1702"
+          git add Images/6206
+          git commit -m "Update images: Rendered files 6206"
           git push origin main
 
-      - name: Delete images folder from branch 1702
+      - name: Delete images folder from branch 6206
         run: |
-          git checkout 1702
+          git checkout 6206
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf images
           rm -rf main-branch
           git add .
           git commit -m "Remove images folder after moving to main" || true
-          git push origin 1702
+          git push origin 6206
