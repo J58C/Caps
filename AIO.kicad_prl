@@ -1,14 +1,14 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 37,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6399999856948853,
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -64,17 +64,17 @@
       39,
       40
     ],
-    "visible_layers": "000d130_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
-    "repo_type": "https",
+    "repo_type": "",
     "repo_username": "",
-    "ssh_key": "C:\\Users\\j5mus\\.ssh\\id_rsa"
+    "ssh_key": ""
   },
   "meta": {
-    "filename": "C3-1.kicad_prl",
+    "filename": "Protek32.kicad_prl",
     "version": 3
   },
   "project": {
