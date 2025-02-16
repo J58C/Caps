@@ -37,7 +37,6 @@ jobs:
     name: PCB Render
     runs-on: ubuntu-latest
     needs: [Check-Files]
-    if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
       - name: Checkout branch AIO
         uses: actions/checkout@v4
@@ -70,7 +69,6 @@ jobs:
     name: Move to Main
     runs-on: ubuntu-latest
     needs: [Render-Images]
-    if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
       - name: Checkout branch AIO
         uses: actions/checkout@v4
