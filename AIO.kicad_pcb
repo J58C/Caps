@@ -5807,6 +5807,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0ad16443-1200-414f-9b1f-e60247d99519")
 		(at 195.43 63.832019)
@@ -7208,6 +7209,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1b4166d1-e890-4458-8332-3e9a37e8bee8")
 		(at 201.105482 97.63 -90)
@@ -7752,6 +7754,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2209fabf-3f06-4586-b48a-c4e1da38cec9")
 		(at 201.107981 104.43 -90)
@@ -8548,6 +8551,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "341c75f0-70dc-48b4-9a30-50b01f1fb693")
 		(at 205.95 80.16 90)
@@ -8670,6 +8674,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "37a2ba23-eb36-4086-b7fb-ef00570060c2")
 		(at 246.09096 118.5)
@@ -8792,6 +8797,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3844a95b-771f-4524-9eec-1979ebbc9bca")
 		(at 177.43 118.43 180)
@@ -10981,6 +10987,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "42176aee-e5ef-4c64-a09f-552490ec56c4")
 		(at 257.440576 118.5)
@@ -15000,6 +15007,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "546f90c0-e7ce-440d-8625-e5106914d386")
 		(at 222.8 86.04)
@@ -16801,6 +16809,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5dcff95c-695e-43d5-ab8c-ebead7033423")
 		(at 239.137981 79.66 -90)
@@ -18666,6 +18675,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "608fb7c4-532f-4794-8cfe-53c8fa1f5454")
 		(at 219.8 108.71 180)
@@ -19210,6 +19220,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "64582d90-1366-49f6-a63a-9a751567e949")
 		(at 184.37 86.24)
@@ -19332,6 +19343,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "65f2bde5-d5d0-4464-9b4e-3518b676ac51")
 		(at 257.44 67.232019)
@@ -19454,6 +19466,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6941dc3c-b21a-49f8-9fc4-e890022e5879")
 		(at 193.34 118.42 180)
@@ -20471,6 +20484,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6f625064-de79-470b-80b6-5644e23cb7f2")
 		(at 201.107981 90.655 -90)
@@ -21356,6 +21370,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "72f0abaa-5eb6-4dca-9273-b5090129e844")
 		(at 173.57 63.82)
@@ -22111,6 +22126,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "826aeba2-0950-4d00-8758-7f30665b7aaa")
 		(at 239.14048 124.83 -90)
@@ -22708,6 +22724,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8d6ecb30-3ddc-4e48-8a8b-2b2ecbd6a937")
 		(at 232.56 63.82952)
@@ -23041,6 +23058,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8f04a465-3eca-478d-9594-4c3c311ab64e")
 		(at 239.137981 101.3 -90)
@@ -23163,6 +23181,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "931d8fb1-77dc-4d0e-a8e5-1d5379bda72a")
 		(at 258.42 126.13)
@@ -23264,6 +23283,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9596c926-968e-417e-8373-38805be5ecc6")
 		(at 246.09096 67.232019)
@@ -23808,6 +23828,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "99f6a311-99d3-45ea-b550-46158782a714")
 		(at 201.11 113.57 90)
@@ -24432,6 +24453,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9aa354f7-d586-4d95-b04a-f536267fbe67")
 		(at 258.42 56.13)
@@ -24533,6 +24555,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9b7ddf17-0e73-4d61-9a3d-23466ad93362")
 		(at 205.94 70.49 -90)
@@ -26952,6 +26975,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9f5a1894-665c-481f-9042-c0dd784d7dc0")
 		(at 195.43 86.24)
@@ -27788,6 +27812,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a4f4f5d3-d8d2-419a-8110-736ce70642c0")
 		(at 246.09096 92.86 180)
@@ -29869,6 +29894,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "aa1b2f38-93b6-4d67-84ff-48fd9cb83f62")
 		(at 201.12 124.83 90)
@@ -34275,6 +34301,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c59ec6ad-3ff0-4d30-bd55-9f5d24acca1d")
 		(at 239.137981 57.15 -90)
@@ -34397,6 +34424,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c61278e5-f7f5-4fe9-a656-35e8fefc02a2")
 		(at 232.56 86.05)
@@ -34519,6 +34547,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c6131c70-a440-4fae-b5a5-4e0a779f24f7")
 		(at 222.8 63.832019)
@@ -34641,6 +34670,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c6f37e32-5338-4c9d-bc98-7a5847cce0d2")
 		(at 175.4 56.13)
@@ -35428,6 +35458,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cdef5158-f470-4024-ace1-4710dcaccb98")
 		(at 212.14 86.04)
@@ -35761,6 +35792,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cedc9c33-ca36-43de-aca1-c439adeab171")
 		(at 239.137981 69.99 -90)
@@ -35883,6 +35915,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d4c7194c-3ff7-4541-8ea9-8423e0f02602")
 		(at 173.569244 86.23)
@@ -36740,6 +36773,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d8b6f15b-fd9f-4bea-94eb-713067b0231e")
 		(at 176.939136 74.53 90)
@@ -37337,6 +37371,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "dec1501a-1b89-4670-a2c9-0c7ee6db449b")
 		(at 175.4 126.13)
@@ -37438,6 +37473,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e06e6ecb-d81d-427e-84c3-d09b38d61786")
 		(at 257.440576 92.85 180)
@@ -39423,6 +39459,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e985b302-7783-42cc-b97d-f514ab97987a")
 		(at 212.14 63.832019)
@@ -40239,6 +40276,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "edc73ea3-a8a8-4edc-8034-4871371f90d3")
 		(at 184.35 63.832019)
@@ -40361,6 +40399,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f0f8824a-b51e-4997-948a-ba5534307773")
 		(at 232.56 108.71 180)
@@ -40483,6 +40522,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f1ae066b-fe5f-4e67-ad33-2dbb4d2318db")
 		(at 207.57 108.7 180)
@@ -41151,6 +41191,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f4f2a3c1-dde6-4ab4-8bc4-ed49b75a196d")
 		(at 239.14048 113.57 -90)
@@ -42308,6 +42349,7 @@
 		)
 	)
 	(footprint "Panelization Pretty:mouse-bite-1mm-slot"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fe37d71c-69f2-40b1-a083-a6fcff22e74f")
 		(at 239.137981 90.12 -90)
@@ -103678,6 +103720,7 @@
 	(gr_line
 		(start 202.39096 92.155)
 		(end 202.39096 96.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103689,6 +103732,7 @@
 		(start 255.940576 117.979136)
 		(mid 256.46144 118.5)
 		(end 255.940576 119.020864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103699,6 +103743,7 @@
 	(gr_line
 		(start 258.940576 119.020384)
 		(end 258.940576 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103709,6 +103754,7 @@
 	(gr_line
 		(start 213.64 65.09)
 		(end 221.3 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103719,6 +103765,7 @@
 	(gr_line
 		(start 213.64 85.519616)
 		(end 213.64 84.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103730,6 +103777,7 @@
 		(start 175.07 64.340384)
 		(mid 174.549472 63.82)
 		(end 175.07 63.299616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103740,6 +103788,7 @@
 	(gr_line
 		(start 204.67 84.97)
 		(end 204.67 81.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103750,6 +103799,7 @@
 	(gr_line
 		(start 175.07 65.09)
 		(end 175.68 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103760,6 +103810,7 @@
 	(gr_line
 		(start 185.85 65.09)
 		(end 185.85 64.352403)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103770,6 +103821,7 @@
 	(gr_line
 		(start 199.84 119.71)
 		(end 194.84 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103780,6 +103832,7 @@
 	(gr_line
 		(start 247.59096 93.380864)
 		(end 247.59096 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103790,6 +103843,7 @@
 	(gr_line
 		(start 209.07 109.220864)
 		(end 209.07 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103800,6 +103854,7 @@
 	(gr_line
 		(start 218.3 109.94)
 		(end 218.3 109.230384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103810,6 +103865,7 @@
 	(gr_line
 		(start 200.599136 126.33)
 		(end 199.84 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103821,6 +103877,7 @@
 		(start 173.4 130.13)
 		(mid 171.985786 129.544214)
 		(end 171.4 128.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103832,6 +103889,7 @@
 		(start 210.64 63.311155)
 		(mid 211.160864 63.832019)
 		(end 210.64 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103842,6 +103900,7 @@
 	(gr_line
 		(start 240.42096 119.71)
 		(end 240.42096 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103852,6 +103911,7 @@
 	(gr_line
 		(start 196.93 65.09)
 		(end 204.67 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103862,6 +103922,7 @@
 	(gr_line
 		(start 202.388461 99.13)
 		(end 202.388461 102.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103872,6 +103933,7 @@
 	(gr_line
 		(start 244.59096 119.71)
 		(end 244.59096 119.020864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103882,6 +103944,7 @@
 	(gr_line
 		(start 247.59096 92.339136)
 		(end 247.59096 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103892,6 +103955,7 @@
 	(gr_line
 		(start 172.07 64.340864)
 		(end 172.07 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103902,6 +103966,7 @@
 	(gr_line
 		(start 210.64 65.09)
 		(end 210.64 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103912,6 +103977,7 @@
 	(gr_line
 		(start 182.85 63.311155)
 		(end 182.85 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103922,6 +103988,7 @@
 	(gr_line
 		(start 244.59096 66.711155)
 		(end 244.59096 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103932,6 +103999,7 @@
 	(gr_line
 		(start 237.877501 99.8)
 		(end 238.617117 99.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103943,6 +104011,7 @@
 		(start 239.658845 68.49)
 		(mid 239.137981 69.010864)
 		(end 238.617117 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103953,6 +104022,7 @@
 	(gr_line
 		(start 210.64 63.311155)
 		(end 210.64 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103963,6 +104033,7 @@
 	(gr_line
 		(start 210.64 85.519136)
 		(end 210.64 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103974,6 +104045,7 @@
 		(start 171.4 54.13)
 		(mid 171.985786 52.715786)
 		(end 173.4 52.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103985,6 +104057,7 @@
 		(start 206.470384 78.66)
 		(mid 205.95 79.180384)
 		(end 205.429616 78.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103995,6 +104068,7 @@
 	(gr_line
 		(start 206.470864 81.66)
 		(end 207.21 81.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104006,6 +104080,7 @@
 		(start 238.617597 71.49)
 		(mid 239.137981 70.969616)
 		(end 239.658365 71.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104016,6 +104091,7 @@
 	(gr_line
 		(start 196.93 63.311635)
 		(end 196.93 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104026,6 +104102,7 @@
 	(gr_line
 		(start 175.68 84.99)
 		(end 175.68 76.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104036,6 +104113,7 @@
 	(gr_line
 		(start 177.46 76.03)
 		(end 178.21 76.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104047,6 +104125,7 @@
 		(start 178.93 118.950864)
 		(mid 178.409236 118.43)
 		(end 178.93 117.909136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104057,6 +104136,7 @@
 	(gr_line
 		(start 234.06 64.349904)
 		(end 234.06 65.087501)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104067,6 +104147,7 @@
 	(gr_line
 		(start 237.877501 78.16)
 		(end 238.617117 78.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104077,6 +104158,7 @@
 	(gr_line
 		(start 260.42 52.13)
 		(end 240.42096 52.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104087,6 +104169,7 @@
 	(gr_line
 		(start 201.628365 105.93)
 		(end 202.39096 105.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104097,6 +104180,7 @@
 	(gr_line
 		(start 201.626346 96.13)
 		(end 202.388461 96.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104107,6 +104191,7 @@
 	(gr_line
 		(start 199.85 117.18)
 		(end 194.84 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104117,6 +104202,7 @@
 	(gr_line
 		(start 178.93 117.18)
 		(end 191.84 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104127,6 +104213,7 @@
 	(gr_line
 		(start 205.429136 81.66)
 		(end 204.67 81.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104138,6 +104225,7 @@
 		(start 247.59096 67.752403)
 		(mid 247.070576 67.232019)
 		(end 247.59096 66.711635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104149,6 +104237,7 @@
 		(start 182.87 85.719136)
 		(mid 183.390764 86.24)
 		(end 182.87 86.760864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104159,6 +104248,7 @@
 	(gr_line
 		(start 239.658845 55.65)
 		(end 240.42096 55.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104170,6 +104260,7 @@
 		(start 193.93 63.311155)
 		(mid 194.450864 63.832019)
 		(end 193.93 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104181,6 +104272,7 @@
 		(start 244.59096 117.979136)
 		(mid 245.111824 118.5)
 		(end 244.59096 119.020864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104192,6 +104284,7 @@
 		(start 238.617597 91.62)
 		(mid 239.137981 91.099616)
 		(end 239.658365 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104202,6 +104295,7 @@
 	(gr_line
 		(start 237.88 112.07)
 		(end 238.619616 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104212,6 +104306,7 @@
 	(gr_line
 		(start 196.93 65.09)
 		(end 196.93 64.350384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104222,6 +104317,7 @@
 	(gr_line
 		(start 237.88 84.79)
 		(end 237.88 81.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104232,6 +104328,7 @@
 	(gr_line
 		(start 199.84 130.13)
 		(end 199.84 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104242,6 +104339,7 @@
 	(gr_line
 		(start 213.64 86.560384)
 		(end 213.64 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104252,6 +104350,7 @@
 	(gr_line
 		(start 239.658365 58.65)
 		(end 240.42096 58.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104262,6 +104361,7 @@
 	(gr_line
 		(start 202.38 112.07)
 		(end 202.38 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104272,6 +104372,7 @@
 	(gr_line
 		(start 234.06 62.546541)
 		(end 237.88 62.546541)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104282,6 +104383,7 @@
 	(gr_line
 		(start 255.94 68.49)
 		(end 255.94 67.752883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104292,6 +104394,7 @@
 	(gr_line
 		(start 244.59096 94.12)
 		(end 240.42096 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104303,6 +104406,7 @@
 		(start 238.617597 58.65)
 		(mid 239.137981 58.129616)
 		(end 239.658365 58.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104314,6 +104418,7 @@
 		(start 255.940576 92.329616)
 		(mid 256.460944 92.85)
 		(end 255.940576 93.370384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104324,6 +104429,7 @@
 	(gr_line
 		(start 175.68 84.99)
 		(end 175.069244 84.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104334,6 +104440,7 @@
 	(gr_line
 		(start 209.07 109.94)
 		(end 218.3 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104344,6 +104451,7 @@
 	(gr_line
 		(start 262.42 119.71)
 		(end 262.42 128.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104354,6 +104462,7 @@
 	(gr_line
 		(start 204.67 68.99)
 		(end 204.67 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104364,6 +104473,7 @@
 	(gr_line
 		(start 200.599616 123.33)
 		(end 199.84 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104374,6 +104484,7 @@
 	(gr_line
 		(start 244.59096 91.62)
 		(end 239.658365 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104384,6 +104495,7 @@
 	(gr_line
 		(start 199.85 92.155)
 		(end 199.85 96.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104394,6 +104506,7 @@
 	(gr_line
 		(start 231.06 63.308656)
 		(end 231.06 62.546541)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104404,6 +104517,7 @@
 	(gr_line
 		(start 201.640864 126.33)
 		(end 202.38 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104414,6 +104528,7 @@
 	(gr_line
 		(start 200.589616 112.07)
 		(end 199.85 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104422,18 +104537,9 @@
 		(uuid "3dbb7e83-e60d-4aea-97e1-664b4819f91f")
 	)
 	(gr_line
-		(start 199.847501 99.13)
-		(end 200.587117 99.13)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "4058edaf-d25b-4a4c-b8bf-38fe3f4f3eb2")
-	)
-	(gr_line
 		(start 258.940576 92.329136)
 		(end 258.940576 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104445,6 +104551,7 @@
 		(start 224.3 86.560384)
 		(mid 223.779616 86.04)
 		(end 224.3 85.519616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104455,6 +104562,7 @@
 	(gr_line
 		(start 206.470384 78.66)
 		(end 207.21 78.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104465,6 +104573,7 @@
 	(gr_line
 		(start 234.06 87.31)
 		(end 234.06 86.570384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104476,6 +104585,7 @@
 		(start 194.84 118.940864)
 		(mid 194.319236 118.42)
 		(end 194.84 117.899136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104486,6 +104596,7 @@
 	(gr_line
 		(start 237.88 123.33)
 		(end 238.619616 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104496,6 +104607,7 @@
 	(gr_line
 		(start 178.93 117.909136)
 		(end 178.93 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104506,6 +104618,7 @@
 	(gr_line
 		(start 194.84 118.940864)
 		(end 194.84 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104516,6 +104629,7 @@
 	(gr_line
 		(start 194.84 117.899136)
 		(end 194.84 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104526,6 +104640,7 @@
 	(gr_line
 		(start 193.93 65.09)
 		(end 193.93 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104537,6 +104652,7 @@
 		(start 200.585098 99.13)
 		(mid 201.105482 98.609616)
 		(end 201.625866 99.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104547,6 +104663,7 @@
 	(gr_line
 		(start 213.64 65.09)
 		(end 213.64 64.350384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104557,6 +104674,7 @@
 	(gr_line
 		(start 206.460864 68.99)
 		(end 207.21 68.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104567,6 +104685,7 @@
 	(gr_line
 		(start 258.940576 117.979616)
 		(end 258.940576 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104577,6 +104696,7 @@
 	(gr_line
 		(start 178.21 65.09)
 		(end 182.85 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104587,6 +104707,7 @@
 	(gr_line
 		(start 196.93 86.760384)
 		(end 196.93 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104597,6 +104718,7 @@
 	(gr_line
 		(start 199.85 92.155)
 		(end 200.589616 92.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104608,6 +104730,7 @@
 		(start 238.617597 81.16)
 		(mid 239.137981 80.639616)
 		(end 239.658365 81.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104618,6 +104741,7 @@
 	(gr_line
 		(start 191.84 119.71)
 		(end 178.93 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104628,6 +104752,7 @@
 	(gr_line
 		(start 204.67 78.66)
 		(end 204.67 71.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104639,6 +104764,7 @@
 		(start 238.620096 126.33)
 		(mid 239.14048 125.809616)
 		(end 239.660864 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104650,6 +104776,7 @@
 		(start 175.93 117.909616)
 		(mid 176.450484 118.43)
 		(end 175.93 118.950384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104660,6 +104787,7 @@
 	(gr_line
 		(start 231.06 87.31)
 		(end 224.3 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104670,6 +104798,7 @@
 	(gr_line
 		(start 247.59096 91.62)
 		(end 255.940576 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104680,6 +104809,7 @@
 	(gr_line
 		(start 178.21 76.03)
 		(end 178.21 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104690,6 +104820,7 @@
 	(gr_line
 		(start 244.59096 92.339616)
 		(end 244.59096 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104701,6 +104832,7 @@
 		(start 201.626346 96.13)
 		(mid 201.105482 96.650864)
 		(end 200.584618 96.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104711,6 +104843,7 @@
 	(gr_line
 		(start 247.59096 66.711635)
 		(end 247.59096 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104721,6 +104854,7 @@
 	(gr_line
 		(start 221.3 65.09)
 		(end 221.3 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104732,6 +104866,7 @@
 		(start 191.84 117.899616)
 		(mid 192.360484 118.42)
 		(end 191.84 118.940384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104742,6 +104877,7 @@
 	(gr_line
 		(start 224.3 62.546541)
 		(end 224.3 63.311635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104752,6 +104888,7 @@
 	(gr_line
 		(start 247.59096 65.94904)
 		(end 255.94 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104762,6 +104899,7 @@
 	(gr_line
 		(start 175.069244 87.52)
 		(end 182.87 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104772,6 +104910,7 @@
 	(gr_line
 		(start 206.07 108.179616)
 		(end 206.07 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104782,6 +104921,7 @@
 	(gr_line
 		(start 258.940576 94.12)
 		(end 262.42096 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104792,6 +104932,7 @@
 	(gr_line
 		(start 238.617597 81.16)
 		(end 237.88 81.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104803,6 +104944,7 @@
 		(start 234.06 86.570384)
 		(mid 233.539616 86.05)
 		(end 234.06 85.529616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104813,6 +104955,7 @@
 	(gr_line
 		(start 239.658845 78.16)
 		(end 240.42096 78.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104824,6 +104967,7 @@
 		(start 231.06 108.189616)
 		(mid 231.580384 108.71)
 		(end 231.06 109.230384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104834,6 +104978,7 @@
 	(gr_line
 		(start 182.87 84.97)
 		(end 178.21 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104844,6 +104989,7 @@
 	(gr_line
 		(start 200.589136 115.07)
 		(end 199.85 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104854,6 +105000,7 @@
 	(gr_line
 		(start 237.88 58.65)
 		(end 237.88 62.546541)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104864,6 +105011,7 @@
 	(gr_line
 		(start 182.85 62.54904)
 		(end 175.07 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104875,6 +105023,7 @@
 		(start 209.07 109.220864)
 		(mid 208.549136 108.7)
 		(end 209.07 108.179136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104885,6 +105034,7 @@
 	(gr_line
 		(start 237.877501 68.49)
 		(end 238.617117 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104895,6 +105045,7 @@
 	(gr_line
 		(start 237.88 58.65)
 		(end 238.619616 58.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104905,6 +105056,7 @@
 	(gr_line
 		(start 202.39096 107.46)
 		(end 202.39096 105.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104916,6 +105068,7 @@
 		(start 182.85 63.311155)
 		(mid 183.370864 63.832019)
 		(end 182.85 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104927,6 +105080,7 @@
 		(start 255.94 66.711155)
 		(mid 256.460864 67.232019)
 		(end 255.94 67.752883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104937,6 +105091,7 @@
 	(gr_line
 		(start 202.38 130.13)
 		(end 202.38 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104947,6 +105102,7 @@
 	(gr_line
 		(start 172.069244 86.750864)
 		(end 172.069244 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104958,6 +105114,7 @@
 		(start 205.429136 81.66)
 		(mid 205.95 81.139136)
 		(end 206.470864 81.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104969,6 +105126,7 @@
 		(start 210.64 85.519136)
 		(mid 211.160864 86.04)
 		(end 210.64 86.560864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104980,6 +105138,7 @@
 		(start 231.06 63.308656)
 		(mid 231.580864 63.82952)
 		(end 231.06 64.350384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -104990,6 +105149,7 @@
 	(gr_line
 		(start 196.93 87.52)
 		(end 199.847501 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105000,6 +105160,7 @@
 	(gr_line
 		(start 210.64 86.560864)
 		(end 210.64 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105010,6 +105171,7 @@
 	(gr_line
 		(start 239.658845 68.49)
 		(end 240.42096 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105020,6 +105182,7 @@
 	(gr_line
 		(start 196.93 85.719616)
 		(end 196.93 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105030,6 +105193,7 @@
 	(gr_line
 		(start 182.87 85.719136)
 		(end 182.87 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105041,6 +105205,7 @@
 		(start 258.940576 119.020384)
 		(mid 258.420192 118.5)
 		(end 258.940576 117.979616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105051,6 +105216,7 @@
 	(gr_line
 		(start 239.658845 99.8)
 		(end 240.42096 99.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105062,6 +105228,7 @@
 		(start 239.658845 55.65)
 		(mid 239.137981 56.170864)
 		(end 238.617117 55.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105072,6 +105239,7 @@
 	(gr_line
 		(start 244.59096 119.71)
 		(end 240.42096 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105082,6 +105250,7 @@
 	(gr_line
 		(start 237.877501 52.13)
 		(end 173.4 52.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105092,6 +105261,7 @@
 	(gr_line
 		(start 175.069244 85.709616)
 		(end 175.069244 84.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105102,6 +105272,7 @@
 	(gr_line
 		(start 201.628845 102.93)
 		(end 202.388461 102.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105112,6 +105283,7 @@
 	(gr_line
 		(start 196.93 84.97)
 		(end 204.67 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105122,6 +105294,7 @@
 	(gr_line
 		(start 224.3 84.79)
 		(end 231.06 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105132,6 +105305,7 @@
 	(gr_line
 		(start 175.07 64.340384)
 		(end 175.07 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105142,6 +105316,7 @@
 	(gr_line
 		(start 172.07 65.09)
 		(end 171.4 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105152,6 +105327,7 @@
 	(gr_line
 		(start 207.21 71.99)
 		(end 207.21 78.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105162,6 +105338,7 @@
 	(gr_line
 		(start 240.42096 112.07)
 		(end 240.42096 102.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105172,6 +105349,7 @@
 	(gr_line
 		(start 207.21 65.09)
 		(end 210.64 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105182,6 +105360,7 @@
 	(gr_line
 		(start 185.85 65.09)
 		(end 193.93 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105192,6 +105371,7 @@
 	(gr_line
 		(start 231.06 108.189616)
 		(end 231.06 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105203,6 +105383,7 @@
 		(start 258.940576 93.370864)
 		(mid 258.419696 92.85)
 		(end 258.940576 92.329136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105213,6 +105394,7 @@
 	(gr_line
 		(start 237.882499 115.07)
 		(end 238.622115 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105223,6 +105405,7 @@
 	(gr_line
 		(start 201.630384 112.07)
 		(end 202.38 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105233,6 +105416,7 @@
 	(gr_line
 		(start 175.07 63.299616)
 		(end 175.07 62.55)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105243,6 +105427,7 @@
 	(gr_line
 		(start 209.07 107.46)
 		(end 218.3 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105253,6 +105438,7 @@
 	(gr_line
 		(start 255.940576 119.71)
 		(end 247.59192 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105263,6 +105449,7 @@
 	(gr_line
 		(start 206.07 109.94)
 		(end 202.38 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105273,6 +105460,7 @@
 	(gr_line
 		(start 171.4 84.99)
 		(end 171.4 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105284,6 +105472,7 @@
 		(start 172.069244 85.709136)
 		(mid 172.589964 86.23)
 		(end 172.069244 86.750864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105294,6 +105483,7 @@
 	(gr_line
 		(start 175.93 118.950384)
 		(end 175.93 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105304,6 +105494,7 @@
 	(gr_line
 		(start 237.88 102.8)
 		(end 238.619616 102.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105314,6 +105505,7 @@
 	(gr_line
 		(start 237.88 109.94)
 		(end 234.06 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105324,6 +105516,7 @@
 	(gr_line
 		(start 193.93 62.54904)
 		(end 185.85 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105334,6 +105527,7 @@
 	(gr_line
 		(start 239.661824 115.07)
 		(end 240.42096 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105345,6 +105539,7 @@
 		(start 258.94 67.752403)
 		(mid 258.419616 67.232019)
 		(end 258.94 66.711635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105355,6 +105550,7 @@
 	(gr_line
 		(start 199.847501 102.93)
 		(end 200.587117 102.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105365,6 +105561,7 @@
 	(gr_line
 		(start 210.64 62.54904)
 		(end 196.93 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105375,6 +105572,7 @@
 	(gr_line
 		(start 234.06 65.087501)
 		(end 237.877501 65.087501)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105385,6 +105583,7 @@
 	(gr_line
 		(start 237.88 71.49)
 		(end 238.619616 71.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105396,6 +105595,7 @@
 		(start 244.59096 66.711155)
 		(mid 245.111824 67.232019)
 		(end 244.59096 67.752883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105406,6 +105606,7 @@
 	(gr_line
 		(start 172.069244 84.99)
 		(end 171.4 84.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105416,6 +105617,7 @@
 	(gr_line
 		(start 258.94 65.94904)
 		(end 262.42 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105427,6 +105629,7 @@
 		(start 239.658845 88.62)
 		(mid 239.137981 89.140864)
 		(end 238.617117 88.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105437,6 +105640,7 @@
 	(gr_line
 		(start 239.661344 123.33)
 		(end 240.42096 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105448,6 +105652,7 @@
 		(start 221.3 63.311155)
 		(mid 221.820864 63.832019)
 		(end 221.3 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105458,6 +105663,7 @@
 	(gr_line
 		(start 206.460384 71.99)
 		(end 207.21 71.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105468,6 +105674,7 @@
 	(gr_line
 		(start 234.06 107.46)
 		(end 237.88 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105478,6 +105685,7 @@
 	(gr_line
 		(start 221.3 86.560864)
 		(end 221.3 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105489,6 +105697,7 @@
 		(start 262.42 128.13)
 		(mid 261.834214 129.544214)
 		(end 260.42 130.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105499,6 +105708,7 @@
 	(gr_line
 		(start 231.06 84.79)
 		(end 231.06 85.529136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105509,6 +105719,7 @@
 	(gr_line
 		(start 172.07 62.55)
 		(end 171.4 62.55)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105519,6 +105730,7 @@
 	(gr_line
 		(start 234.06 108.189136)
 		(end 234.06 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105530,6 +105742,7 @@
 		(start 218.3 108.189616)
 		(mid 218.82042 108.71)
 		(end 218.3 109.230384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105540,6 +105753,7 @@
 	(gr_line
 		(start 231.06 109.230384)
 		(end 231.06 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105550,6 +105764,7 @@
 	(gr_line
 		(start 237.877501 55.65)
 		(end 238.617117 55.65)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105560,6 +105775,7 @@
 	(gr_line
 		(start 201.628365 92.155)
 		(end 202.39096 92.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105571,6 +105787,7 @@
 		(start 200.587597 105.93)
 		(mid 201.107981 105.409616)
 		(end 201.628365 105.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105581,6 +105798,7 @@
 	(gr_line
 		(start 244.59096 117.979136)
 		(end 244.59096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105591,6 +105809,7 @@
 	(gr_line
 		(start 202.38 130.13)
 		(end 237.882499 130.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105601,6 +105820,7 @@
 	(gr_line
 		(start 178.21 73.03)
 		(end 177.45952 73.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105612,6 +105832,7 @@
 		(start 239.661344 112.07)
 		(mid 239.14048 112.590864)
 		(end 238.619616 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105622,6 +105843,7 @@
 	(gr_line
 		(start 221.3 109.230864)
 		(end 221.3 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105632,6 +105854,7 @@
 	(gr_line
 		(start 234.06 84.79)
 		(end 237.88 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105642,6 +105865,7 @@
 	(gr_line
 		(start 171.4 87.52)
 		(end 172.069244 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105652,6 +105876,7 @@
 	(gr_line
 		(start 193.93 63.311155)
 		(end 193.93 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105662,6 +105887,7 @@
 	(gr_line
 		(start 258.940576 91.62)
 		(end 262.42096 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105673,6 +105899,7 @@
 		(start 213.64 86.560384)
 		(mid 213.119616 86.04)
 		(end 213.64 85.519616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105684,6 +105911,7 @@
 		(start 196.93 86.760384)
 		(mid 196.409516 86.24)
 		(end 196.93 85.719616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105695,6 +105923,7 @@
 		(start 200.587597 92.155)
 		(mid 201.107981 91.634616)
 		(end 201.628365 92.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105706,6 +105935,7 @@
 		(start 196.93 64.352403)
 		(mid 196.409616 63.832019)
 		(end 196.93 63.311635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105716,6 +105946,7 @@
 	(gr_line
 		(start 237.877501 78.16)
 		(end 237.877501 71.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105726,6 +105957,7 @@
 	(gr_line
 		(start 262.42096 68.49)
 		(end 258.94 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105736,6 +105968,7 @@
 	(gr_line
 		(start 240.42096 68.49)
 		(end 244.59096 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105746,6 +105979,7 @@
 	(gr_line
 		(start 185.87 86.760384)
 		(end 185.87 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105756,6 +105990,7 @@
 	(gr_line
 		(start 201.628845 89.155)
 		(end 202.39096 89.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105766,6 +106001,7 @@
 	(gr_line
 		(start 240.42096 130.13)
 		(end 240.42096 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105776,6 +106012,7 @@
 	(gr_line
 		(start 171.4 62.55)
 		(end 171.4 54.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105786,6 +106023,7 @@
 	(gr_line
 		(start 182.85 65.09)
 		(end 182.85 64.352883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105796,6 +106034,7 @@
 	(gr_line
 		(start 213.64 84.8)
 		(end 221.3 84.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105806,6 +106045,7 @@
 	(gr_line
 		(start 237.877501 91.62)
 		(end 237.877501 99.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105816,6 +106056,7 @@
 	(gr_line
 		(start 262.42096 94.12)
 		(end 262.42096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105826,6 +106067,7 @@
 	(gr_line
 		(start 237.88 123.33)
 		(end 237.88 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105836,6 +106078,7 @@
 	(gr_line
 		(start 199.847501 102.93)
 		(end 199.847501 99.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105846,6 +106089,7 @@
 	(gr_line
 		(start 178.93 118.950864)
 		(end 178.93 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105856,6 +106100,7 @@
 	(gr_line
 		(start 193.93 86.760864)
 		(end 193.93 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105866,6 +106111,7 @@
 	(gr_line
 		(start 221.3 108.189136)
 		(end 221.3 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105876,6 +106122,7 @@
 	(gr_line
 		(start 231.06 86.570864)
 		(end 231.06 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105886,6 +106133,7 @@
 	(gr_line
 		(start 213.64 63.311635)
 		(end 213.64 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105896,6 +106144,7 @@
 	(gr_line
 		(start 173.4 130.13)
 		(end 199.84 130.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105906,6 +106155,7 @@
 	(gr_line
 		(start 247.59096 68.49)
 		(end 255.94 68.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105916,6 +106166,7 @@
 	(gr_line
 		(start 193.93 85.719136)
 		(end 193.93 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105926,6 +106177,7 @@
 	(gr_line
 		(start 231.06 65.09)
 		(end 231.06 64.350384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105936,6 +106188,7 @@
 	(gr_line
 		(start 221.3 87.31)
 		(end 213.64 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105946,6 +106199,7 @@
 	(gr_line
 		(start 237.88 112.07)
 		(end 237.88 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105956,6 +106210,7 @@
 	(gr_line
 		(start 205.419136 68.99)
 		(end 204.67 68.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105966,6 +106221,7 @@
 	(gr_line
 		(start 237.882499 130.13)
 		(end 237.882499 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105976,6 +106232,7 @@
 	(gr_line
 		(start 258.940576 93.370864)
 		(end 258.940576 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105986,6 +106243,7 @@
 	(gr_line
 		(start 205.419616 71.99)
 		(end 204.67 71.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -105997,6 +106255,7 @@
 		(start 200.599136 126.33)
 		(mid 201.12 125.809244)
 		(end 201.640864 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106007,6 +106266,7 @@
 	(gr_line
 		(start 172.07 63.299136)
 		(end 172.07 62.55)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106017,6 +106277,7 @@
 	(gr_line
 		(start 237.877501 68.49)
 		(end 237.877501 65.087501)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106027,6 +106288,7 @@
 	(gr_line
 		(start 171.4 128.13)
 		(end 171.4 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106038,6 +106300,7 @@
 		(start 175.069244 86.750384)
 		(mid 174.548716 86.23)
 		(end 175.069244 85.709616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106048,6 +106311,7 @@
 	(gr_line
 		(start 193.93 87.52)
 		(end 185.87 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106058,6 +106322,7 @@
 	(gr_line
 		(start 258.94 66.711635)
 		(end 258.94 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106068,6 +106333,7 @@
 	(gr_line
 		(start 171.4 87.52)
 		(end 171.4 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106078,6 +106344,7 @@
 	(gr_line
 		(start 255.940576 119.020864)
 		(end 255.940576 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106089,6 +106356,7 @@
 		(start 177.45952 73.03)
 		(mid 176.939136 73.550384)
 		(end 176.418752 73.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106099,6 +106367,7 @@
 	(gr_line
 		(start 239.658365 81.16)
 		(end 240.42096 81.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106109,6 +106378,7 @@
 	(gr_line
 		(start 240.42096 117.25)
 		(end 244.59096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106120,6 +106390,7 @@
 		(start 238.620096 115.07)
 		(mid 239.14048 114.549616)
 		(end 239.660864 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106130,6 +106401,7 @@
 	(gr_line
 		(start 237.877501 55.65)
 		(end 237.877501 52.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106141,6 +106413,7 @@
 		(start 244.59096 92.339616)
 		(mid 245.111344 92.86)
 		(end 244.59096 93.380384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106151,6 +106424,7 @@
 	(gr_line
 		(start 240.42096 99.8)
 		(end 240.42096 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106161,6 +106435,7 @@
 	(gr_line
 		(start 231.06 62.546541)
 		(end 224.3 62.546541)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106172,6 +106447,7 @@
 		(start 206.07 108.179616)
 		(mid 206.590384 108.7)
 		(end 206.07 109.220384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106182,6 +106458,7 @@
 	(gr_line
 		(start 210.64 84.79)
 		(end 207.21 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106193,6 +106470,7 @@
 		(start 201.628845 102.93)
 		(mid 201.107981 103.450864)
 		(end 200.587117 102.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106203,6 +106481,7 @@
 	(gr_line
 		(start 258.940576 119.71)
 		(end 262.42 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106213,6 +106492,7 @@
 	(gr_line
 		(start 224.3 65.09)
 		(end 231.06 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106224,6 +106504,7 @@
 		(start 193.93 85.719136)
 		(mid 194.450764 86.24)
 		(end 193.93 86.760864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106235,6 +106516,7 @@
 		(start 238.617597 102.8)
 		(mid 239.137981 102.279616)
 		(end 239.658365 102.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106245,6 +106527,7 @@
 	(gr_line
 		(start 185.87 85.719616)
 		(end 185.87 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106255,6 +106538,7 @@
 	(gr_line
 		(start 178.21 73.03)
 		(end 178.21 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106265,6 +106549,7 @@
 	(gr_line
 		(start 255.940576 92.329616)
 		(end 255.940576 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106276,6 +106561,7 @@
 		(start 234.06 109.230864)
 		(mid 233.539136 108.71)
 		(end 234.06 108.189136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106287,6 +106573,7 @@
 		(start 201.628845 89.155)
 		(mid 201.107981 89.675864)
 		(end 200.587117 89.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106297,6 +106584,7 @@
 	(gr_line
 		(start 209.07 108.179136)
 		(end 209.07 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106307,6 +106595,7 @@
 	(gr_line
 		(start 221.3 109.94)
 		(end 231.06 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106317,6 +106606,7 @@
 	(gr_line
 		(start 201.630864 115.07)
 		(end 202.38 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106327,6 +106617,7 @@
 	(gr_line
 		(start 240.42096 58.65)
 		(end 240.42096 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106338,6 +106629,7 @@
 		(start 205.419616 71.99)
 		(mid 205.94 71.469616)
 		(end 206.460384 71.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106348,6 +106640,7 @@
 	(gr_line
 		(start 221.3 63.311155)
 		(end 221.3 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106358,6 +106651,7 @@
 	(gr_line
 		(start 175.93 117.18)
 		(end 171.4 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106368,6 +106662,7 @@
 	(gr_line
 		(start 255.940576 117.979136)
 		(end 255.940576 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106378,6 +106673,7 @@
 	(gr_line
 		(start 255.940576 117.25)
 		(end 247.59096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106388,6 +106684,7 @@
 	(gr_line
 		(start 191.84 118.940384)
 		(end 191.84 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106398,6 +106695,7 @@
 	(gr_line
 		(start 176.42 76.03)
 		(end 175.68 76.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106409,6 +106707,7 @@
 		(start 172.07 63.299136)
 		(mid 172.59072 63.82)
 		(end 172.07 64.340864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106420,6 +106719,7 @@
 		(start 201.630384 112.07)
 		(mid 201.11 112.590492)
 		(end 200.589616 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106427,10 +106727,22 @@
 		(layer "Edge.Cuts")
 		(uuid "b643f20c-bae5-48b1-949f-b605dc0c14b5")
 	)
+	(gr_line
+		(start 200.585098 99.13)
+		(end 199.847501 99.13)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ba55fac1-7014-451d-92af-b69b89824e04")
+	)
 	(gr_arc
 		(start 260.42 52.13)
 		(mid 261.834214 52.715786)
 		(end 262.42 54.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106441,6 +106753,7 @@
 	(gr_line
 		(start 234.06 85.529616)
 		(end 234.06 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106451,6 +106764,7 @@
 	(gr_line
 		(start 247.59096 94.12)
 		(end 255.940576 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106461,6 +106775,7 @@
 	(gr_line
 		(start 175.93 119.71)
 		(end 171.4 119.71)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106471,6 +106786,7 @@
 	(gr_line
 		(start 255.94 66.711155)
 		(end 255.94 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106481,6 +106797,7 @@
 	(gr_line
 		(start 199.845002 96.13)
 		(end 200.584618 96.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106492,6 +106809,7 @@
 		(start 221.3 85.519136)
 		(mid 221.820864 86.04)
 		(end 221.3 86.560864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106502,6 +106820,7 @@
 	(gr_line
 		(start 185.85 63.311635)
 		(end 185.85 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106512,6 +106831,7 @@
 	(gr_line
 		(start 199.85 105.93)
 		(end 200.589616 105.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106522,6 +106842,7 @@
 	(gr_line
 		(start 262.42 65.94904)
 		(end 262.42 54.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106532,6 +106853,7 @@
 	(gr_line
 		(start 202.39096 87.31)
 		(end 210.64 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106542,6 +106864,7 @@
 	(gr_line
 		(start 224.3 86.560384)
 		(end 224.3 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106552,6 +106875,7 @@
 	(gr_line
 		(start 240.42096 65.94904)
 		(end 244.59096 65.94904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106562,6 +106886,7 @@
 	(gr_line
 		(start 240.42096 81.16)
 		(end 240.42096 88.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106572,6 +106897,7 @@
 	(gr_line
 		(start 206.07 109.220384)
 		(end 206.07 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106582,6 +106908,7 @@
 	(gr_line
 		(start 239.658365 71.49)
 		(end 240.42096 71.49)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106592,6 +106919,7 @@
 	(gr_line
 		(start 202.38 115.07)
 		(end 202.38 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106602,6 +106930,7 @@
 	(gr_line
 		(start 239.658365 102.8)
 		(end 240.42096 102.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106612,6 +106941,7 @@
 	(gr_line
 		(start 255.940576 93.370384)
 		(end 255.940576 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106623,6 +106953,7 @@
 		(start 185.85 64.352403)
 		(mid 185.329616 63.832019)
 		(end 185.85 63.311635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106633,6 +106964,7 @@
 	(gr_line
 		(start 239.661344 112.07)
 		(end 240.42096 112.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106643,6 +106975,7 @@
 	(gr_line
 		(start 234.06 109.230864)
 		(end 234.06 109.94)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106654,6 +106987,7 @@
 		(start 176.418272 76.03)
 		(mid 176.939136 75.509136)
 		(end 177.46 76.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106664,6 +106998,7 @@
 	(gr_line
 		(start 240.42096 55.65)
 		(end 240.42096 52.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106674,6 +107009,7 @@
 	(gr_line
 		(start 221.3 84.8)
 		(end 221.3 85.519136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106684,6 +107020,7 @@
 	(gr_line
 		(start 199.847501 87.52)
 		(end 199.847501 89.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106694,6 +107031,7 @@
 	(gr_line
 		(start 207.21 81.66)
 		(end 207.21 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106704,6 +107042,7 @@
 	(gr_line
 		(start 175.68 73.03)
 		(end 176.418752 73.03)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106714,6 +107053,7 @@
 	(gr_line
 		(start 201.625866 99.13)
 		(end 202.388461 99.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106725,6 +107065,7 @@
 		(start 206.460864 68.99)
 		(mid 205.94 69.510864)
 		(end 205.419136 68.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106735,6 +107076,7 @@
 	(gr_line
 		(start 237.877501 88.62)
 		(end 238.617117 88.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106745,6 +107087,7 @@
 	(gr_line
 		(start 244.59096 68.49)
 		(end 244.59096 67.752883)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106755,6 +107098,7 @@
 	(gr_line
 		(start 175.93 117.909616)
 		(end 175.93 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106765,6 +107109,7 @@
 	(gr_line
 		(start 193.93 84.97)
 		(end 185.87 84.97)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106775,6 +107120,7 @@
 	(gr_line
 		(start 191.84 117.899616)
 		(end 191.84 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106786,6 +107132,7 @@
 		(start 185.87 86.760384)
 		(mid 185.349516 86.24)
 		(end 185.87 85.719616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106796,6 +107143,7 @@
 	(gr_line
 		(start 239.658845 88.62)
 		(end 240.42096 88.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106806,6 +107154,7 @@
 	(gr_line
 		(start 247.59192 119.71)
 		(end 247.59192 119.020384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106817,6 +107166,7 @@
 		(start 224.3 64.352403)
 		(mid 223.779616 63.832019)
 		(end 224.3 63.311635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106827,6 +107177,7 @@
 	(gr_line
 		(start 224.3 65.09)
 		(end 224.3 64.350384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106837,6 +107188,7 @@
 	(gr_line
 		(start 231.06 107.46)
 		(end 221.3 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106847,6 +107199,7 @@
 	(gr_line
 		(start 258.94 68.49)
 		(end 258.94 67.750384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106857,6 +107210,7 @@
 	(gr_line
 		(start 234.06 63.309136)
 		(end 234.06 62.546541)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106868,6 +107222,7 @@
 		(start 213.64 64.352403)
 		(mid 213.119616 63.832019)
 		(end 213.64 63.311635)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106878,6 +107233,7 @@
 	(gr_line
 		(start 199.84 119.71)
 		(end 199.84 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106888,6 +107244,7 @@
 	(gr_line
 		(start 207.21 68.99)
 		(end 207.21 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106898,6 +107255,7 @@
 	(gr_line
 		(start 213.64 62.54904)
 		(end 221.3 62.54904)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106908,6 +107266,7 @@
 	(gr_line
 		(start 201.640384 123.33)
 		(end 202.38 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106918,6 +107277,7 @@
 	(gr_line
 		(start 237.882499 126.33)
 		(end 238.622115 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106929,6 +107289,7 @@
 		(start 221.3 109.230864)
 		(mid 220.779172 108.71)
 		(end 221.3 108.189136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106939,6 +107300,7 @@
 	(gr_line
 		(start 247.59096 117.979616)
 		(end 247.59096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106949,6 +107311,7 @@
 	(gr_line
 		(start 172.069244 85.709136)
 		(end 172.069244 84.99)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106960,6 +107323,7 @@
 		(start 201.640384 123.33)
 		(mid 201.12 123.850492)
 		(end 200.599616 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106971,6 +107335,7 @@
 		(start 234.06 64.349904)
 		(mid 233.539616 63.82952)
 		(end 234.06 63.309136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106981,6 +107346,7 @@
 	(gr_line
 		(start 202.39 107.46)
 		(end 206.07 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -106991,6 +107357,7 @@
 	(gr_line
 		(start 202.39096 89.155)
 		(end 202.39096 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107001,6 +107368,7 @@
 	(gr_line
 		(start 240.42096 71.49)
 		(end 240.42096 78.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107011,6 +107379,7 @@
 	(gr_line
 		(start 237.877501 87.31)
 		(end 237.877501 88.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107021,6 +107390,7 @@
 	(gr_line
 		(start 199.85 115.07)
 		(end 199.85 117.18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107031,6 +107401,7 @@
 	(gr_line
 		(start 244.59096 93.380384)
 		(end 244.59096 94.12)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107041,6 +107412,7 @@
 	(gr_line
 		(start 247.59096 68.49)
 		(end 247.59096 67.750384)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107051,6 +107423,7 @@
 	(gr_line
 		(start 224.3 85.519616)
 		(end 224.3 84.79)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107062,6 +107435,7 @@
 		(start 231.06 85.529136)
 		(mid 231.580864 86.05)
 		(end 231.06 86.570864)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107072,6 +107446,7 @@
 	(gr_line
 		(start 239.661824 126.33)
 		(end 240.42096 126.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107082,6 +107457,7 @@
 	(gr_line
 		(start 234.06 87.31)
 		(end 237.877501 87.31)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107093,6 +107469,7 @@
 		(start 247.59096 119.020384)
 		(mid 247.070576 118.5)
 		(end 247.59096 117.979616)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107103,6 +107480,7 @@
 	(gr_line
 		(start 205.429616 78.66)
 		(end 204.67 78.66)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107114,6 +107492,7 @@
 		(start 200.589136 115.07)
 		(mid 201.11 114.549244)
 		(end 201.630864 115.07)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107124,6 +107503,7 @@
 	(gr_line
 		(start 262.42096 117.25)
 		(end 258.940576 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107134,6 +107514,7 @@
 	(gr_line
 		(start 218.3 108.189616)
 		(end 218.3 107.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107144,6 +107525,7 @@
 	(gr_line
 		(start 237.88 91.62)
 		(end 238.619616 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107154,6 +107536,7 @@
 	(gr_line
 		(start 237.88 107.46)
 		(end 237.88 102.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107165,6 +107548,7 @@
 		(start 247.59096 93.380864)
 		(mid 247.070096 92.86)
 		(end 247.59096 92.339136)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107175,6 +107559,7 @@
 	(gr_line
 		(start 262.42096 68.49)
 		(end 262.42096 91.62)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107185,6 +107570,7 @@
 	(gr_line
 		(start 240.42096 130.13)
 		(end 260.42 130.13)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107196,6 +107582,7 @@
 		(start 239.658845 78.16)
 		(mid 239.137981 78.680864)
 		(end 238.617117 78.16)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107206,6 +107593,7 @@
 	(gr_line
 		(start 182.87 86.760864)
 		(end 182.87 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107216,6 +107604,7 @@
 	(gr_line
 		(start 199.847501 89.155)
 		(end 200.587117 89.155)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107226,6 +107615,7 @@
 	(gr_line
 		(start 175.069244 86.750384)
 		(end 175.069244 87.52)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107236,6 +107626,7 @@
 	(gr_line
 		(start 240.42096 115.07)
 		(end 240.42096 117.25)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107246,6 +107637,7 @@
 	(gr_line
 		(start 175.68 73.03)
 		(end 175.68 65.09)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107257,6 +107649,7 @@
 		(start 239.661344 123.33)
 		(mid 239.14048 123.850864)
 		(end 238.619616 123.33)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107267,6 +107660,7 @@
 	(gr_line
 		(start 199.85 112.07)
 		(end 199.85 105.93)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107278,6 +107672,7 @@
 		(start 239.658845 99.8)
 		(mid 239.137981 100.320864)
 		(end 238.617117 99.8)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107570,6 +107965,7 @@
 		)
 	)
 	(gr_text "More Info"
+		(locked yes)
 		(at 189.400984 121.11 0)
 		(layer "B.SilkS")
 		(uuid "da287f09-eca6-46b5-8bd2-adacce0d0d79")
@@ -137980,230 +138376,252 @@
 	)
 	(group ""
 		(uuid "00462977-4c24-4426-8087-83b2fd6a1aa4")
+		(locked yes)
 		(members "57b64d6f-a7b3-420b-b889-94d4538572db" "aa50b99a-6baf-4a03-9ff8-158a5b269056"
 			"f1ae066b-fe5f-4e67-ad33-2dbb4d2318db"
 		)
 	)
 	(group ""
 		(uuid "15770c66-80ee-45b5-bdf2-6462499b6f34")
+		(locked yes)
 		(members "19ca5433-673f-45bc-a667-113211095ae0" "3844a95b-771f-4524-9eec-1979ebbc9bca"
 			"48c45059-a465-49f4-8eb7-a173f00a01f9"
 		)
 	)
 	(group ""
 		(uuid "28dc3047-31f4-432a-88af-156afd4a35ec")
+		(locked yes)
 		(members "78d7c034-7134-4edb-a666-3ec1caa6268f" "9fdf4eb2-8e53-4083-903b-51905ed10162"
 			"d4c7194c-3ff7-4541-8ea9-8423e0f02602"
 		)
 	)
 	(group ""
 		(uuid "30c76385-d680-4640-88c4-45f5ee86ab8b")
+		(locked yes)
 		(members "47143dac-8d83-4ff2-a5c1-86634017cba1" "5dcff95c-695e-43d5-ab8c-ebead7033423"
 			"f92215a4-e265-4119-874f-7107093f6d3d"
 		)
 	)
 	(group ""
-		(uuid "3ccca207-74c6-4321-ade1-6f21331a8bb1")
-		(members "46ae5b67-dbe9-4a20-b72a-2099dadd6f82" "64204635-9df2-48f9-b10e-90cb5da76e0c"
-			"892821eb-f51f-4e08-93c5-14442f15298f" "91555d35-57eb-4381-8fb9-24269eed8892"
-			"fa4356a1-3a5f-44ae-8b49-689784c07c8a"
-		)
-	)
-	(group ""
 		(uuid "3d183c42-bfe2-4e2a-b8ba-543ca3c20e60")
+		(locked yes)
 		(members "8320ec66-7600-484c-b676-932e06c600d1" "c6131c70-a440-4fae-b5a5-4e0a779f24f7"
 			"d4a9ffe8-63bd-4ef6-af33-c0504bef5283"
 		)
 	)
 	(group ""
 		(uuid "4d9287bb-1439-4e15-9d7d-6333dec49eb5")
+		(locked yes)
 		(members "a45be319-a2d0-4668-afaf-9dfddc53f366" "c666eceb-f1b4-45bb-8668-17e0440653ba"
 			"d8b6f15b-fd9f-4bea-94eb-713067b0231e"
 		)
 	)
 	(group ""
 		(uuid "6302c246-d0e3-4d31-a85e-291119837393")
+		(locked yes)
 		(members "608fb7c4-532f-4794-8cfe-53c8fa1f5454" "870e33a2-efc7-4cbc-b484-841ecf6c2ee6"
 			"df0a5c3b-ee43-403f-ada3-dd645f90cf1d"
 		)
 	)
 	(group ""
 		(uuid "64204635-9df2-48f9-b10e-90cb5da76e0c")
+		(locked yes)
 		(members "6f625064-de79-470b-80b6-5644e23cb7f2" "8ed0168e-c2f2-4b2d-aaa5-4ac2d389e1c0"
 			"b01951a6-b884-40ff-8955-49ce8dc946e6"
 		)
 	)
 	(group ""
 		(uuid "6b9acfc8-4726-4a4a-a17b-8a94c6b800b6")
+		(locked yes)
 		(members "5c28b7e3-6d4b-4403-a651-a1f0fb3226a3" "65f2bde5-d5d0-4464-9b4e-3518b676ac51"
 			"807641f4-7711-4fb1-9bd8-72aedc67421c"
 		)
 	)
 	(group ""
 		(uuid "6c223789-07a7-44ee-beb5-ffb1c4cb89e4")
+		(locked yes)
 		(members "408d1126-f6c8-4497-8395-b277929acdb4" "546f90c0-e7ce-440d-8625-e5106914d386"
 			"bca4b59a-1803-4a5f-9372-61e5ac5d7cfa"
 		)
 	)
 	(group ""
 		(uuid "7183ceb5-9b7a-4f65-8ebc-8ef704dde379")
+		(locked yes)
 		(members "8b88e165-0085-40bb-89df-342d0a8b3102" "a56b6931-5b99-49df-aac1-cb6ed6a41bfe"
 			"f4f2a3c1-dde6-4ab4-8bc4-ed49b75a196d"
 		)
 	)
 	(group ""
 		(uuid "720bef40-900c-4772-aca5-b3f1b4608409")
+		(locked yes)
 		(members "8e372114-1246-410f-a975-e627addfb9d1" "9f5a1894-665c-481f-9042-c0dd784d7dc0"
 			"ac7956ae-374d-4700-b835-7cfa2b885071"
 		)
 	)
 	(group ""
 		(uuid "75bf02f5-a2bd-40c7-8b04-877536230236")
+		(locked yes)
 		(members "214a763d-ffd2-4dc8-97da-80f0e58e6870" "64582d90-1366-49f6-a63a-9a751567e949"
 			"cfebeab2-a965-47b7-88ff-c29c8e2ecec1"
 		)
 	)
 	(group ""
 		(uuid "78663112-156a-43f8-8383-fbd6ccee4eda")
+		(locked yes)
 		(members "206d71c7-8892-409f-8fae-c96aa0a15c23" "81c186f6-9fcc-43e4-a713-0b02f7072585"
 			"9596c926-968e-417e-8373-38805be5ecc6"
 		)
 	)
 	(group ""
 		(uuid "78fc3a8d-60cb-470b-b830-e0481a92000d")
+		(locked yes)
 		(members "99f6a311-99d3-45ea-b550-46158782a714" "b643f20c-bae5-48b1-949f-b605dc0c14b5"
 			"f3b8e0a4-55f5-49f9-beba-e8a78dfb192c"
 		)
 	)
 	(group ""
 		(uuid "8ce87b05-013c-4b2f-8821-63c9774e4ec9")
+		(locked yes)
 		(members "294793e8-0dd3-412c-9d9c-e602219dc1cb" "37a2ba23-eb36-4086-b7fb-ef00570060c2"
 			"f028e086-28c6-4131-8307-9ff1b2d93343"
 		)
 	)
 	(group ""
 		(uuid "8d7eff1f-f3e8-4c96-af23-214e26eb2dd9")
+		(locked yes)
 		(members "32de2ba4-12d4-4ed4-b3e9-388f25ed46cf" "6562b27e-4957-4385-9936-27554acdb843"
 			"c59ec6ad-3ff0-4d30-bd55-9f5d24acca1d"
 		)
 	)
 	(group ""
 		(uuid "92214c4e-0ea9-449f-a8cf-ef6d35d5ae97")
+		(locked yes)
 		(members "010a268f-00c0-4fe1-a50d-8eaeeb1919ad" "42176aee-e5ef-4c64-a09f-552490ec56c4"
 			"64fe8fb7-a9b8-43d1-8ed7-f3b7d87626f1"
 		)
 	)
 	(group ""
 		(uuid "9a3d76b6-df68-4df2-9237-eb16b5a44037")
+		(locked yes)
 		(members "9d2a0536-c688-443f-98fe-6d1f54f7d25a" "aa1b2f38-93b6-4d67-84ff-48fd9cb83f62"
 			"e13600ab-1824-4095-b11e-58d079ad6c7a"
 		)
 	)
 	(group ""
 		(uuid "b0842729-d256-4d32-82a1-83bde6a6abf2")
+		(locked yes)
 		(members "53f0814e-9d9a-4ba9-8f5e-37c8528102b7" "c61278e5-f7f5-4fe9-a656-35e8fefc02a2"
 			"ede8779e-fbba-46c8-affc-215054818702"
 		)
 	)
 	(group ""
 		(uuid "b92b6cba-3446-4cd1-843c-3cbc9802a0b6")
+		(locked yes)
 		(members "5ab22679-2ea5-4a29-9bc3-aca956972c97" "c51d7115-073e-43a9-8e33-2255a4c93f39"
 			"edc73ea3-a8a8-4edc-8034-4871371f90d3"
 		)
 	)
 	(group ""
 		(uuid "c1a6a843-1d45-4c77-8168-4a60da3dee98")
+		(locked yes)
 		(members "5f282b96-8e6b-4cf9-8aae-b1f3233eca3e" "8d6ecb30-3ddc-4e48-8a8b-2b2ecbd6a937"
 			"e2d9a222-e1ca-496d-b890-776fdb6ba9f1"
 		)
 	)
 	(group ""
 		(uuid "c5665e3b-a2e1-43dd-b9cc-1d1721df3e7a")
+		(locked yes)
 		(members "0ad16443-1200-414f-9b1f-e60247d99519" "25280bef-8c4f-4254-928b-3787df95e033"
 			"8f30338d-47d5-4289-815d-eb4e0607d7df"
 		)
 	)
 	(group ""
 		(uuid "c9affe06-7766-41ad-b6f7-e838f7e6d437")
+		(locked yes)
 		(members "117d0c87-a758-4027-93dd-cbc2f7552045" "15e8a5af-ff0a-4186-9667-2591e673b760"
 			"cedc9c33-ca36-43de-aca1-c439adeab171"
 		)
 	)
 	(group ""
 		(uuid "d2bcab5c-24b5-44be-a7a6-ab680c065286")
+		(locked yes)
 		(members "1b4166d1-e890-4458-8332-3e9a37e8bee8" "448299bc-e351-43a9-a4e3-6feb6e295e04"
 			"4d11189f-b769-49ab-9642-062865b8d548"
 		)
 	)
 	(group ""
 		(uuid "d3d90bc0-b50f-4086-ab4c-2aaf0b6dbcdd")
+		(locked yes)
 		(members "8f04a465-3eca-478d-9594-4c3c311ab64e" "ac9525d9-4825-4e55-8214-71a970fad8aa"
 			"fffa41e2-7267-407b-a0b1-1f8584b05e02"
 		)
 	)
 	(group ""
 		(uuid "db18b5b5-e99a-4622-af90-5a1a18278f61")
+		(locked yes)
 		(members "5d730cc8-35a4-4f0a-a540-cccbc49d9232" "8e33c6e0-e2af-47f0-b6e9-97c90c0d6f5e"
 			"cdef5158-f470-4024-ace1-4710dcaccb98"
 		)
 	)
 	(group ""
 		(uuid "db2a5d85-f6a6-44fe-9f78-50961b1345b7")
+		(locked yes)
 		(members "2a8aa676-3c9c-481b-ad0d-4a0083637123" "824e94e2-4b02-4d9a-a75f-2feb30df8833"
 			"fe37d71c-69f2-40b1-a083-a6fcff22e74f"
 		)
 	)
 	(group ""
 		(uuid "ddba2b81-67ab-4ac9-b8aa-d794c9357c39")
+		(locked yes)
 		(members "9b7ddf17-0e73-4d61-9a3d-23466ad93362" "b25a1882-8273-4ce5-9209-b7e26aba6930"
 			"cc5368e2-7082-4a3c-b752-cbc280d5ca94"
 		)
 	)
 	(group ""
 		(uuid "deff1243-c6f2-4cef-b47e-8979be48664a")
+		(locked yes)
 		(members "2209fabf-3f06-4586-b48a-c4e1da38cec9" "89696db0-3dcb-4f81-9680-dc8f31e6726b"
 			"aa9cbd50-f01f-4bd1-b92b-600a6e2bb41a"
 		)
 	)
 	(group ""
 		(uuid "e02d022e-3ce4-4a8f-8304-9bdeb297db18")
+		(locked yes)
 		(members "0b933d5c-97e7-43ab-805c-0efcc5e390a5" "da0efc62-4288-4447-a328-4d1a190576b7"
 			"e985b302-7783-42cc-b97d-f514ab97987a"
 		)
 	)
 	(group ""
 		(uuid "e079d203-4ea2-4cc8-8590-8921f1c5570e")
+		(locked yes)
 		(members "033b6c7e-f8d9-41ab-bf47-42389a0fb1cd" "72f0abaa-5eb6-4dca-9273-b5090129e844"
 			"b52a9681-869e-4997-a1c1-ceb695fb5f12"
 		)
 	)
 	(group ""
 		(uuid "e756a897-e831-440f-ad1c-77cf29cfa1f6")
+		(locked yes)
 		(members "434b4979-b370-43a5-99b9-8bcafba9d0f1" "4e6fc007-a9ea-4618-b4f2-982d6fb2cfe4"
 			"6941dc3c-b21a-49f8-9fc4-e890022e5879"
 		)
 	)
 	(group ""
-		(uuid "e869358b-fb46-4f8a-8e10-be2814b4b07a")
-		(members "1c7803b0-e50d-4853-b0dd-357b40f38402" "4058edaf-d25b-4a4c-b8bf-38fe3f4f3eb2"
-			"bc9019c4-a18f-4d31-8669-1a1f83713c4a" "cbc8686d-841d-47a7-b019-993d317e13e0"
-			"d2bcab5c-24b5-44be-a7a6-ab680c065286"
-		)
-	)
-	(group ""
 		(uuid "e9402787-b836-448f-a864-0b4036bc2968")
+		(locked yes)
 		(members "48b26709-f8ec-4b2d-9841-3a04325ff9a1" "826aeba2-0950-4d00-8758-7f30665b7aaa"
 			"fd533a2c-abfe-49a8-9774-f307952c3e79"
 		)
 	)
 	(group ""
 		(uuid "fa2a5436-9d48-4ff0-bd06-f7c611dfa1ed")
+		(locked yes)
 		(members "13fd6f57-d0e4-443d-ac54-1f5b3ef68e52" "341c75f0-70dc-48b4-9a30-50b01f1fb693"
 			"5ca1c0b2-8c86-4a5a-9da7-51948ac9ae09"
 		)
 	)
 	(group ""
 		(uuid "fc4eedeb-8aee-4fba-8415-f5bbf5224d7a")
+		(locked yes)
 		(members "551b78ca-b490-4483-9151-121e6a3b164a" "afc89ef5-640c-49e0-aab5-3bf931e04543"
 			"f0f8824a-b51e-4997-948a-ba5534307773"
 		)
