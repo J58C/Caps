@@ -59,8 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|38670000|70737500|c910a9cd-a93f-4f07-a44a-598f3e2e1d5f|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|46565000|88810000|e542e971-0c93-470e-840e-efa327a93494|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|87430000|69887500|73f5e45e-67e0-428b-ada0-e1060bdf23e4|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|95325000|87960000|c446f708-342e-465b-a3c1-8fd21c341fa7|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Caps32Project.kicad_pro",
+    "filename": "S3-1.kicad_pro",
     "version": 1
   },
   "net_settings": {
