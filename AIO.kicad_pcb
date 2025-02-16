@@ -6035,7 +6035,7 @@
 		(uuid "0ad16443-1200-414f-9b1f-e60247d99519")
 		(at 195.43 63.832019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2177285e-fb30-4e8d-91f1-c301f2747a23")
@@ -6047,7 +6047,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "16c999ee-6cf3-42a7-af23-6de789120068")
@@ -6059,7 +6059,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc54694f-cdbd-4dc2-9af8-a641c96bbf7d")
@@ -6071,7 +6071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "13e39936-fc65-4297-b643-ceae7e02df4f")
@@ -6083,7 +6083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33f2365c-e301-4b6f-bbb6-4f732e737317")
@@ -8674,7 +8674,7 @@
 		(uuid "37a2ba23-eb36-4086-b7fb-ef00570060c2")
 		(at 246.09096 118.5)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bae9a399-ba45-4e1f-acf2-80275fd5e321")
@@ -8686,7 +8686,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "287607de-a49d-4ab7-baf0-e51c8f920381")
@@ -8698,7 +8698,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6d2215e-90c0-4c43-811d-4afae58f4f80")
@@ -8710,7 +8710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "532de8dc-54ff-46c9-bb98-0f778381ebf6")
@@ -8722,7 +8722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28de9a1c-b31a-4a54-a127-21508d2e9a95")
@@ -19045,7 +19045,7 @@
 		(uuid "65f2bde5-d5d0-4464-9b4e-3518b676ac51")
 		(at 257.44 67.232019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ef33405e-8057-4cc9-b315-f44bbc631ef1")
@@ -19057,7 +19057,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8d2a2ca3-1b71-4bad-868f-f9c04c80567c")
@@ -19069,7 +19069,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9fa851d0-5cc4-4690-aefd-7bbbfececc00")
@@ -19081,7 +19081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "615a74a7-bfa2-41d7-9a05-8bbff59f8099")
@@ -19093,7 +19093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a58cb787-49e2-4558-94cf-81dd28ef364a")
@@ -22976,7 +22976,7 @@
 		(uuid "8d6ecb30-3ddc-4e48-8a8b-2b2ecbd6a937")
 		(at 232.56 63.82952)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4471ad71-9630-452d-bf83-018dcdc1599b")
@@ -22988,7 +22988,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1bfce7f2-6379-42f1-86f0-72b5274a1230")
@@ -23000,7 +23000,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52015359-1a3e-4ec7-9315-be33a7382287")
@@ -23012,7 +23012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fcb0ef3-0bdb-40de-ba84-55337b1ee3db")
@@ -23024,7 +23024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23559aa6-9dfb-4644-ad23-60023585dc11")
@@ -23532,7 +23532,7 @@
 		(uuid "9596c926-968e-417e-8373-38805be5ecc6")
 		(at 246.09096 67.232019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "786bc77f-7010-4df1-aae8-8e0960faefd0")
@@ -23544,7 +23544,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1cc60969-6bf3-4152-8f91-08bc81549595")
@@ -23556,7 +23556,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98c885d3-5fab-4903-8f68-49d3f9c381f5")
@@ -23568,7 +23568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb4021d8-7a50-460b-a227-5accb98d3693")
@@ -23580,7 +23580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46659298-54ad-4a53-9997-c045a59f04ce")
@@ -33933,7 +33933,7 @@
 		(uuid "c6131c70-a440-4fae-b5a5-4e0a779f24f7")
 		(at 222.8 63.832019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1ac5dcc3-d0e4-40d4-9b23-7f99c3eaff76")
@@ -33945,7 +33945,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c1c0b3a1-5bc5-4d75-b7cd-286ccb6be0fa")
@@ -33957,7 +33957,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c489704a-292a-414b-bed9-6c043253bd71")
@@ -33969,7 +33969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5d77a87-71c8-4766-a48f-bb3aa42eef58")
@@ -33981,7 +33981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9cbb5439-6f0d-45e8-83fc-4e3c5f2567a5")
@@ -35417,7 +35417,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "d69140f2-7ca8-4b54-8e1c-7a62a167cf9c")
-		(at 192.32 126.36)
+		(at 192.37 126.34)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -39427,7 +39427,7 @@
 		(uuid "e985b302-7783-42cc-b97d-f514ab97987a")
 		(at 212.14 63.832019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ae900177-1fe5-4ef4-a1dc-4dae02db9a40")
@@ -39439,7 +39439,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "690dd0bb-46c4-48cd-976d-a1d85a10517e")
@@ -39451,7 +39451,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "350c1dd4-00e4-4aab-890e-10c8ebe8bbcd")
@@ -39463,7 +39463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1287401f-76d1-436d-8501-f19da041f660")
@@ -39475,7 +39475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80d9d8a4-215c-407c-b78f-cdcbe0fba73d")
@@ -40243,7 +40243,7 @@
 		(uuid "edc73ea3-a8a8-4edc-8034-4871371f90d3")
 		(at 184.35 63.832019)
 		(property "Reference" "mouse-bite-1mm-slot"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "efb545d3-22e4-4a28-a157-b86e1489d507")
@@ -40255,7 +40255,7 @@
 			)
 		)
 		(property "Value" "VAL**"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "167ac169-0706-4944-aeb6-2f9d186ef29f")
@@ -40267,7 +40267,7 @@
 			)
 		)
 		(property "Footprint" "Panelization Pretty:mouse-bite-1mm-slot"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e8f3b44-c594-45a1-9a19-d96828f06938")
@@ -40279,7 +40279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef821a33-1ece-483f-9d2b-b847b7f7d1c4")
@@ -40291,7 +40291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c6e4b9a-1ff5-4dd9-b3c7-8254630a0bfd")
@@ -75280,7 +75280,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "756b2abe-25d5-449d-9b8d-a484f14e799c")
-		(at 192.29 126.35 180)
+		(at 192.34 126.33 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -107265,8 +107265,8 @@
 		(uuid "fd533a2c-abfe-49a8-9774-f307952c3e79")
 	)
 	(gr_line
-		(start 173.4 130.13)
-		(end 199.84 130.13)
+		(start 173.45 130.11)
+		(end 199.89 130.11)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107296,7 +107296,7 @@
 		(uuid "fffa41e2-7267-407b-a0b1-1f8584b05e02")
 	)
 	(gr_text "2025"
-		(at 193.9 129.36 -0)
+		(at 193.95 129.34 -0)
 		(layer "B.SilkS")
 		(uuid "00d19ae2-ba65-454f-9fc1-9ed604a2ba26")
 		(effects
@@ -107658,7 +107658,7 @@
 		)
 	)
 	(gr_text "2025"
-		(at 190.71 129.37 0)
+		(at 190.76 129.35 0)
 		(layer "F.SilkS")
 		(uuid "8084a4cb-605d-414d-acfd-7b22cc17ca61")
 		(effects
