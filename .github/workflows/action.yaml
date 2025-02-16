@@ -1,6 +1,14 @@
 name: KiCad Project Automation
 
-on: [push]
+on:
+  push:
+    branches:
+      - '42'
+    paths:
+      - 'mC3.kicad_pcb'
+      - 'mC3.kicad_prl'
+      - 'mC3.kicad_pro'
+      - 'mC3.kicad_sch'
 
 jobs:
   Check-Files:
@@ -145,37 +153,3 @@ jobs:
           git add .
           git commit -m "Remove images folder after moving to main" || true
           git push origin 42
-    
-  Export-Files:
-    name: Export Files
-    runs-on: ubuntu-latest
-    needs: [Compressing]
-    steps:
-      - name: Checkout branch 42
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: "42"
-
-      - name: Checkout
-        uses: actions/checkout@v4
-  
-      - name: Export production files
-        id: production
-        uses: sparkengineering/kicad-action@v3
-        if: '!cancelled()'
-        with:
-          kicad_sch: mC3.kicad_sch
-          sch_pdf: true
-          sch_pdf_file: 42.pdf
-          sch_bom: true
-          sch_bom_file: 42.csv
-      
-      - name: Upload production files
-        uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() && steps.production.conclusion == 'success' }}
-        with:
-          name: Production files
-          path: |
-            ${{ github.workspace }}/schematic/42.pdf
-            ${{ github.workspace }}/bom/42.csv
