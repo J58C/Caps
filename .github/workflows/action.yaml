@@ -6,8 +6,6 @@ on:
       - 'AIO'
     paths:
       - 'AIO.kicad_pcb'
-      - 'AIO.kicad_prl'
-      - 'AIO.kicad_pro'
 
 jobs:
   Check-Files:
@@ -16,11 +14,11 @@ jobs:
     outputs:
       pcb_change: ${{ steps.check_files.outputs.pcb_change }}
     steps:
-      - name: Checkout repository (branch 4057)
+      - name: Checkout repository (branch AIO)
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
-          ref: 4057
+          ref: AIO
 
       - name: Check if kicad_pcb was modified
         id: check_files
@@ -41,11 +39,11 @@ jobs:
     needs: [Check-Files]
     if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
-      - name: Checkout branch 4057
+      - name: Checkout branch AIO
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: "4057"
+          ref: "AIO"
 
       - name: Render PCB Images
         uses: linalinn/kicad-render@main
@@ -66,7 +64,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add images
           git commit -m "Update PCB render images"
-          git push origin 4057
+          git push origin AIO
 
   Move-Files:
     name: Move to Main
@@ -74,10 +72,10 @@ jobs:
     needs: [Render-Images]
     if: needs.Check-Files.outputs.pcb_change == 'true'
     steps:
-      - name: Checkout branch 4057
+      - name: Checkout branch AIO
         uses: actions/checkout@v4
         with:
-          ref: "4057"
+          ref: "AIO"
 
       - name: Checkout main branch
         uses: actions/checkout@v4
@@ -87,27 +85,27 @@ jobs:
 
       - name: Move images to main branch
         run: |
-          mkdir -p main-branch/Images/4057
-          mv images/bottom.png main-branch/Images/4057/ 2>/dev/null || true
-          mv images/rotating.gif main-branch/Images/4057/ 2>/dev/null || true
-          mv images/top.png main-branch/Images/4057/ 2>/dev/null || true
+          mkdir -p main-branch/Images/AIO
+          mv images/bottom.png main-branch/Images/AIO/ 2>/dev/null || true
+          mv images/rotating.gif main-branch/Images/AIO/ 2>/dev/null || true
+          mv images/top.png main-branch/Images/AIO/ 2>/dev/null || true
 
       - name: Commit and push changes to main
         run: |
           cd main-branch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Images/4057
-          git commit -m "Update images: Rendered files 4057"
+          git add Images/AIO
+          git commit -m "Update images: Rendered files AIO"
           git push origin main
 
-      - name: Delete images folder from branch 4057
+      - name: Delete images folder from branch AIO
         run: |
-          git checkout 4057
+          git checkout AIO
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           rm -rf images
           rm -rf main-branch
           git add .
           git commit -m "Remove images folder after moving to main" || true
-          git push origin 4057
+          git push origin AIO
