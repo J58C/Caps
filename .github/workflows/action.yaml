@@ -177,5 +177,5 @@ jobs:
         with:
           name: Production files
           path: |
-            ${{ github.workspace }}/sch.pdf
-            ${{ github.workspace }}/bom.csv
+            ${{ github.workspace }}/42.pdf
+            ${{ github.workspace }}/42.csv
