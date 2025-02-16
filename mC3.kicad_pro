@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|103737500|39272500|16803ca3-443c-43db-8809-9cdab2503a09|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|96265000|25682500|89706d22-b4b3-45a1-bc41-3fd2e05b4671|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -444,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Caps32Project.kicad_pro",
+    "filename": "mC3.kicad_pro",
     "version": 1
   },
   "net_settings": {
