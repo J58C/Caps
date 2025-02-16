@@ -165,9 +165,11 @@ jobs:
         uses: sparkengineering/kicad-action@v3
         if: '!cancelled()'
         with:
-          kicad_sch: my-project.kicad_sch
+          kicad_sch: mC3.kicad_sch
           sch_pdf: true
+          sch_pdf_file: 42.pdf
           sch_bom: true
+          sch_bom_file: 42.csv
       
       - name: Upload production files
         uses: actions/upload-artifact@v4
