@@ -36007,7 +36007,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "d69140f2-7ca8-4b54-8e1c-7a62a167cf9c")
-		(at 192.09 126.36)
+		(at 192.202689 126.349506)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -75121,7 +75121,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "756b2abe-25d5-449d-9b8d-a484f14e799c")
-		(at 192.06 126.35 180)
+		(at 192.172689 126.339506 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -107286,7 +107286,7 @@
 		(uuid "fffa41e2-7267-407b-a0b1-1f8584b05e02")
 	)
 	(gr_text "2025"
-		(at 193.67 129.36 -0)
+		(at 193.782689 129.349506 -0)
 		(layer "B.SilkS")
 		(uuid "00d19ae2-ba65-454f-9fc1-9ed604a2ba26")
 		(effects
@@ -107648,7 +107648,7 @@
 		)
 	)
 	(gr_text "2025"
-		(at 190.48 129.37 0)
+		(at 190.592689 129.359506 0)
 		(layer "F.SilkS")
 		(uuid "8084a4cb-605d-414d-acfd-7b22cc17ca61")
 		(effects
